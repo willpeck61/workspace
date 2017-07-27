@@ -1,0 +1,10 @@
+.productdisplaypanel  {
+   float: left;
+   position: relative;
+   display: block;
+   overflow: hidden;
+   z-index: 5;
+   width: 484px;
+   min-height: 150px;
+}
+

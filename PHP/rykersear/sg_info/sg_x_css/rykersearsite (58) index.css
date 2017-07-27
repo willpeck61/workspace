@@ -1,0 +1,55 @@
+#footmenu > ul > li > a  {
+   display: inline;
+}
+
+#footmenu ul li a  {
+   padding-bottom: 19px;
+   padding-top: 19px;
+   height: 100%;
+   padding-left: 0.44em;
+   padding-right: 0.44em;
+}
+
+#footmenu ul li  {
+   height: 100%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+#footmenu ul  {
+   height: 48px;
+   margin: 0px;
+   padding: 0px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   line-height: 48px;
+   font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+}
+
+#footmenu  {
+   position: absolute;
+   left: 294px;
+   top: -7px;
+   z-index: 4;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.cFFF * a  {
+   color: #FFFFFF;
+}
+
+.fl li *  {
+   display: inline;
+}
+
+.fl li a  {
+   display: inline;
+}
+
+.fl li  {
+   float: left;
+}
+

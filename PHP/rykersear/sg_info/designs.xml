@@ -1,0 +1,9 @@
+
+<designs>
+  <design name="index-page" icon="index.gif" path="designs/index.data" contentdir="sg_index_content"/>
+  <design name="shows-page" icon="shows.gif" path="designs/shows.data" contentdir="sg_shows_content"/>
+  <design name="bio-page" icon="bio.gif" path="designs/bio.data" contentdir="sg_bio_content"/>
+  <design name="contact-page" icon="contact.gif" path="designs/contact.data" contentdir="sg_contact_content"/>
+  <design name="store-page" icon="store.gif" path="designs/store.data" contentdir="sg_store_content"/>
+  <design name="media-page" icon="media.gif" path="designs/media.data" contentdir="sg_media_content"/>
+</designs>

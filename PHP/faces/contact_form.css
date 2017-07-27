@@ -1,0 +1,47 @@
+#contactusformform fieldset {
+border: none; padding:10px; margin:2px; }
+
+#contactusformform fieldset legend {
+ }
+
+#contactusformform fieldset div label {
+ }
+
+#contactusformform fieldset div *:focus {
+ }
+
+#contactusformform fieldset div input,
+#contactusformform fieldset div textarea {
+ }
+
+#contactusformform fieldset div input.hinted {
+  background-color: #EEEEFF;
+  color: #323232;
+ }
+
+#contactusformform fieldset div input[type=checkbox]  {
+   width: 20px;
+   height: 15px;
+   background: none;
+   border: none;
+}
+
+#contactusformform fieldset div.centerac  {
+   position: relative;
+   left: 192px;
+   width: 162px;
+}
+
+#contactusformform fieldset div .fmr  {
+   width: 165px;
+   text-align: left;
+}
+
+#contactusformform fieldset div .fml  {
+   margin-right: 8px;
+   display: block;
+   text-align: right;
+   float: left;
+   width: 168px;
+}
+

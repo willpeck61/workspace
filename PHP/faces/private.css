@@ -1,0 +1,39 @@
+#i9749privateformbutton a.nmh,
+#i9749privateformbutton a:hover  {
+   background-position: -285px 0%;
+}
+
+#i655contactbutton a  {
+   background-image: url(sg_private_media/d655contactbutton.gif);
+}
+
+#i252privatebutton a  {
+   background-image: url(sg_private_media/d252privatebutton.gif);
+}
+
+#buttonbgbutton a  {
+   width: 149px;
+   background-image: url(sg_private_media/buttonbgbutton.gif);
+}
+
+#i247clubbutton a  {
+   background-image: url(sg_private_media/d247clubbutton.gif);
+}
+
+#gallerybutton a  {
+   background-image: url(sg_private_media/gallerybutton.gif);
+}
+
+#partiesbutton a  {
+   background-image: url(sg_private_media/partiesbutton.gif);
+}
+
+#buttonbgbutton  {
+   width: 149px;
+   left: 90px;
+}
+
+#homebutton a  {
+   background-image: url(sg_private_media/homebutton.gif);
+}
+

@@ -1,0 +1,595 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'alien_leagueregular';
+    src: url('../fonts/alienleague-webfont.eot');
+    src: url('../fonts/alienleague-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alienleague-webfont.woff') format('woff'),
+         url('../fonts/alienleague-webfont.ttf') format('truetype'),
+         url('../fonts/alienleague-webfont.svg#alien_leagueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'alien_linessymbol';
+    src: url('../fonts/alien_lines_1.9-webfont.eot');
+    src: url('../fonts/alien_lines_1.9-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alien_lines_1.9-webfont.woff') format('woff'),
+         url('../fonts/alien_lines_1.9-webfont.ttf') format('truetype'),
+         url('../fonts/alien_lines_1.9-webfont.svg#alien_linessymbol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:hover {
+	cursor:crosshair;
+}
+
+html {overflow-x:hidden;/*overflow-y:hidden;*/}
+body {margin:0;padding:0;/*overflow-y:hidden;*/}
+
+#homevid, object {
+ left:0;
+ position:absolute;
+ top:0;
+ max-height: 100% !important;
+}
+
+#aboutvid {
+	position:relative;
+	width: 420px;
+	height: 315px; 	
+}
+	
+body {
+	min-height: 700px;
+	width: 100%;
+	height:100%;
+	background-color:#000;
+}
+
+h1, h2, h3, h4, h5, p, a, span {
+	font-family: 'alien_leagueregular';
+}
+
+iframe {
+	margin-bottom: 5px;
+}
+
+h1 {
+	font-weight:normal;
+	font-size:90px;
+	margin-bottom: 3px;
+	margin-top:1%;
+}
+
+h2 {
+	background-color:#000;
+	opacity: 0.4;
+}
+
+header {
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+
+footer {
+	background-color: #000;
+	opacity:0.6;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+} 
+
+.clear {
+	clear:both;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+}
+
+nav li {
+	
+	font-size:24px;
+	list-style: none;
+	display: inline;
+	margin-left: 7px;
+}
+
+a{
+	font-family: 'alien_linessymbol';
+	text-decoration: none;
+    color: #08d85c;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+}
+ 
+a:hover {
+	font-family: 'alien_leagueregular';
+	text-decoration: none;
+    color: #fff;
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow: -1px 1px 5px #03c, 1px -1px 5px #6F0;
+}
+
+
+
+#container {
+	/*width: 960px;*/
+	min-height:700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	background-color:#000;
+}
+
+#hometrack {
+	position: fixed;
+	left: 0;
+	z-index: 999;
+	text-align: left;
+}
+
+#logo {
+	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	width: 500px;
+   	height: 500px;
+   	margin-top: -250px;
+   	margin-left: -250px;
+}
+
+#jaw {
+	clear:both;
+	margin-top: -70px;
+}
+
+.aktext {
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#0C3;
+	text-align:center;
+}
+
+.active {
+	margin-top: 0;
+}
+
+#siteby {
+	display:block;
+	text-align:right;
+}
+
+h1, h2 {
+    -webkit-animation: glow 1s infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    to {
+        text-shadow: 0 0 10px white;
+    }
+}
+
+.aktext h1 {
+	margin-bottom:4%;
+}
+
+#about {
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+	text-align:center;
+	max-width: 500px;
+	background-color:#000;
+	opacity:0.6;
+	padding: 10px;
+}
+
+#music {
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+	text-align:center;
+	max-width: 532px;
+	background-color:#000;
+}
+
+#about h1, h2, p {
+	opacity: 1;
+}
+
+/* Audio Player */
+
+.audio-player,
+.audio-player div,
+.audio-player h1,
+.audio-player a,
+.audio-player img,
+.audio-player span,
+.audio-player button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+	text-decoration:none;
+	overflow: scroll;
+}
+
+#music {
+	background-color:transparent;
+	height:700px;
+	position:relative;
+}
+
+#contact {
+	position: relative;
+}
+
+div.audio-player {
+    position: relative;
+    height: 120px;
+	 
+    background: #4c4e5a;
+    background: -webkit-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -moz-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -o-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: -ms-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+    background: linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+ 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.audio-player h1 {
+    position: absolute;
+    bottom: 40px;
+    right: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ececec;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+}
+ 
+.audio-player .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#audio-player {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#countertext {
+	position:absolute;
+	top:9px;
+	left:129px;
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ececec;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+}
+
+#progresscounter {
+	position:absolute;
+	top:30px;
+	left:129px;
+	font-family: 'alien_leagueregular';
+	font-size: 56px;
+	background-color: #000;
+}
+
+#player {
+  	position:absolute;
+  	right:9px;
+	bottom:9px;
+	margin: 0px;
+	list-style:none;
+}
+
+#player li {
+	float:left;
+}
+	
+/*Play Button*/
+#msplaybutton {
+  	display: block;
+  	width: 21px;
+  	height: 21px;
+  	background: url("../images/play.png") no-repeat 0 0;
+}
+
+#msplaybutton:hover { 
+  	background: url("../images/playhover.png") no-repeat 0 0;
+}
+
+#msplaybutton:active {
+	background: url("../images/playpress.png") no-repeat 0 0;
+}
+
+#msplaybutton span {
+  	position: absolute;
+  	top: -999em;
+}
+
+/*Pause Button */
+#mspausebutton {
+  	display: block;
+  	width: 21px;
+  	height: 21px;
+  	background: url("../images/pause.png") no-repeat 0 0;
+}
+
+#mspausebutton:hover { 
+  	background: url("../images/pausehover.png") no-repeat 0 0;
+}
+
+#mspausebutton:active {
+	background: url("../images/pausepress.png") no-repeat 0 0;
+}
+
+#mspausebutton span {
+  	position: absolute;
+  	top: -999em;
+}
+
+/*Mute Button*/
+#msmutebutton {
+	clear:both;
+	position:absolute;
+	top:9px;
+	right:9px;
+  	display: block;
+  	width: 14px;
+  	height: 10px;
+  	background: url("../images/mute.png") no-repeat 0 0;
+}
+
+#msmutebutton:hover { 
+  	background: url("../images/mute.png") no-repeat 0 0;
+}
+
+#msmutebutton:active {
+	background: url("../images/unmute.png") no-repeat 0 0;
+}
+
+#msmutebutton span {
+  	position: absolute;
+  	top: -999em;
+}
+
+/* Contact Form */
+#contact {
+	text-align:left;
+}
+
+#contact h1 {
+	text-align:center;
+}
+
+label {
+	text-align:left;
+	font-family:"Lucida Console", Monaco, monospace;
+	color: #337736;
+}
+
+#contact-form {
+    background-color: #000;
+    width:465px;
+    padding:20px;
+    margin: 50px auto;    
+    border: 1px solid #337736;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    position:relative;
+}
+ 
+#contact-form h1 {
+    font-size:42px;
+	color:#1D631D;
+}
+ 
+#contact-form h2 {
+	color:#1D631D;
+    margin-bottom:15px;
+    font-weight:normal;
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+	
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+    width:450px;
+    border: 1px solid #1D631D;
+    margin-bottom:20px;
+    padding:4px;
+	color:#1D631D;
+	background-color: #000;
+}
+ 
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+    border: 3px solid #1D631D;
+    background-color: #000;
+}
+ 
+#contact-form textarea {
+    height:150px;
+    resize: none;
+}
+ 
+#contact-form label {
+    display:block;
+}
+ 
+#contact-form .required {
+	color:#1D631D;
+    font-weight:bold;
+    color:#F00;    
+}
+ 
+#contact-form #submit-button {
+	font-size: 18px;
+    width: 100px;
+    background-color:#000;
+    color:#FFF;
+	font-family: 'alien_leagueregular';
+	border:1px solid #1D631D;
+    display:block;
+    float:right;
+    margin-bottom:0px;
+    margin-right:6px;
+    background-color:#000;
+    -moz-border-radius:8px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	transition: 1s;
+}
+ 
+#contact-form #submit-button:hover {
+	font-size: 18px;
+	cursor:crosshair;
+	font-family: 'alien_linessymbol';
+	color:#000;
+    background-color: #1D631D;
+}
+ 
+#contact-form #submit-button:active {
+	
+    position:relative;
+    top:1px;
+}
+ 
+#contact-form #loading {
+    width:32px;
+    height:32px;
+    background-image:url(../img/loading.gif);
+    display:block;
+    position:absolute;
+    right:130px;
+    bottom:16px;
+    display:none;
+}
+ 
+#errors {
+    border:solid 1px #1D631D;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#1D631D url(../img/cancel_48.png) no-repeat 405px center;
+    display:none;
+}
+ 
+#errors li {
+    padding:2px;
+    list-style:none;    
+}
+ 
+#errors li:before {
+    content: ' - ';    
+}
+ 
+#errors #info {
+    font-weight:bold;
+}
+ 
+#errors #info:before {
+    content: '';    
+}
+ 
+#success {
+    border:solid 1px #1D631D;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#1D631D url(../img/accepted_48.png) no-repeat 405px center;
+    font-weight:bold;
+    display:none;
+}
+ 
+#errors.visible, #success.visible {
+    display:block;    
+}
+ 
+#req-field-desc {
+    font-style:italic;
+	color:#1D631D;
+}
+ 
+input:required, textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+ 
+
+::-webkit-input-placeholder {
+    color:#1D631D;
+    font-style:italic;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#1D631D;
+    font-style:italic;
+}
+ 
+
+input.placeholder-text, textarea.placeholder-text  { 
+    color:#1D631D;
+    font-style:italic;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #1D631D inset;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

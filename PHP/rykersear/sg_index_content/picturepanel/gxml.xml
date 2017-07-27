@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sggallery version="1.0" name="unused" dirname="unused">
+ <options>
+  <picturebox>
+   <option varname="width" value="504" type="number" />
+   <option varname="height" value="245" type="number" />
+   <option varname="divname" value="picturepanelpicturebox" type="string" />
+
+<option varname="constructor" value="pictureboxSiteGrinderCSSAnim" type=""/>
+<option varname="type" value="animatedcss" type=""/>
+<option varname="version" value="2.0" type=""/>
+<option varname="fit" value="fill" type="choice"/>
+<option varname="transition" value="CSS3Flip" type="choice"/>
+<option varname="alignment" value="center" type="choice"/>
+<option varname="clickaction" value="advance" type="choice"/>
+<option varname="autoadvance" value="true" type="boolean"/>
+<option varname="autoadvancedelayseconds" value="5" type="number"/>
+<option varname="autoadvancedtransitiontimeseconds" value="2" type="number"/>
+<option varname="endaction" value="loop" type="choice"/>
+<option varname="endurl" value="index.html" type="string"/>
+<option varname="rightclickblock" value="true" type="boolean"/>   <option varname="preloaderimage" value="sg_jscripts/gallery_plugins/preloader.gif" type="file" />
+  </picturebox>
+ </options>
+
+<metadataentries name="picture_panel -picturebox">
+  <metadata name="description" type="text"/>
+</metadataentries>
+ <exhibits>
+ </exhibits>
+</sggallery>

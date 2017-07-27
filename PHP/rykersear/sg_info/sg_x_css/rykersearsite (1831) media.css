@@ -1,0 +1,33 @@
+#photospreviousthumbsetbut a:hover  {
+   background-position: -62px 0%;
+}
+
+#photospreviousthumbsetbut a.nmh  {
+   background-position: -62px 0%;
+}
+
+#photospreviousthumbsetbut a  {
+   background-image: url(sg_media_media/d1964musicvideospreviousthu.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 36px;
+   width: 62px;
+   font-size: 36px;
+   line-height: 36px;
+}
+
+#photospreviousthumbsetbut  {
+   position: absolute;
+   left: 68px;
+   top: 410px;
+   z-index: 5;
+   width: 62px;
+   height: 36px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

@@ -1,0 +1,5 @@
+
+<menus>
+  <menu name="calendar_months -menu" file="sg_shows_content/calendarmonthsmenu.xml"/>
+  <menu name="foot -menu" file="sg_index_content/footmenu.xml"/>
+</menus>

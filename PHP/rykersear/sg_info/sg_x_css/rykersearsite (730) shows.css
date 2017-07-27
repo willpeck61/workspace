@@ -1,0 +1,13 @@
+#calendertext  {
+   position: absolute;
+   left: 529px;
+   top: 577px;
+   z-index: 5;
+   width: 89px;
+   height: 15px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_shows_media/calendertext.png);
+   background-repeat: no-repeat;
+}
+

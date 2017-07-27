@@ -1,0 +1,88 @@
+#bandcontactsgeneralcontac  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 473px;
+   z-index: 4;
+   top: 781px;
+   left: 498px;
+   position: absolute;
+}
+
+#facebookbutton a  {
+   background-image: url(sg_contact_media/facebookbutton.png);
+}
+
+#contactformembed  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 474px;
+   z-index: 6;
+   top: 272px;
+   left: 509px;
+   position: absolute;
+}
+
+#contactbutton a  {
+   background-image: url(sg_contact_media/contactbutton.png);
+}
+
+#twitterbutton a  {
+   background-image: url(sg_shows_media/d594twitterbutton.png);
+}
+
+#facebookbutton  {
+   z-index: 8;
+}
+
+#youtubebutton  {
+   z-index: 7;
+}
+
+#homebutton a  {
+   background-image: url(sg_contact_media/homebutton.png);
+}
+
+#vimeobutton  {
+   z-index: 6;
+}
+
+#contactbg  {
+   background-repeat: no-repeat;
+   background-image: url(sg_contact_media/contactbg.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 890px;
+   width: 1597px;
+   z-index: 3;
+   top: 11px;
+   left: -282px;
+   position: absolute;
+}
+
+#contactus  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 145px;
+   z-index: 4;
+   top: 202px;
+   left: 496px;
+   position: absolute;
+}
+
+#formbg  {
+   background-repeat: no-repeat;
+   background-image: url(sg_contact_media/formbg.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 568px;
+   width: 544px;
+   z-index: 5;
+   top: 242px;
+   left: 469px;
+   position: absolute;
+}
+
+html, body  {
+   background-attachment: scroll;
+}
+

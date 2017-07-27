@@ -1,0 +1,16 @@
+#musicvideospicturebox table  {
+   width: 100%;
+   height: 100%;
+}
+
+#musicvideospicturebox  {
+   position: absolute;
+   left: 149px;
+   top: 591px;
+   z-index: 4;
+   width: 223px;
+   height: 183px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+

@@ -1,0 +1,389 @@
+#tomorrowdescriptionbutton div a.pmh,
+#yesterdaydescriptionbutto div a:hover,
+#tomorrowdescriptionbutton div a:hover,
+#yesterdaydescriptionbutto div a.nmh,
+#tomorrowdescriptionbutton div a.nmh,
+#yesterdaydescriptionbutto div a.pm,
+#tomorrowdescriptionbutton div a.pm,
+#yesterdaydescriptionbutto div a.pmh  {
+   background-position: -413px 0%;
+}
+
+#i928drinksbutton a.nmh,
+#i941roomsbutton a:hover,
+#i928drinksbutton a:hover,
+#i941roomsbutton a.pmh,
+#i934boothsbutton a.nmh,
+#i934boothsbutton a:hover,
+#i941roomsbutton a.pm,
+#i941roomsbutton a.nmh  {
+   background-position: -291px 0%;
+}
+
+#i9884clubbutton div a:hover,
+#i9879clubbutton div a.nmh,
+#i9879clubbutton div a:hover,
+#i9884clubbutton div a.nmh,
+#i8489clubbutton div a:hover,
+#i8489clubbutton div a.nmh  {
+   background-position: -166px 0%;
+}
+
+#tomorrowdescriptionbutton div a.cm,
+#tomorrowdescriptionbutton div a.cmh,
+#yesterdaydescriptionbutto div a.cm,
+#yesterdaydescriptionbutto div a.cmh  {
+   background-position: -826px 0%;
+}
+
+#i247clubbutton,
+#homebutton,
+#i252privatebutton,
+#gallerybutton,
+#i655contactbutton  {
+   z-index: 10;
+}
+
+#i935boothsbutton a:hover,
+#i935boothsbutton a.nmh  {
+   background-position: -70px 0%;
+}
+
+#i929drinksbutton a:hover,
+#i929drinksbutton a.nmh  {
+   background-position: -53px 0%;
+}
+
+#i941roomsbutton a.cmh,
+#i941roomsbutton a.cm  {
+   background-position: -582px 0%;
+}
+
+#letustakeyoubackrightback > div:first-child  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/letustakeyoubackrightback.gif);
+   height: 44px;
+   width: 783px;
+   display: block;
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+   left: 0px;
+   top: 0px;
+}
+
+#featuringastateoftheartso > div:first-child  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/featuringastateoftheartso.gif);
+   height: 46px;
+   width: 762px;
+   display: block;
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+   left: 0px;
+   top: 0px;
+}
+
+#chooseyourroom > div:first-child  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/chooseyourroom.gif);
+   height: 48px;
+   width: 396px;
+   display: block;
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+   left: 0px;
+   top: 0px;
+}
+
+#i7453oct > div:first-child  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d7453oct.gif);
+   height: 89px;
+   width: 167px;
+   display: block;
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+   left: 0px;
+   top: 0px;
+}
+
+#featuringastateoftheartso  {
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   height: 46px;
+   width: 762px;
+   z-index: 18;
+   top: 637px;
+   left: 130px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#letustakeyoubackrightback  {
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   height: 44px;
+   width: 783px;
+   z-index: 23;
+   top: 637px;
+   left: 120px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#copyrightfaces2013privacy  {
+   z-index: 5;
+}
+
+#i323vectorsmartobject  {
+   background-image: url(sg_club_media/d323vectorsmartobject.gif);
+   z-index: 9;
+}
+
+#i252privatebutton a  {
+   background-image: url(sg_club_media/d252privatebutton.gif);
+}
+
+#i655contactbutton a  {
+   background-image: url(sg_club_media/d655contactbutton.gif);
+}
+
+#i282drinksbutton a  {
+   background-image: url(sg_club_media/d282drinksbutton.gif);
+}
+
+#i316boothsbutton a  {
+   background-image: url(sg_club_media/d316boothsbutton.gif);
+}
+
+#i935boothsbutton a  {
+   line-height: 38px;
+   font-size: 38px;
+   width: 70px;
+   height: 38px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d935boothsbutton.gif);
+}
+
+#i298eventsbutton a  {
+   background-image: url(sg_club_media/d298eventsbutton.gif);
+}
+
+#i929drinksbutton a  {
+   line-height: 38px;
+   font-size: 38px;
+   width: 53px;
+   height: 38px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d929drinksbutton.gif);
+}
+
+#i282drinksbutton  {
+   z-index: 7;
+}
+
+#i247clubbutton a  {
+   background-image: url(sg_club_media/d247clubbutton.gif);
+}
+
+#buttonbgbutton a  {
+   width: 149px;
+   background-image: url(sg_club_media/buttonbgbutton.gif);
+}
+
+#i934boothsbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 291px;
+   width: 291px;
+   z-index: 7;
+   top: 193px;
+   left: 475px;
+   position: absolute;
+}
+
+#i929drinksbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 38px;
+   width: 53px;
+   z-index: 10;
+   top: 420px;
+   left: 837px;
+   position: absolute;
+}
+
+#i935boothsbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 38px;
+   width: 70px;
+   z-index: 8;
+   top: 419px;
+   left: 583px;
+   position: absolute;
+}
+
+#partiesbutton a  {
+   background-image: url(sg_club_media/partiesbutton.gif);
+}
+
+#gallerybutton a  {
+   background-image: url(sg_club_media/gallerybutton.gif);
+}
+
+#buttonbgbutton  {
+   width: 149px;
+   z-index: 9;
+   left: 90px;
+}
+
+#chooseyourroom  {
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   height: 48px;
+   width: 396px;
+   z-index: 13;
+   top: 560px;
+   left: 307px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#i1600guestlist  {
+   background-image: url(sg_club_media/d1600guestlist.gif);
+}
+
+#guestbutton a  {
+   background-image: url(sg_club_media/guestbutton.gif);
+}
+
+#i946clubtext  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 624px;
+   z-index: 7;
+   top: 581px;
+   left: 306px;
+   position: absolute;
+}
+
+#i10233drinks  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d10233drinks.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 226px;
+   width: 226px;
+   z-index: 8;
+   top: 227px;
+   left: 746px;
+   position: absolute;
+}
+
+#i1598parties  {
+   background-image: url(sg_club_media/d1598parties.gif);
+}
+
+#i10232booths  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d10232booths.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 226px;
+   width: 226px;
+   z-index: 6;
+   top: 226px;
+   left: 508px;
+   position: absolute;
+}
+
+#homebutton a  {
+   background-image: url(sg_club_media/homebutton.gif);
+}
+
+#i1599booths  {
+   background-image: url(sg_club_media/d1599booths.gif);
+}
+
+#layer9copy4  {
+   background-image: url(sg_club_media/layer9copy4.gif);
+}
+
+#vipbutton a  {
+   background-image: url(sg_club_media/vipbutton.gif);
+}
+
+#i945graphic  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d945graphic.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 84px;
+   width: 666px;
+   z-index: 6;
+   top: 576px;
+   left: 284px;
+   position: absolute;
+}
+
+#i476events  {
+   background-image: url(sg_club_media/d476events.gif);
+}
+
+#i386drinks  {
+   background-image: url(sg_club_media/d386drinks.gif);
+   z-index: 6;
+}
+
+#footerbar  {
+   z-index: 4;
+}
+
+#i7453oct  {
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   height: 89px;
+   width: 167px;
+   z-index: 13;
+   top: 20px;
+   left: 424px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#i7442oct  {
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   height: 90px;
+   width: 345px;
+   z-index: 23;
+   top: 17px;
+   left: 348px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#layer15  {
+   z-index: 6;
+}
+
+#i443vip  {
+   background-image: url(sg_club_media/d443vip.gif);
+}
+
+#lshape  {
+   background-image: url(sg_club_media/lshape.gif);
+}
+

@@ -1,0 +1,33 @@
+#picturepanelpreviousbutto a:hover  {
+   background-position: -53px 0%;
+}
+
+#picturepanelpreviousbutto a.nmh  {
+   background-position: -53px 0%;
+}
+
+#picturepanelpreviousbutto a  {
+   background-image: url(sg_index_media/picturepanelpreviousbutto.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 54px;
+   width: 53px;
+   font-size: 54px;
+   line-height: 54px;
+}
+
+#picturepanelpreviousbutto  {
+   position: absolute;
+   left: 471px;
+   top: 710px;
+   z-index: 6;
+   width: 53px;
+   height: 54px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

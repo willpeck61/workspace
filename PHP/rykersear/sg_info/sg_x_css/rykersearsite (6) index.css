@@ -1,0 +1,13 @@
+#i6halftone  {
+   position: absolute;
+   left: 75px;
+   top: 153px;
+   z-index: 3;
+   width: 892px;
+   height: 724px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_index_media/d6halftone.png);
+   background-repeat: no-repeat;
+}
+

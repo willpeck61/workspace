@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sggallery version="1.0" name="unused" dirname="unused">
+ <options>
+  <thumbsheet>
+   <option varname="mode" value="exhibit" type="string" />
+   <option varname="sheetwidth" value="570" type="number" />
+   <option varname="sheetheight" value="240" type="number" />
+   <option varname="sheetdivname" value="photosthumbsheet" type="string" />
+   <option varname="thumbwidth" value="135" type="number" />
+   <option varname="thumbheight" value="107" type="number" />
+
+<option varname="constructor" value="thumbsheetSiteGrinderPagedCSS" type=""/>
+<option varname="type" value="sitegrinderpagedcss" type=""/>
+<option varname="version" value="1.0" type=""/>
+<option varname="linkclassname" value="sgthumb" type=""/>
+<option varname="thumbdivname" value="thumbwrapper" type=""/>
+<option varname="fit" value="fill" type="choice"/>
+<option varname="transitioneffect" value="slide" type="choice"/>
+<option varname="transitiontime" value="1.0" type="number"/>
+<option varname="hoveraction" value="none" type="choice"/>
+<option varname="clickaction" value="bigbox" type="choice"/>
+<option varname="borderwidth" value="0" type="number"/>
+<option varname="normalbordercolor" value="0xccdbe4" type="color"/>
+<option varname="normalbackgroundcolor" value="#3B3A3B" type="color"/>
+<option varname="hoverbordercolor" value="#B634A0" type="color"/>
+<option varname="hoverbackgroundcolor" value="#B634A0" type="color"/>
+<option varname="currentbordercolor" value="0xffffff" type="color"/>
+<option varname="currentbackgroundcolor" value="0xffffff" type="color"/>
+<option varname="vspacing" value="1" type="number"/>
+<option varname="hspacing" value="1" type="number"/>
+<option varname="vinset" value="3" type="number"/>
+<option varname="hinset" value="3" type="number"/>
+<option varname="autosetnextprevvisibility" value="true" type="boolean"/>  </thumbsheet>
+  <bigbox>
+
+<option varname="constructor" value="fancybox" type="string"/>
+<option varname="type" value="fancybox" type="string"/>
+<option varname="version" value="1.0" type="number"/>
+<option varname="zoomopacity" value="true" type="boolean"/>
+<option varname="overlayshow" value="true" type="boolean"/>
+<option varname="overlaycolor" value="0x000000" type="color"/>
+<option varname="overlayopacity" value="0.5" type="number"/>
+<option varname="zoomspeedin" value="500" type="number"/>
+<option varname="zoomspeedout" value="500" type="number"/>
+<option varname="titlemetafield" value="description" type="string"/>   <option varname="loadingimage1" value="sg_jscripts/gallery_plugins/fancy_closebox.png" type="file" />
+   <option varname="loadingimage2" value="sg_jscripts/gallery_plugins/fancy_left.png" type="file" />
+   <option varname="loadingimage3" value="sg_jscripts/gallery_plugins/fancy_progress.png" type="file" />
+   <option varname="loadingimage4" value="sg_jscripts/gallery_plugins/fancy_right.png" type="file" />
+   <option varname="loadingimage5" value="sg_jscripts/gallery_plugins/fancy_shadow_e.png" type="file" />
+   <option varname="loadingimage6" value="sg_jscripts/gallery_plugins/fancy_shadow_n.png" type="file" />
+   <option varname="loadingimage7" value="sg_jscripts/gallery_plugins/fancy_shadow_ne.png" type="file" />
+   <option varname="loadingimage8" value="sg_jscripts/gallery_plugins/fancy_shadow_nw.png" type="file" />
+   <option varname="loadingimage9" value="sg_jscripts/gallery_plugins/fancy_shadow_s.png" type="file" />
+   <option varname="loadingimage0" value="sg_jscripts/gallery_plugins/fancy_shadow_se.png" type="file" />
+   <option varname="loadingimage11" value="sg_jscripts/gallery_plugins/fancy_shadow_sw.png" type="file" />
+   <option varname="loadingimage12" value="sg_jscripts/gallery_plugins/fancy_shadow_w.png" type="file" />
+   <option varname="loadingimage13" value="sg_jscripts/gallery_plugins/fancy_title_left.png" type="file" />
+   <option varname="loadingimage14" value="sg_jscripts/gallery_plugins/fancy_title_main.png" type="file" />
+   <option varname="loadingimage15" value="sg_jscripts/gallery_plugins/fancy_title_right.png" type="file" />
+  </bigbox>
+ </options>
+ <panels>
+  <panel>
+  <div  class="photospanel">
+   <div class="i1922photospanelthumb"></div>
+   <div class="i1921photospanelthumb"></div>
+   <div class="i1920photospanelthumb"></div>
+   <div class="i1919photospanelthumb"></div>
+   <div class="i1914photospanelthumb"></div>
+   <div class="i1913photospanelthumb"></div>
+   <div class="i1912photospanelthumb"></div>
+   <div class="i1879photospanelthumb"></div>
+  </div><!-- /photospanel -->
+  </panel>
+ </panels>
+
+<metadataentries name="photos -thumbsheet"/>
+ <exhibits>
+ </exhibits>
+</sggallery>

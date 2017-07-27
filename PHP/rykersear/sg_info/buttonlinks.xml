@@ -1,0 +1,16 @@
+
+<buttons>
+  <btn name="youtube -button" id="26" lid="26" aname="youtube" linktype="URL" linkval="www.youtube.com/user/RykerSear‎" aux="" newwin="true" display="URL www.youtube.com/user/RykerSear‎"/>
+  <btn name="vimeo -button" id="25" lid="25" aname="vimeo" linktype="URL" linkval="http://vimeo.com/rykersear" aux="" newwin="false" display="URL http://vimeo.com/rykersear"/>
+  <btn name="facebook -button" id="27" lid="27" aname="facebook" linktype="URL" linkval="http://www.facebook.com/rykersear" aux="" newwin="true" display="URL http://www.facebook.com/rykersear"/>
+  <btn name="twitter -button" id="24" lid="24" aname="twitter" linktype="URL" linkval="http://twitter.com/rykersear" aux="" newwin="true" display="URL http://twitter.com/rykersear"/>
+  <btn name="home -button" id="31" lid="31" aname="home" linktype="PAGE" linkval="1" aux="" newwin="false" display="PAGE index-page"/>
+  <btn name="media -button" id="51" lid="51" aname="media" linktype="PAGE" linkval="11" aux="" newwin="false" display="PAGE media-page"/>
+  <btn name="contact -button" id="47" lid="47" aname="contact" linktype="PAGE" linkval="7" aux="" newwin="false" display="PAGE contact-page"/>
+  <btn name="store -button" id="43" lid="43" aname="store" linktype="PAGE" linkval="9" aux="" newwin="false" display="PAGE store-page"/>
+  <btn name="bio -button" id="39" lid="39" aname="bio" linktype="PAGE" linkval="5" aux="" newwin="false" display="PAGE bio-page"/>
+  <btn name="shows -button" id="35" lid="35" aname="shows" linktype="PAGE" linkval="3" aux="" newwin="false" display="PAGE shows-page"/>
+  <btn name="download_mp3 -button" id="940" lid="940" aname="downloadmp3" linktype="LITERAL" linkval="#i20downloadmp3button" aux="" newwin="false" display="LITERAL #i20downloadmp3button"/>
+  <btn name="buy_tickets -button" id="620" lid="620" aname="buytickets" linktype="LITERAL" linkval="#" aux="" newwin="false" display="LITERAL #"/>
+  <btn name="download_mp3 -button" id="20" lid="20" aname="downloadmp3" linktype="LITERAL" linkval="#" aux="" newwin="false" display="LITERAL #"/>
+</buttons>

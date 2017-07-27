@@ -1,0 +1,12 @@
+'''
+Created on 10 May 2017
+
+@author: will
+'''
+from DiscreteMath.Exponentiation import exponent
+
+if __name__ == '__main__':
+    pass
+
+print(exponent(10000,10000, 0))
+

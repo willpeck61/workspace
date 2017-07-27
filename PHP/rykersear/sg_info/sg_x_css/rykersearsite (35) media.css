@@ -1,0 +1,33 @@
+#showsbutton a:hover  {
+   background-position: -89px 0%;
+}
+
+#showsbutton a.nmh  {
+   background-position: -89px 0%;
+}
+
+#showsbutton a  {
+   background-image: url(sg_index_media/showsbutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 59px;
+   width: 89px;
+   font-size: 59px;
+   line-height: 59px;
+}
+
+#showsbutton  {
+   position: absolute;
+   left: 422px;
+   top: 12px;
+   z-index: 4;
+   width: 89px;
+   height: 59px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

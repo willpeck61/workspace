@@ -1,0 +1,33 @@
+#homebutton a:hover  {
+   background-position: -78px 0%;
+}
+
+#homebutton a.nmh  {
+   background-position: -78px 0%;
+}
+
+#homebutton a  {
+   background-image: url(sg_index_media/homebutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 52px;
+   width: 78px;
+   font-size: 52px;
+   line-height: 52px;
+}
+
+#homebutton  {
+   position: absolute;
+   left: 331px;
+   top: 14px;
+   z-index: 5;
+   width: 78px;
+   height: 52px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

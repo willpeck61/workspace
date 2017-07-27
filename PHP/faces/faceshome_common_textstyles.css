@@ -1,0 +1,361 @@
+@font-face
+{
+font-family: BodegaSans-Black;
+src: url('bodegasans-black.ttf');
+}
+.thursdaysguestlist p,
+.book4scrollform p,
+.twitterfeedclickshowembed p,
+.book4yestscrollform p,
+.book3scrollform li,
+.book4scrollform li,
+.book2yestscrollform p,
+.i9825contact p,
+.twitterfeedclickhideembed li,
+.book6yestscrollform li,
+.copyrightfaces2013privacy p,
+.book5yestscrollform p,
+.book3yestscrollform p,
+.i9834jointheguestlisttogetfree p,
+.book7yestscrollform li,
+.youtubefeedembed li,
+.thursdaysguestlist li,
+.i9834jointheguestlisttogetfree li,
+.book1yestformscroll p,
+.i7516octcopy p,
+.book1scrollform p,
+.book6yestscrollform p,
+.i7516octcopy li,
+.octcopy2 p,
+.twitterfeedclickshowembed li,
+.book1scrollform li,
+.formprivateform li,
+.book2yestscrollform li,
+.facebookfeedclickshowembe p,
+.facebookfeedclickshowembe li,
+.book4yestscrollform li,
+.book2scrollform p,
+.youtubefeedembed p,
+.book7yestscrollform p,
+.book2scrollform li,
+.copyrightfaces2013privacy li,
+.i9825contact li,
+.book3yestscrollform li,
+.formprivateform p,
+.octcopy2 li,
+.book1yestformscroll li,
+.book3scrollform p,
+.twitterfeedclickhideembed p,
+.book5yestscrollform li  {
+   padding: 0px;
+   margin: 0px;
+   font-family: BodegaSans-Black;
+   font-weight: normal;
+   font-style: normal;
+   letter-spacing: 0px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #FFDFC1;
+   text-indent: 0px;
+   text-align: left;
+}
+
+.wespecialiseineventplanni p,
+.i946clubtext p,
+.wenotonlyofferyouthebestd p,
+.makethenightreallyspecial li,
+.wespecialiseineventplanni li,
+.wenotonlyofferyouthebestd li,
+.takethefacesexperiencetot p,
+.makethenightreallyspecial p,
+.takethefacesexperiencetot li,
+.i946clubtext li  {
+   font: normal normal 12px/16px Arial, Helvetica, sans-serif;
+   padding: 0px;
+   margin: 0px;
+   letter-spacing: 0px;
+   font-variant: normal;
+   text-decoration: none;
+   color: #000000;
+   text-indent: 0px;
+   text-align: center;
+}
+
+.copyrightfaces2013privacy p a,
+.wespecialiseineventplanni p a,
+.i9834jointheguestlisttogetfree p a,
+.saturdayguestlistform p a,
+.thursdayguestlistform p a,
+.thursdaysguestlist p a,
+.fridayguestlistform p a,
+.i9825contact p a  {
+   display: inline;
+}
+
+.fridayguestlistform li,
+.thursdayguestlistform li,
+.saturdayguestlistform li,
+.saturdayguestlistform p,
+.fridayguestlistform p,
+.thursdayguestlistform p  {
+   margin: 0px;
+}
+
+.i9834jointheguestlisttogetfree li  {
+   line-height: 16px;
+   font-size: 12px;
+   font-family: Arial-BoldMT, Arial, Helvetica, sans-serif;
+}
+
+.i9834jointheguestlisttogetfree p  {
+   line-height: 16px;
+   font-size: 12px;
+   font-family: Arial-BoldMT, Arial, Helvetica, sans-serif;
+}
+
+.twitterfeedclickshowembed li  {
+   line-height: 30px;
+   font-size: 10px;
+   color: #660066;
+}
+
+.wespecialiseineventplanni li  {
+   text-align: left;
+}
+
+.twitterfeedclickhideembed li  {
+   font-size: 14px;
+   line-height: 30px;
+   color: #660066;
+}
+
+.copyrightfaces2013privacy li  {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   line-height: 9px;
+}
+
+.facebookfeedclickshowembe li  {
+   font-size: 14px;
+   line-height: 30px;
+   color: #660066;
+}
+
+.facebookfeedclickshowembe p  {
+   font-size: 14px;
+   line-height: 30px;
+   color: #660066;
+}
+
+.wespecialiseineventplanni p  {
+   text-align: left;
+}
+
+.twitterfeedclickshowembed p  {
+   line-height: 30px;
+   font-size: 10px;
+   color: #660066;
+}
+
+.copyrightfaces2013privacy p  {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   line-height: 9px;
+}
+
+.twitterfeedclickhideembed p  {
+   font-size: 14px;
+   line-height: 30px;
+   color: #660066;
+}
+
+.book2yestscrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book7yestscrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book6yestscrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book1yestformscroll li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book3yestscrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book5yestscrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book4yestscrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book3yestscrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book4yestscrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book1yestformscroll p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book2yestscrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.thursdaysguestlist li  {
+   line-height: 103px;
+   font-size: 36px;
+}
+
+.book7yestscrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book6yestscrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book5yestscrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.thursdaysguestlist p  {
+   line-height: 103px;
+   font-size: 36px;
+}
+
+.youtubefeedembed li  {
+   font-size: 14px;
+   line-height: 30px;
+   color: #660066;
+}
+
+.book1scrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.formprivateform li  {
+   font-size: 14px;
+   line-height: 30px;
+   padding-right: 50px;
+}
+
+.book3scrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.youtubefeedembed p  {
+   font-size: 14px;
+   line-height: 30px;
+   color: #660066;
+}
+
+.book4scrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book2scrollform li  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book4scrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book2scrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book1scrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.book3scrollform p  {
+   font-size: 18px;
+   line-height: 12px;
+}
+
+.formprivateform p  {
+   font-size: 14px;
+   line-height: 30px;
+   padding-right: 50px;
+}
+
+.i7516octcopy li  {
+   font-size: 52px;
+   line-height: 103px;
+   text-align: center;
+}
+
+.i9825contact li  {
+   line-height: 30px;
+   font-size: 36px;
+}
+
+.i7516octcopy p  {
+   font-size: 52px;
+   line-height: 103px;
+   text-align: center;
+}
+
+.i9825contact p  {
+   line-height: 30px;
+   font-size: 36px;
+}
+
+.octcopy2 li  {
+   font-size: 52px;
+   line-height: 103px;
+   text-align: center;
+}
+
+.octcopy2 p  {
+   font-size: 52px;
+   line-height: 103px;
+   text-align: center;
+}
+
+h4,
+h5,
+body, p,
+h6,
+h1,
+h2,
+h3  {
+   font-family: BodegaSans-Black;
+}
+

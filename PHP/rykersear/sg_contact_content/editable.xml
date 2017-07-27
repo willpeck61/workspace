@@ -1,0 +1,7 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_contact_content/title.xml" status="unique"/>
+  <item type="text" name="Band Contacts GENERAL CONTACT: RYKERSEARFANS@GMX.COM MANAGEMENT" file="sg_contact_content/bandcontactsgeneralcontac.htm" divid="bandcontactsgeneralcontac" status="unique"/>
+  <item type="menu" name="foot -menu" file="sg_index_content/footmenu.xml" divid="footmenu" status="shared"/>
+  <item type="text" name="Contact Us" file="sg_contact_content/contactus.htm" divid="contactus" status="unique"/>
+</entries>

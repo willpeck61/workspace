@@ -1,0 +1,33 @@
+#i729showsmainflyerpreviousthu a:hover  {
+   background-position: -153px 0%;
+}
+
+#i729showsmainflyerpreviousthu a.nmh  {
+   background-position: -153px 0%;
+}
+
+#i729showsmainflyerpreviousthu a  {
+   background-image: url(sg_shows_media/d729showsmainflyerprevioust.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 43px;
+   width: 153px;
+   font-size: 43px;
+   line-height: 43px;
+}
+
+#i729showsmainflyerpreviousthu  {
+   position: absolute;
+   left: 520px;
+   top: 807px;
+   z-index: 5;
+   width: 153px;
+   height: 43px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

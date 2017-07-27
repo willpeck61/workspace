@@ -1,0 +1,7 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_shows_content/title.xml" status="unique"/>
+  <item type="menu" name="foot -menu" file="sg_index_content/footmenu.xml" divid="footmenu" status="shared"/>
+  <item type="menu" name="calendar_months -menu" file="sg_shows_content/calendarmonthsmenu.xml" divid="calendarmonthsmenu" status="shared"/>
+  <item type="gallery" name="shows_main_flyer -picturebox" file="sg_shows_content/showsmainflyer/gallery.xml" divid="showsmainflyerpicturebox" status="unique"/>
+</entries>

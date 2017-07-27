@@ -1,0 +1,207 @@
+#twitterfeedbutton a:hover,
+#twitterfeedbutton a.pmh,
+#twitterfeedbutton a.nmh,
+#facebookfeedbutton a.nmh,
+#facebookfeedbutton a.pm,
+#facebookfeedbutton a:hover,
+#twitterfeedbutton a.pm,
+#facebookfeedbutton a.pmh  {
+   background-position: -71px 0%;
+}
+
+#twitterfeedbutton a.cm,
+#facebookfeedbutton a.cmh,
+#twitterfeedbutton a.cmh,
+#facebookfeedbutton a.cm  {
+   background-position: -142px 0%;
+}
+
+#twitterfeedclickshowembed  {
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   width: 206px;
+   z-index: 8;
+   top: 476px;
+   left: 730px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#copyrightfaces2013privacy  {
+   z-index: 9;
+}
+
+#i271vectorsmartobject  {
+   background-repeat: no-repeat;
+   background-image: url(sg_home_media/d271vectorsmartobject.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 322px;
+   width: 383px;
+   z-index: 6;
+   top: 443px;
+   left: 297px;
+   position: absolute;
+}
+
+#i275vectorsmartobject  {
+   background-repeat: no-repeat;
+   background-image: url(sg_home_media/d275vectorsmartobject.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 321px;
+   width: 249px;
+   z-index: 6;
+   top: 444px;
+   left: 709px;
+   position: absolute;
+}
+
+#i323vectorsmartobject  {
+   background-image: url(sg_home_media/d323vectorsmartobject.gif);
+}
+
+#i655contactbutton a  {
+   background-image: url(sg_home_media/d655contactbutton.gif);
+}
+
+#i252privatebutton a  {
+   background-image: url(sg_home_media/d252privatebutton.gif);
+}
+
+#i316boothsbutton a  {
+   background-image: url(sg_home_media/d316boothsbutton.gif);
+}
+
+#i282drinksbutton a  {
+   background-image: url(sg_home_media/d282drinksbutton.gif);
+}
+
+#i298eventsbutton a  {
+   background-image: url(sg_home_media/d298eventsbutton.gif);
+}
+
+#buttonbgbutton a  {
+   height: 263px;
+   width: 149px;
+   background-image: url(sg_home_media/buttonbgbutton.gif);
+}
+
+#i247clubbutton a  {
+   background-image: url(sg_home_media/d247clubbutton.gif);
+}
+
+#youtubefeedembed  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 378px;
+   z-index: 8;
+   top: 472px;
+   left: 317px;
+   position: absolute;
+}
+
+#i282drinksbutton  {
+   z-index: 7;
+}
+
+#gallerybutton a  {
+   background-image: url(sg_home_media/gallerybutton.gif);
+}
+
+#partiesbutton a  {
+   background-image: url(sg_home_media/partiesbutton.gif);
+}
+
+#buttonbgbutton  {
+   height: 263px;
+   width: 149px;
+   top: 219px;
+   left: 90px;
+}
+
+#i1600guestlist  {
+   background-image: url(sg_home_media/d1600guestlist.gif);
+}
+
+#guestbutton a  {
+   background-image: url(sg_home_media/guestbutton.gif);
+}
+
+#i1598parties  {
+   background-image: url(sg_home_media/d1598parties.gif);
+}
+
+#homebutton a  {
+   background-image: url(sg_home_media/homebutton.gif);
+}
+
+#i1599booths  {
+   background-image: url(sg_home_media/d1599booths.gif);
+}
+
+#vipbutton a  {
+   background-image: url(sg_home_media/vipbutton.gif);
+}
+
+#i476events  {
+   background-image: url(sg_home_media/d476events.gif);
+}
+
+#i386drinks  {
+   background-image: url(sg_home_media/d386drinks.gif);
+   z-index: 6;
+}
+
+#footerbar  {
+   z-index: 8;
+}
+
+#i443vip  {
+   background-image: url(sg_home_media/d443vip.gif);
+}
+
+#shape3  {
+   background-repeat: no-repeat;
+   background-image: url(sg_home_media/shape3.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 254px;
+   width: 215px;
+   z-index: 7;
+   top: 472px;
+   left: 724px;
+   position: absolute;
+}
+
+#lshape  {
+   background-image: url(sg_home_media/lshape.gif);
+}
+
+#layer5  {
+   background-repeat: no-repeat;
+   background-image: url(sg_home_media/layer5.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 504px;
+   width: 228px;
+   z-index: 6;
+   top: 134px;
+   left: 0px;
+   position: absolute;
+}
+
+#tube  {
+   background-repeat: no-repeat;
+   background-image: url(sg_home_media/tube.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 62px;
+   width: 62px;
+   z-index: 7;
+   top: 410px;
+   left: 323px;
+   position: absolute;
+}
+

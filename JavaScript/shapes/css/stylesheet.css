@@ -1,0 +1,44 @@
+/* CSS Stylesheet */
+
+body, html {
+    font-family: sans-serif;
+    min-height: 480px;
+    background-color: #333;
+    color: #f9f9f9;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+}
+
+.wrapper {
+    text-align: center;  
+}
+
+#shapes {
+    background-color: #ededed;
+    position: relative;
+    width: 70vw;
+    max-width: 1200px;
+    height: auto;
+    border: 5px solid #a8a8a8;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+#cmd {
+    width: 250px;
+}
+@media(max-width: 668px) {
+    h1, p, form {
+        font-size: 14px;
+    }
+}

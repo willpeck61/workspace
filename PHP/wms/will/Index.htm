@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EE Services :: Workshop Management System</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<header>
+<img id="logo" alt="EE Services Logo" src="logo.png" width="184" height="77">
+<h1>EE Services</h1>
+</header>
+<section id="leftmenu">
+<nav>
+	<ul>
+		<li><a href="#" id="item1">>>New Customer</a></li>
+    	<li><a href="#" id="item2">>>New Vehicle</a></li>
+    	<li><a href="#" id="item3">>>New Employee</a></li>
+    	<li><a href="#" id="item4">>>New Supplier</a></li>
+    	<li><a href="#" id="item5">>>Order System</a></li>
+        <ul>
+        	<li><a href="#" id="item6">>>New Order</a></li>
+            <li><a href="#" id="item7">>>Order Enquiry</a></li>
+        </ul>
+    </ul>
+</nav>
+</section>
+<section id="main">
+	<article id="newCustomer" class="item0">
+	<h2>WELCOME!!</h2>
+	</article>
+	<article id="newCustomer" class="item1">
+	<h2>New Customer Details</h2>
+	<form action="#">
+		<ul class="inputform">
+		<li class="formline"><label for="custTitle">Title</label></li>
+        	<li class="formlineb"><select name="custTitle" required>
+            							<option value="mr">Mr</option>
+                                        <option value="mrs">Mrs</option>
+                                        <option value="miss">Miss</option>
+                                        <option value="dr">Dr</option>
+                                        <option value="prof">Prof</option>
+                                  </select></li>
+    	<li class="formlinealt"><label for="custFirstName">First Name</label></li><li class="formlinealtb"><input type="text" id="custFirstName" required></li>
+    	<li class="formline"><label for="custLastName">Last Name</label></li><li class="formlineb"><input type="text" id="custLastName" required></li>
+    	<li class="formlinealt"><label for="custAddress1">Street Address</label></li><li class="formlinealtb"><input type="text" id="custAddress1" required></li>
+    	<li class="formline"><label for="custAddress2">Town</label></li><li class="formlineb"><input type="text" id="custAddress2" required></li>
+    	<li class="formlinealt"><label for="custAddress3">City</label></li><li class="formlinealtb"><input type="text" id="custAddress3" required></li>
+    	<li class="formline"><label for="custPostcode">Postcode</label></li><li class="formlineb"><input type="text" id="custPostcode" required></li>
+    	<li class="formlinealt"><button type="submit">Submit</button></li>
+		</ul>
+	</form>
+	</article>
+	<article id="newVehicle" class="item2">
+    <h2>New Vehicle</h2>
+    <form action="#">
+    	<ul class="inputform">
+    		<li class="formline"><label for="manufacturer">Manufacturer</label></li><li class="formlineb"><input type="text" id="manufacturer" required></li>
+    		<li class="formlinealt"><label for="model">Model</label></li><li class="formlinealtb"><input type="text" id="model" required></li>
+    		<li class="formline"><label for "type">Type</label></li><li class="formlineb"><input type="text" id="type" required></li>
+            <li class="formlinealt"><label for "engineSize">Engine Size</label></li><li class="formlinealtb"><input type="text"id="engineSize"></li>
+            <li class="formline"><label for "engineType">Engine Type</label></li><li class="formlineb"><input type="text" id="engineType"></li>
+            <li class="formlinealt"><label for "fuelType">Fuel Type</label></li><li class="formlinealtb"><input type="text" id="fuelType"></li>
+            <li class="formlinealt"><button type="submit">Submit</button></li>
+        </ul>
+    </form>
+	</article>
+    <article id="newEmployee" class="item3">
+    <h2>New Employee</h2>
+    <form action="#">
+		<ul class="inputform">
+		<li class="formline"><label for="custTitle">Title</label></li>
+        	<li class="formlineb"><select name="custTitle" required>
+            							<option value="mr">Mr</option>
+                                        <option value="mrs">Mrs</option>
+                                        <option value="miss">Miss</option>
+                                        <option value="dr">Dr</option>
+                                        <option value="prof">Prof</option>
+                                  </select></li>
+    	<li class="formlinealt"><label for="empFirstName">First Name</label></li><li class="formlinealtb"><input type="text" id="empFirstName" required></li>
+    	<li class="formline"><label for="empLastName">Last Name</label></li><li class="formlineb"><input type="text" id="empLastName" required></li>
+    	<li class="formlinealt"><label for="empAddress1">Street Address</label></li><li class="formlinealtb"><input type="text" id="empAddress1" required></li>
+    	<li class="formline"><label for="empAddress2">Town</label></li><li class="formlineb"><input type="text" id="empAddress2" required></li>
+    	<li class="formlinealt"><label for="empAddress3">City</label></li><li class="formlinealtb"><input type="text" id="empAddress3" required></li>
+    	<li class="formline"><label for="empPostcode">Postcode</label></li><li class="formlineb"><input type="text" id="empPostcode" required></li>
+    	<li class="formlinealt"><button type="submit">Submit</button></li>
+		</ul>
+	</form>
+	</article>
+    <article id="newSupplier" class="item4">
+    <h2>New Supplier</h2>
+    <form action="#">
+    	<ul class="inputform">
+    		<li class="formline"><label for="supplierName">Supplier Name</label></li><li class="formlineb"><input type="text" id="supplierName" required></li>
+    		<li class="formlinealt"><label for="contactName">Contact Name</label></li><li class="formlinealtb"><input type="text" id="cntactName" required></li>
+    		<li class="formline"><label for "supplierEmail">Email</label></li><li class="formlineb"><input type="text" id="supplierEmail" required></li>
+            <li class="formlinealt"><label for "supplierPhone1">Phone 1</label></li><li class="formlinealtb"><input type="text" id="engineSize"></li>
+            <li class="formline"><label for "supplierPhone2">Phone 2</label></li><li class="formlineb"><input type="text" id="supplierPhone2"></li>
+            <li class="formlinealt"><label for "supplierWebsite">Website</label></li><li class="formlinealtb"><input type="text" id="supplierWebsite"></li>
+            <li class="formline"><label for "supplierAddress1">Street Address</label></li><li class="formlineb"><input type="text" id="supplierAddress1"></li>
+            <li class="formlinealt"><label for "supplierAddress2">Town</label></li><li class="formlinealtb"><input type="text" id="supportAddress2"></li>
+            <li class="formline"><label for "supplierAddress3">City</label></li><li class="formlineb"><input type="text" id="supplierAddress3"></li>
+            <li class="formlinealt"><label for "supplierAddress4">Postcode</label></li><li class="formlinealtb"><input type="text" id="supportAddress4"></li>
+             <li class="formline"><label for "supplierAccno">Acc. Number</label></li><li class="formlineb"><input type="text" id="supplierAccno"></li>
+            <li class="formlinealt"><button type="submit">Submit</button></li>
+        </ul>
+    </form>
+	</article>
+</section>
+<footer>
+<h1><i><b>W</b>orkshop <b>M</b>anagement <b>S</b>ystem 1.0</i></h1>
+<h4>Coded by Will Peck</h4>
+</footer>
+</body>
+</html>

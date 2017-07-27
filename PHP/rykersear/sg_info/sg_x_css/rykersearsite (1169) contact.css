@@ -1,0 +1,13 @@
+#contactbg  {
+   position: absolute;
+   left: -282px;
+   top: 11px;
+   z-index: 3;
+   width: 1597px;
+   height: 890px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_contact_media/contactbg.png);
+   background-repeat: no-repeat;
+}
+

@@ -1,0 +1,16 @@
+
+<items>
+  <item path="productdisplay/translate_panelsheet_links.php"/>
+  <item path="ecommerce.xml"/>
+  <item path="buybtnbutton.htm"/>
+  <item path="buybtnfocusbutton.htm"/>
+  <item path="productdisplay/gxml.xml"/>
+  <item path="mdp.xml"/>
+  <item path="storexmedia.xmc.php"/>
+  <item path="media.xml"/>
+  <item path="productdisplay/gallery.xml"/>
+  <item path="title.xml"/>
+  <item path="editable.xml"/>
+  <item path="productdisplay/panelsheet_links.xml"/>
+  <item path="unique.xml"/>
+</items>

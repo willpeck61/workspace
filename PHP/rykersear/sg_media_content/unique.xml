@@ -1,0 +1,15 @@
+
+<items>
+  <item path="musicvideos/translate_panelsheet_links.php"/>
+  <item path="photos/translate_panelsheet_links.php"/>
+  <item path="musicvideos/gxml.xml"/>
+  <item path="photos/gxml.xml"/>
+  <item path="mdp.xml"/>
+  <item path="musicvideos/gallery.xml"/>
+  <item path="photos/gallery.xml"/>
+  <item path="title.xml"/>
+  <item path="editable.xml"/>
+  <item path="musicvideos/panelsheet_links.xml"/>
+  <item path="photos/panelsheet_links.xml"/>
+  <item path="unique.xml"/>
+</items>

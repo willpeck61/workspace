@@ -1,0 +1,33 @@
+#photosnextthumbsetbutton a:hover  {
+   background-position: -61px 0%;
+}
+
+#photosnextthumbsetbutton a.nmh  {
+   background-position: -61px 0%;
+}
+
+#photosnextthumbsetbutton a  {
+   background-image: url(sg_media_media/musicvideosnextthumbsetbu.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 36px;
+   width: 61px;
+   font-size: 36px;
+   line-height: 36px;
+}
+
+#photosnextthumbsetbutton  {
+   position: absolute;
+   left: 571px;
+   top: 410px;
+   z-index: 5;
+   width: 61px;
+   height: 36px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

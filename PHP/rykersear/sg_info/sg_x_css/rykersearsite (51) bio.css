@@ -1,0 +1,33 @@
+#mediabutton a:hover  {
+   background-position: -90px 0%;
+}
+
+#mediabutton a.nmh  {
+   background-position: -90px 0%;
+}
+
+#mediabutton a  {
+   background-image: url(sg_index_media/mediabutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 58px;
+   width: 90px;
+   font-size: 58px;
+   line-height: 58px;
+}
+
+#mediabutton  {
+   position: absolute;
+   left: 794px;
+   top: 12px;
+   z-index: 4;
+   width: 90px;
+   height: 58px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

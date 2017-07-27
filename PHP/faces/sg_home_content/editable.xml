@@ -1,0 +1,5 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_home_content/title.xml" status="unique"/>
+  <item type="text" name="COPYRIGHT © FACES 2013 | PRIVACY POLICY | TERMS | WEBSITE BY PA" file="sg_club_content/copyrightfaces2013privacy.htm" divid="copyrightfaces2013privacy" status="shared"/>
+</entries>

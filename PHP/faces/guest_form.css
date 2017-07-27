@@ -1,0 +1,151 @@
+.submit {
+	padding: 5px, 5px, 5px, 5px;
+	font-size:20px;
+}
+.optout {
+	font-size:12px !important;
+}
+#thursdayguestlistform fieldset {
+border: none; padding:10px; margin:2px; }
+
+#thursdayguestlistform fieldset legend {
+ }
+
+#thursdayguestlistform fieldset div label {
+ }
+
+#thursdayguestlistform fieldset div *:focus {
+ }
+
+#thursdayguestlistform fieldset div input,
+#thursdayguestlistform fieldset div textarea {
+	font-size: 20px;
+ }
+
+#thursdayguestlistform fieldset div input.hinted {
+  background-color: #EEEEFF;
+  color: #323232;
+ }
+
+#thursdayguestlistform fieldset div input[type=checkbox]  {
+   width: 20px;
+   height: 15px;
+   background: none;
+   border: none;
+}
+
+#thursdayguestlistform fieldset div.centerac  {
+   position: relative;
+   left: 192px;
+   width: 162px;
+}
+
+#thursdayguestlistform fieldset div .fml  {
+   margin-right: 8px;
+   display: block;
+   text-align: right;
+   float: left;
+   width: 168px;
+}
+
+#thursdayguestlistform fieldset div .fmr  {
+   width: 165px;
+   text-align: left;
+}
+
+#fridayguestlistform fieldset {
+border: none; padding:10px; margin:2px; }
+
+#fridayguestlistform fieldset legend {
+ }
+
+#fridayguestlistform fieldset div label {
+ }
+
+#fridayguestlistform fieldset div *:focus {
+ }
+
+#fridayguestlistform fieldset div input,
+#fridayguestlistform fieldset div textarea {
+	font-size: 20px;
+ }
+
+#fridayguestlistform fieldset div input.hinted {
+  background-color: #EEEEFF;
+  color: #323232;
+ }
+
+#fridayguestlistform fieldset div input[type=checkbox]  {
+   width: 20px;
+   height: 15px;
+   background: none;
+   border: none;
+}
+
+#fridayguestlistform fieldset div.centerac  {
+   position: relative;
+   left: 192px;
+   width: 162px;
+}
+
+#fridayguestlistform fieldset div .fml  {
+   margin-right: 8px;
+   display: block;
+   text-align: right;
+   float: left;
+   width: 168px;
+}
+
+#fridayguestlistform fieldset div .fmr  {
+   width: 165px;
+   text-align: left;
+}
+
+#saturdayguestlistform fieldset {
+border: none; padding:10px; margin:2px; }
+
+#saturdayguestlistform fieldset legend {
+ }
+
+#saturdayguestlistform fieldset div label {
+ }
+
+#saturdayguestlistform fieldset div *:focus {
+ }
+
+#saturdayguestlistform fieldset div input,
+#saturdayguestlistform fieldset div textarea {
+	font-size: 20px;
+ }
+
+#saturdayguestlistform fieldset div input.hinted {
+  background-color: #EEEEFF;
+  color: #323232;
+ }
+
+#saturdayguestlistform fieldset div input[type=checkbox]  {
+   width: 20px;
+   height: 15px;
+   background: none;
+   border: none;
+}
+
+#saturdayguestlistform fieldset div.centerac  {
+   position: relative;
+   left: 192px;
+   width: 162px;
+}
+
+#saturdayguestlistform fieldset div .fmr  {
+   width: 165px;
+   text-align: left;
+}
+
+#saturdayguestlistform fieldset div .fml  {
+   margin-right: 8px;
+   display: block;
+   text-align: right;
+   float: left;
+   width: 168px;
+}
+

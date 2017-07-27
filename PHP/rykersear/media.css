@@ -1,0 +1,161 @@
+#photospreviousthumbsetbut a:hover,
+#i1964musicvideospreviousthumbs a:hover,
+#i1964musicvideospreviousthumbs a.nmh,
+#photospreviousthumbsetbut a.nmh  {
+   background-position: -62px 0%;
+}
+
+#musicvideosnextthumbsetbu a:hover,
+#photosnextthumbsetbutton a.nmh,
+#photosnextthumbsetbutton a:hover,
+#musicvideosnextthumbsetbu a.nmh  {
+   background-position: -61px 0%;
+}
+
+#i2585musicvideosmetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 175px;
+   z-index: 4;
+   top: 369px;
+   left: 800px;
+   position: absolute;
+}
+
+#i1961musicvideosmetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 370px;
+   z-index: 7;
+   top: 536px;
+   left: 81px;
+   position: absolute;
+}
+
+#musicvideospicturebox  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 183px;
+   width: 223px;
+   z-index: 4;
+   top: 591px;
+   left: 149px;
+   position: absolute;
+}
+
+#musicvideosthumbsheet  {
+   margin-top: 0px;
+   margin-left: 0px;
+   min-height: 267px;
+   width: 503px;
+   z-index: 6;
+   top: 533px;
+   left: 464px;
+   position: absolute;
+}
+
+#i1789musicvideos  {
+   background-repeat: no-repeat;
+   background-image: url(sg_media_media/d1789musicvideos.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 27px;
+   width: 167px;
+   z-index: 6;
+   top: 473px;
+   left: 60px;
+   position: absolute;
+}
+
+#i1820musicvideos  {
+   background-repeat: no-repeat;
+   background-image: url(sg_media_media/d1820musicvideos.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 312px;
+   width: 380px;
+   z-index: 6;
+   top: 531px;
+   left: 76px;
+   position: absolute;
+}
+
+#photosthumbsheet  {
+   margin-top: 0px;
+   margin-left: 0px;
+   min-height: 240px;
+   width: 570px;
+   z-index: 5;
+   top: 167px;
+   left: 65px;
+   position: absolute;
+}
+
+#youtubebutton a  {
+   background-image: url(sg_bio_media/d1007youtubebutton.png);
+}
+
+#storebutton a  {
+   background-image: url(sg_media_media/storebutton.png);
+}
+
+#i1785photos  {
+   background-repeat: no-repeat;
+   background-image: url(sg_media_media/d1785photos.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 27px;
+   width: 85px;
+   z-index: 5;
+   top: 118px;
+   left: 60px;
+   position: absolute;
+}
+
+#layer15copy  {
+   background-repeat: no-repeat;
+   background-image: url(sg_media_media/layer15copy.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 386px;
+   width: 970px;
+   z-index: 5;
+   top: 493px;
+   left: 36px;
+   position: absolute;
+}
+
+#i1767rklogo  {
+   background-repeat: no-repeat;
+   background-image: url(sg_media_media/d1767rklogo.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 908px;
+   width: 1525px;
+   z-index: 3;
+   top: 4px;
+   left: -174px;
+   position: absolute;
+}
+
+#footmenu  {
+   z-index: 6;
+}
+
+#layer15  {
+   background-repeat: no-repeat;
+   background-image: url(sg_media_media/layer15.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 343px;
+   width: 630px;
+   z-index: 4;
+   top: 137px;
+   left: 35px;
+   position: absolute;
+}
+
+html, body  {
+   background-attachment: scroll;
+}
+

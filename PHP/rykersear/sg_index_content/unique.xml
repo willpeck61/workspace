@@ -1,0 +1,9 @@
+
+<items>
+  <item path="picturepanel/gxml.xml"/>
+  <item path="mdp.xml"/>
+  <item path="picturepanel/gallery.xml"/>
+  <item path="title.xml"/>
+  <item path="editable.xml"/>
+  <item path="unique.xml"/>
+</items>

@@ -1,0 +1,12 @@
+#!/bin/sh
+# Author Will Peck
+FileAuthors = `ls -r`
+
+for Author in FileAuthors
+do
+	echo Author $USER
+	if [ Author = $USER ]
+	then
+		echo Author
+	fi
+done

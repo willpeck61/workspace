@@ -1,0 +1,120 @@
+/* custom styles */
+
+body, header {
+	background-color: #fff;
+}
+
+header {
+
+	background-image: url("../img/portfolio/finnish/industrial-paints.jpg");
+	background-size: cover;
+}
+
+#maincontent {
+	background-color: rgba(33,33,33,0.5);
+}
+
+footer .footer-above {
+	background-color: #333;
+}
+
+a:active, a.active {
+	background-color: #13aaf0 !important;
+}
+
+section {
+ 	padding-bottom: 0px;
+}
+
+footer .footer-below {
+	background-color: #222;
+}
+
+.reduce-bottom-margin {
+	margin-bottom:15px !important;
+}
+
+.top-padding-px {
+	margin-top: 10px !important;
+}
+
+.navbar {
+	background-color: #fff;
+}
+
+.navbar-nav a {
+	color: #000 !important;
+}
+
+.navbar-brand {
+	color: #000 !important;
+	letter-spacing: -2px;
+}
+
+.norm-text {
+	letter-spacing: 0;
+}
+
+.navbar-brand .raleway {
+	font-family: 'Raleway', sans-serif;
+	text-transform: capitalize;
+    letter-spacing: 4px;
+	margin-bottom: -1px;
+}
+
+#about, #about .container {
+	background-color: #fff;
+	color: #000;
+}
+
+.spacer {
+	padding-top: 5px;
+}
+
+@media (min-width: 768px) {
+
+	.modal-backdrop {
+		top:12vh;
+	}
+
+
+	.modal {
+		top: 15vh;
+		bottom: 5vh;
+		right: 5vw;
+		left: 5vw;
+	}
+
+	.stop-transition {
+	  	-webkit-transition: none !important;
+	 	-moz-transition: none !important;
+	  	-o-transition: none !important;
+	  	transition: none !important;
+	}
+	.add-padding-15 {
+		padding-right: 15px !important;
+	}
+
+	/* override bootstrap 3 class to remove scrollbar from modal backdrop
+	   when not necessary */
+	.modal {
+	  overflow-y: auto;
+	}
+	/* custom class to add space for scrollbar */
+	.modal-scrollbar {
+		margin-right: 15px;
+	}
+}
+
+.footer-col a {
+	color: #fff;
+}
+
+#contact .form-group button {
+	margin-bottom: 55px;
+}
+
+.navbar-toggle {
+	color: #000 !important;
+	border: 1px solid #000 !important;
+}

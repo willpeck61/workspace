@@ -1,0 +1,52 @@
+.buybtnbutton a:active  {
+   background-position: -174px 0%;
+}
+
+.buybtnbutton a:hover  {
+   background-position: -87px 0%;
+}
+
+.buybtnbutton a.nmh  {
+   background-position: -87px 0%;
+}
+
+.buybtnbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 26px;
+   top: 9px;
+   width: 34px;
+   height: 23px;
+}
+
+.buybtnbutton a  {
+   background-image: url(sg_store_media/buybtnbutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   width: 87px;
+   height: 45px;
+}
+
+.buybtnbutton  {
+   line-height: 29px;
+   font-size: 24px;
+   font-family: HamburgerHeaven, "Hamburger Heaven";
+   text-align: left;
+   position: absolute;
+   left: 392px;
+   top: 99px;
+   z-index: 7;
+   width: 87px;
+   height: 45px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.cFCFBFB a  {
+   color: #FCFBFB;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

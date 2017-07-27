@@ -1,0 +1,33 @@
+#youtubebutton a:hover  {
+   background-position: -71px 0%;
+}
+
+#youtubebutton a.nmh  {
+   background-position: -71px 0%;
+}
+
+#youtubebutton a  {
+   background-image: url(sg_shows_media/d598youtubebutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 72px;
+   width: 71px;
+   font-size: 72px;
+   line-height: 72px;
+}
+
+#youtubebutton  {
+   position: absolute;
+   left: 928px;
+   top: 124px;
+   z-index: 5;
+   width: 71px;
+   height: 72px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

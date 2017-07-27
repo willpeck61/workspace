@@ -1,0 +1,7 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_media_content/title.xml" status="unique"/>
+  <item type="menu" name="foot -menu" file="sg_index_content/footmenu.xml" divid="footmenu" status="shared"/>
+  <item type="gallery" name="photos -thumbsheet" file="sg_media_content/photos/gallery.xml" divid="photosthumbsheet" status="unique"/>
+  <item type="gallery" name="musicvideos -picturebox " file="sg_media_content/musicvideos/gallery.xml" divid="musicvideospicturebox" status="unique"/>
+</entries>

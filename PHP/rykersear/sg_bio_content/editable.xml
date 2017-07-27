@@ -1,0 +1,6 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_bio_content/title.xml" status="unique"/>
+  <item type="menu" name="foot -menu" file="sg_index_content/footmenu.xml" divid="footmenu" status="shared"/>
+  <item type="text" name="Main_text" file="sg_bio_content/maintext.htm" divid="maintext" status="unique"/>
+</entries>

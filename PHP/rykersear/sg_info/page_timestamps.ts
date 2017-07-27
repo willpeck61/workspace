@@ -1,0 +1,2 @@
+(:time 1387293553 :page-sxml #S(ML-TREE:XMLENTRY :TAG :|item| :ATTRIBUTES (:|icon| "index.gif" :|designfname| "index" :|design| "index-page" :|path| "index.php" :|isfile| "true" :|id| "1" :|aname| "index" :|name| "index-page") :CONTENT NIL) :op :UPDATE)
+(:time 1387293553 :page-sxml #S(ML-TREE:XMLENTRY :TAG :|item| :ATTRIBUTES (:|ishome| "true" :|icon| "index.gif" :|designfname| "index" :|design| "index-page" :|path| "index.php" :|isfile| "true" :|id| "1" :|aname| "index" :|name| "index-page") :CONTENT NIL) :op :UPDATE)

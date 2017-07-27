@@ -1,0 +1,11 @@
+.productdisplaypanelthumb  {
+   position: absolute;
+   left: 4px;
+   top: 5px;
+   z-index: 7;
+   width: 156px;
+   height: 140px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+

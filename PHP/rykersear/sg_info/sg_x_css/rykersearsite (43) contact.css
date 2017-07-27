@@ -1,0 +1,33 @@
+#storebutton a:hover  {
+   background-position: -70px 0%;
+}
+
+#storebutton a.nmh  {
+   background-position: -70px 0%;
+}
+
+#storebutton a  {
+   background-image: url(sg_index_media/storebutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 49px;
+   width: 70px;
+   font-size: 49px;
+   line-height: 49px;
+}
+
+#storebutton  {
+   position: absolute;
+   left: 593px;
+   top: 13px;
+   z-index: 4;
+   width: 70px;
+   height: 49px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

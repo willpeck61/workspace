@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Exploring the Data}{3}
+\contentsline {section}{\numberline {3}Classification and Evaluation}{4}
+\contentsline {subsection}{\numberline {3.1}Logistic Regression Equation}{6}
+\contentsline {subsection}{\numberline {3.2}Receiver Operator Characteristic Curve and Area Under the Curve}{6}
+\contentsline {section}{\numberline {4}Clustering}{7}
+\contentsline {section}{\numberline {5}Conclusion}{8}

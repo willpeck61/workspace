@@ -1,0 +1,6 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_index_content/title.xml" status="unique"/>
+  <item type="menu" name="foot -menu" file="sg_index_content/footmenu.xml" divid="footmenu" status="shared"/>
+  <item type="gallery" name="picture_panel -picturebox" file="sg_index_content/picturepanel/gallery.xml" divid="picturepanelpicturebox" status="unique"/>
+</entries>

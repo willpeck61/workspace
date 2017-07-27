@@ -1,0 +1,9 @@
+<providers>
+ 
+<metadataentries name="photos -thumbsheet"/>
+ 
+<metadataentries name="musicvideos -picturebox ">
+  <metadata name="animation" type="text"/>
+  <metadata name="embed_code" type="text"/>
+</metadataentries>
+</providers>

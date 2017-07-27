@@ -1,0 +1,33 @@
+#musicvideosnextthumbsetbu a:hover  {
+   background-position: -61px 0%;
+}
+
+#musicvideosnextthumbsetbu a.nmh  {
+   background-position: -61px 0%;
+}
+
+#musicvideosnextthumbsetbu a  {
+   background-image: url(sg_media_media/musicvideosnextthumbsetbu.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 36px;
+   width: 61px;
+   font-size: 36px;
+   line-height: 36px;
+}
+
+#musicvideosnextthumbsetbu  {
+   position: absolute;
+   left: 909px;
+   top: 806px;
+   z-index: 6;
+   width: 61px;
+   height: 36px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

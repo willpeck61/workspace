@@ -1,0 +1,63 @@
+#i7564eventsbutton a.nmh,
+#i7564eventsbutton a:hover  {
+   background-position: -166px 0%;
+}
+
+#copyrightfaces2013privacy  {
+   z-index: 4;
+}
+
+#i7516octcopy  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 424px;
+   z-index: 7;
+   top: 104px;
+   left: 321px;
+   position: absolute;
+}
+
+#i7515layer64  {
+   background-repeat: no-repeat;
+   background-image: url(sg_club_media/d7452layer58.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 715px;
+   width: 987px;
+   z-index: 6;
+   top: 30px;
+   left: 23px;
+   position: absolute;
+}
+
+#footerbar  {
+   z-index: 3;
+}
+
+#i7517oct  {
+   background-repeat: no-repeat;
+   background-image: url(sg_calendar_media/d7517oct.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 90px;
+   width: 218px;
+   z-index: 8;
+   top: 14px;
+   left: 416px;
+   position: absolute;
+}
+
+#octcopy2  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 866px;
+   z-index: 7;
+   top: 378px;
+   left: 105px;
+   position: absolute;
+}
+
+html, body  {
+   background-color: #FFFFFF;
+}
+

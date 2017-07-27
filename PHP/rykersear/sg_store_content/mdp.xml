@@ -1,0 +1,8 @@
+<providers>
+ 
+<metadataentries name="productdisplay -picturebox">
+  <metadata name="description" type="text"/>
+  <metadata name="price" type="text"/>
+  <metadata name="title" type="text"/>
+</metadataentries>
+</providers>

@@ -1,0 +1,8 @@
+
+<entries>
+  <item type="title" name="page title" file="sg_guest_content/title.xml" status="unique"/>
+  <item type="text" name="THURSDAYS GUESTLIST" file="sg_events_content/thursdaysguestlist.htm" divid="thursdaysguestlist" status="unique"/>
+  <item type="text" name="JOIN THE GUESTLIST TO GET FREE ENTRY BEFORE 11PM* AND JUMP THE " file="sg_events_content/i9834jointheguestlisttogetfree.htm" divid="i9834jointheguestlisttogetfree" status="unique"/>
+  <item type="text" name="Contact" file="sg_events_content/i9825contact.htm" divid="i9825contact" status="unique"/>
+  <item type="text" name="COPYRIGHT © FACES 2013 | PRIVACY POLICY | TERMS | WEBSITE BY PA" file="sg_club_content/copyrightfaces2013privacy.htm" divid="copyrightfaces2013privacy" status="shared"/>
+</entries>

@@ -1,0 +1,16 @@
+
+<designs>
+  <design name="club" icon="club.gif" path="designs/club.data" contentdir="sg_club_content"/>
+  <design name="private" icon="private.gif" path="designs/private.data" contentdir="sg_private_content"/>
+  <design name="gallery" icon="gallery.gif" path="designs/gallery.data" contentdir="sg_gallery_content"/>
+  <design name="contact" icon="contact.gif" path="designs/contact.data" contentdir="sg_contact_content"/>
+  <design name="events" icon="events.gif" path="designs/events.data" contentdir="sg_events_content"/>
+  <design name="parties" icon="parties.gif" path="designs/parties.data" contentdir="sg_parties_content"/>
+  <design name="booths" icon="booths.gif" path="designs/booths.data" contentdir="sg_booths_content"/>
+  <design name="drinks" icon="drinks.gif" path="designs/drinks.data" contentdir="sg_drinks_content"/>
+  <design name="vip" icon="vip.gif" path="designs/vip.data" contentdir="sg_vip_content"/>
+  <design name="guest" icon="guest.gif" path="designs/guest.data" contentdir="sg_guest_content"/>
+  <design name="home" icon="home.gif" path="designs/home.data" contentdir="sg_home_content"/>
+  <design name="calendar" icon="calendar.gif" path="designs/calendar.data" contentdir="sg_calendar_content"/>
+  <design name="privateform" icon="privateform.gif" path="designs/privateform.data" contentdir="sg_privateform_content"/>
+</designs>

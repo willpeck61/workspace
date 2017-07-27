@@ -1,0 +1,9 @@
+
+<pages>
+  <item name="index-page" aname="index" id="1" isfile="true" path="index.php" design="index-page" designfname="index" icon="index.gif" ishome="true"/>
+  <item name="shows-page" aname="shows" id="3" isfile="true" path="shows.php" design="shows-page" designfname="shows" icon="shows.gif"/>
+  <item name="bio-page" aname="bio" id="5" isfile="true" path="bio.php" design="bio-page" designfname="bio" icon="bio.gif"/>
+  <item name="contact-page" aname="contact" id="7" isfile="true" path="contact.php" design="contact-page" designfname="contact" icon="contact.gif"/>
+  <item name="store-page" aname="store" id="9" isfile="true" path="store.php" design="store-page" designfname="store" icon="store.gif"/>
+  <item name="media-page" aname="media" id="11" isfile="true" path="media.php" design="media-page" designfname="media" icon="media.gif"/>
+</pages>

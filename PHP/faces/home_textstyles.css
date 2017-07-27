@@ -1,0 +1,7 @@
+.youtubefeedembed p a,
+.twitterfeedclickhideembed p a,
+.facebookfeedclickshowembe p a,
+.twitterfeedclickshowembed p a  {
+   display: inline;
+}
+

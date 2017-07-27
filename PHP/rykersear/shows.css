@@ -1,0 +1,233 @@
+#i729showsmainflyerpreviousthu a.nmh,
+#i729showsmainflyerpreviousthu a:hover  {
+   background-position: -153px 0%;
+}
+
+#i609showsmainflyernextthumbse a:hover,
+#i609showsmainflyernextthumbse a.nmh  {
+   background-position: -96px 0%;
+}
+
+#buyticketsbutton a.nmh,
+#buyticketsbutton a:hover  {
+   background-position: -80px 0%;
+}
+
+#calendarmonthsmenu > ul > li > a  {
+   display: inline;
+}
+
+#i729showsmainflyerpreviousthu a  {
+   line-height: 43px;
+   font-size: 43px;
+   width: 153px;
+   height: 43px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_shows_media/d729showsmainflyerprevioust.png);
+}
+
+#i609showsmainflyernextthumbse a  {
+   line-height: 42px;
+   font-size: 42px;
+   width: 96px;
+   height: 42px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_shows_media/d609showsmainflyernextthumb.png);
+}
+
+#i609showsmainflyernextthumbse  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 42px;
+   width: 96px;
+   z-index: 5;
+   top: 807px;
+   left: 875px;
+   position: absolute;
+}
+
+#i729showsmainflyerpreviousthu  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 43px;
+   width: 153px;
+   z-index: 5;
+   top: 807px;
+   left: 520px;
+   position: absolute;
+}
+
+#i619showsmainflyermetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 147px;
+   z-index: 5;
+   top: 777px;
+   left: 358px;
+   position: absolute;
+}
+
+#i618showsmainflyermetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 197px;
+   z-index: 5;
+   top: 674px;
+   left: 302px;
+   position: absolute;
+}
+
+#i615showsmainflyermetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 216px;
+   z-index: 5;
+   top: 568px;
+   left: 293px;
+   position: absolute;
+}
+
+#i611showsmainflyermetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 134px;
+   z-index: 5;
+   top: 579px;
+   left: 679px;
+   position: absolute;
+}
+
+#calendarmonthsmenu ul li a  {
+   padding-right: 0.44em;
+   padding-left: 0.44em;
+   height: 100%;
+   line-height: 23px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+
+#showsmainflyerpicturebox  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 279px;
+   width: 216px;
+   z-index: 5;
+   top: 563px;
+   left: 71px;
+   position: absolute;
+}
+
+#calendarmonthsmenu ul li  {
+   margin-bottom: 0px;
+   margin-top: 0px;
+   height: 100%;
+}
+
+#showsmainflyerthumbsheet  {
+   margin-top: 0px;
+   margin-left: 0px;
+   min-height: 191px;
+   width: 412px;
+   z-index: 5;
+   top: 606px;
+   left: 524px;
+   position: absolute;
+}
+
+#titletextshowscalender  {
+   background-repeat: no-repeat;
+   background-image: url(sg_shows_media/titletextshowscalender.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 37px;
+   width: 113px;
+   z-index: 5;
+   top: 515px;
+   left: 72px;
+   position: absolute;
+}
+
+#calendarmonthsmenu ul  {
+   text-align: left;
+   font-family: HamburgerHeaven, "Hamburger Heaven";
+   font-size: 17px;
+   line-height: 23px;
+   padding: 0px;
+   margin: 0px;
+   height: 23px;
+}
+
+#buyticketsbutton a  {
+   line-height: 20px;
+   font-size: 20px;
+   width: 80px;
+   height: 20px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_shows_media/buyticketsbutton.png);
+}
+
+#calendarmonthsmenu  {
+   margin-top: 0px;
+   margin-left: 0px;
+   z-index: 5;
+   top: 530px;
+   left: 525px;
+   position: absolute;
+}
+
+#buyticketsbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 20px;
+   width: 80px;
+   z-index: 5;
+   top: 814px;
+   left: 422px;
+   position: absolute;
+}
+
+#showsbutton a  {
+   background-image: url(sg_shows_media/showsbutton.png);
+}
+
+#calendertext  {
+   background-repeat: no-repeat;
+   background-image: url(sg_shows_media/calendertext.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 15px;
+   width: 89px;
+   z-index: 5;
+   top: 577px;
+   left: 529px;
+   position: absolute;
+}
+
+#biobutton a  {
+   background-image: url(sg_shows_media/biobutton.png);
+}
+
+#shape4copy  {
+   background-repeat: no-repeat;
+   background-image: url(sg_shows_media/shape4copy.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 408px;
+   width: 983px;
+   z-index: 4;
+   top: 475px;
+   left: 22px;
+   position: absolute;
+}
+
+.c_b * a  {
+   color: #000000;
+}
+
+html, body  {
+   background-image: url(sg_shows_media/d751browserbackground.png);
+}
+

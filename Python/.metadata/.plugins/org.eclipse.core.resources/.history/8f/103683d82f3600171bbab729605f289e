@@ -1,0 +1,21 @@
+'''
+Created on 10 May 2017
+
+@author: will
+'''
+import math
+
+def exponent(aval, bval, fval):
+    aval *= 2
+    bval /= 2
+    bval = math.floor(bval)
+    if (bval % 2) != 0:
+        fval += aval
+    print(aval, " ", bval)
+    if (bval != 1):
+        return exponent(aval, bval, fval)
+    else:
+        return fval
+    
+#def cakecut(nodes, edges):
+    

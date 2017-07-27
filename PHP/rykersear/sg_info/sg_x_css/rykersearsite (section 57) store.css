@@ -1,0 +1,14 @@
+#footer_div  {
+   background-color: #000000;
+   height: 39px;
+}
+
+.footer_div_bkg  {
+   position: absolute;
+   width: 1030px;
+   left: 0px;
+   top: 0px;
+   display: block;
+   z-index: 1;
+}
+

@@ -1,0 +1,52 @@
+#buybtnfocusbutton a:active  {
+   background-position: -174px 0%;
+}
+
+#buybtnfocusbutton a:hover  {
+   background-position: -87px 0%;
+}
+
+#buybtnfocusbutton a.nmh  {
+   background-position: -87px 0%;
+}
+
+#buybtnfocusbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 26px;
+   top: 9px;
+   width: 34px;
+   height: 23px;
+}
+
+#buybtnfocusbutton a  {
+   background-image: url(sg_store_media/buybtnfocusbutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   width: 87px;
+   height: 46px;
+}
+
+#buybtnfocusbutton  {
+   line-height: 29px;
+   font-size: 24px;
+   font-family: HamburgerHeaven, "Hamburger Heaven";
+   text-align: left;
+   position: absolute;
+   left: 815px;
+   top: 282px;
+   z-index: 4;
+   width: 87px;
+   height: 46px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.cFCFBFB a  {
+   color: #FCFBFB;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

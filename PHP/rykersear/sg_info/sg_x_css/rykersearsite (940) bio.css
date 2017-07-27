@@ -1,0 +1,33 @@
+#i940downloadmp3button a:hover  {
+   background-position: -70px 0%;
+}
+
+#i940downloadmp3button a.nmh  {
+   background-position: -70px 0%;
+}
+
+#i940downloadmp3button a  {
+   background-image: url(sg_bio_media/d940downloadmp3button.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 98px;
+   width: 70px;
+   font-size: 98px;
+   line-height: 98px;
+}
+
+#i940downloadmp3button  {
+   position: absolute;
+   left: 389px;
+   top: 783px;
+   z-index: 4;
+   width: 70px;
+   height: 98px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

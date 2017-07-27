@@ -1,0 +1,31 @@
+#productdisplaypanelsheet  {
+   position: absolute;
+   left: 420px;
+   top: 369px;
+   z-index: 4;
+   width: 484px;
+   min-height: 490px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.productdisplaypanel  {
+   float: left;
+   position: relative;
+   display: block;
+   overflow: hidden;
+   z-index: 5;
+   width: 484px;
+   min-height: 150px;
+}
+
+.sgthumb:hover  {
+   border-color: #0000FF;
+}
+
+.sgthumb  {
+   border-width: 2px;
+   border-style: solid;
+   border-color: #FF0000;
+}
+

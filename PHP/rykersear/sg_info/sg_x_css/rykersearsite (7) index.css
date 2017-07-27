@@ -1,0 +1,13 @@
+#logo  {
+   position: absolute;
+   left: 30px;
+   top: 0px;
+   z-index: 4;
+   width: 443px;
+   height: 384px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_index_media/logo.png);
+   background-repeat: no-repeat;
+}
+

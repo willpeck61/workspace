@@ -1,0 +1,56 @@
+#i9766privatebutton a:hover,
+#i9766privatebutton a.nmh  {
+   background-position: -166px 0%;
+}
+
+#formprivateform fieldset div.centerac *  {
+   min-width: 96px;
+}
+
+#formprivateform fieldset *:last-child  {
+   padding-bottom: 0;
+}
+
+#formprivateform input[type=submit]  {
+   padding: 0px;
+}
+
+#enquiriesforvipprivatehir  {
+   background-repeat: no-repeat;
+   background-image: url(sg_privateform_media/enquiriesforvipprivatehir.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 24px;
+   width: 354px;
+   z-index: 5;
+   top: 93px;
+   left: 105px;
+   position: absolute;
+}
+
+#i9763vip22ndpic  {
+   background-repeat: no-repeat;
+   background-image: url(sg_privateform_media/d9763vip22ndpic.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 733px;
+   width: 987px;
+   z-index: 4;
+   top: 12px;
+   left: 23px;
+   position: absolute;
+}
+
+#formprivateform  {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 854px;
+	z-index: 5;
+	top: 118px;
+	left: 88px;
+	position: absolute;
+}
+
+html, body  {
+   background-color: #000;
+}

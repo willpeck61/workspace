@@ -1,0 +1,55 @@
+#i940downloadmp3button a.nmh,
+#i940downloadmp3button a:hover  {
+   background-position: -70px 0%;
+}
+
+#i940downloadmp3button  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 98px;
+   width: 70px;
+   z-index: 4;
+   top: 783px;
+   left: 389px;
+   position: absolute;
+}
+
+#i939freemp3download  {
+   background-repeat: no-repeat;
+   background-image: url(sg_bio_media/d939freemp3download.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 41px;
+   width: 120px;
+   z-index: 4;
+   top: 732px;
+   left: 378px;
+   position: absolute;
+}
+
+#facebookbutton a  {
+   background-image: url(sg_bio_media/facebookbutton.png);
+}
+
+#contactbutton a  {
+   background-image: url(sg_bio_media/contactbutton.png);
+}
+
+#storebutton a  {
+   background-image: url(sg_bio_media/storebutton.png);
+}
+
+#maintext  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 570px;
+   z-index: 4;
+   top: 197px;
+   left: 31px;
+   position: absolute;
+}
+
+html, body  {
+   background-image: url(sg_bio_media/d1018browserbackground.png);
+}
+

@@ -1,0 +1,13 @@
+#titletextshowscalender  {
+   position: absolute;
+   left: 72px;
+   top: 515px;
+   z-index: 5;
+   width: 113px;
+   height: 37px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_shows_media/titletextshowscalender.png);
+   background-repeat: no-repeat;
+}
+

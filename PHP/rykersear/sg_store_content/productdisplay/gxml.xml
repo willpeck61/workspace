@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sggallery version="1.0" name="unused" dirname="unused">
+ <options>
+  <picturebox>
+   <option varname="width" value="245" type="number" />
+   <option varname="height" value="235" type="number" />
+   <option varname="divname" value="productdisplaypicturebox" type="string" />
+
+<option varname="constructor" value="pictureboxSiteGrinderCSSAnim" type=""/>
+<option varname="type" value="animatedcss" type=""/>
+<option varname="version" value="2.0" type=""/>
+<option varname="fit" value="fill" type="choice"/>
+<option varname="transition" value="CSS3CrossFade" type="choice"/>
+<option varname="alignment" value="center" type="choice"/>
+<option varname="clickaction" value="advance" type="choice"/>
+<option varname="autoadvance" value="false" type="boolean"/>
+<option varname="autoadvancedelayseconds" value="3" type="number"/>
+<option varname="autoadvancedtransitiontimeseconds" value="0.5" type="number"/>
+<option varname="endaction" value="loop" type="choice"/>
+<option varname="endurl" value="index.html" type="string"/>
+<option varname="rightclickblock" value="true" type="boolean"/>   <option varname="preloaderimage" value="sg_jscripts/gallery_plugins/preloader.gif" type="file" />
+  </picturebox>
+  <panel>
+   <option varname="mode" value="exhibit" type="string" />
+   <option varname="sheetwidth" value="484" type="number" />
+   <option varname="sheetheight" value="490" type="number" />
+   <option varname="sheetdivname" value="productdisplaypanelsheet" type="string" />
+   <option varname="panelthumbclass" value="productdisplaypanelthumb" type="string" />
+   <option varname="panelwidth" value="484" type="number" />
+   <option varname="panelheight" value="150" type="number" />
+   <option varname="thumbwidth" value="156" type="number" />
+   <option varname="thumbheight" value="140" type="number" />
+
+<option varname="constructor" value="scrollPanel" type=""/>
+<option varname="type" value="scrollPanel" type=""/>
+<option varname="version" value="1.0" type=""/>
+<option varname="fit" value="fill" type="choice"/>
+<option varname="datatype" value="gallery" type="choice"/>
+<option varname="dataurl" value="http://rss.news.yahoo.com/rss/topstories" type="string"/>
+<option varname="usehtmlmetadata" value="false" type="boolean"/>
+<option varname="sheetorientation" value="auto" type="choice"/>
+<option varname="tweenduration" value="1" type="number"/>
+<option varname="loopback" value="true" type="boolean"/>
+<option varname="backgroundclickable" value="false" type="boolean"/>
+<option varname="backgroundohoverchange" value="true" type="boolean"/>
+<option varname="backgroundhovercolor" value="#C08E4A" type="color"/>
+<option varname="clickaction" value="picturebox" type="choice"/>
+<option varname="autoplay" value="false" type="boolean"/>
+<option varname="playdelay" value="5" type="number"/>  </panel>
+ </options>
+ <panels>
+  <panel>
+  <div  class="productdisplaypanel">
+   <div class="i1444productdisplaymetadata text_link">
+ <p><span class="productdisplay_d title"></span></p>
+ <p><span  style="line-height:14px; font-weight:normal; font-size:12px;"><span class="productdisplay_d description"></span></span></p>
+   </div>
+   <div class="i1445productdisplaymetadata text_link">
+ <p>£<span class="productdisplay_d price"></span></p>
+   </div>
+   <div class="productdisplaypanelthumb"></div>
+   <div class="i2105productdisplaybg"></div>
+   <div class="buybtnbutton layergroup_button cFCFBFB"><a onfocus="blur()" href="1450" class="nm foxycart productdisplay_d"><ins>BUY</ins></a></div>
+  </div><!-- /productdisplaypanel -->
+  </panel>
+ </panels>
+
+<metadataentries name="productdisplay -picturebox">
+  <metadata name="description" type="text"/>
+  <metadata name="price" type="text"/>
+  <metadata name="title" type="text"/>
+</metadataentries>
+ <exhibits>
+ </exhibits>
+</sggallery>

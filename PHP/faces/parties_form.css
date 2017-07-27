@@ -1,0 +1,47 @@
+#formprivateform fieldset {
+border: none; padding:10px; margin:2px; }
+
+#formprivateform fieldset legend {
+ }
+
+#formprivateform fieldset div label {
+ }
+
+#formprivateform fieldset div *:focus {
+ }
+
+#formprivateform fieldset div input,
+#formprivateform fieldset div textarea {
+ }
+
+#formprivateform fieldset div input.hinted {
+  background-color: #EEEEFF;
+  color: #323232;
+ }
+
+#formprivateform fieldset div input[type=checkbox]  {
+   width: 20px;
+   height: 15px;
+   background: none;
+   border: none;
+}
+
+#formprivateform fieldset div.centerac  {
+   position: relative;
+   left: 192px;
+   width: 162px;
+}
+
+#formprivateform fieldset div .fmr  {
+   width: 165px;
+   text-align: left;
+}
+
+#formprivateform fieldset div .fml  {
+   margin-right: 8px;
+   display: block;
+   text-align: right;
+   float: left;
+   width: 168px;
+}
+

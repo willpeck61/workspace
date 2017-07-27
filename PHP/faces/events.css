@@ -1,0 +1,187 @@
+#i7758close > div:first-child,
+#i9822close > div:first-child,
+#i7775close > div:first-child,
+#i9846close > div:first-child,
+#i7740close > div:first-child,
+#i9861close > div:first-child,
+#i7616close > div:first-child  {
+   background-image: url(sg_events_media/d9885close.gif);
+}
+
+#guestbutton,
+#homebutton,
+#i247clubbutton,
+#gallerybutton,
+#i252privatebutton,
+#i655contactbutton  {
+   z-index: 12;
+}
+
+#buttonbgbutton,
+#i298eventsbutton,
+#i282drinksbutton  {
+   z-index: 11;
+}
+
+#i316boothsbutton,
+#partiesbutton  {
+   z-index: 14;
+}
+
+#i11340privateformbutton a  {
+   background-image: url(sg_events_media/d11340privateformbutton.gif);
+}
+
+#i1064thursdayslbbutton a  {
+   background-image: url(sg_events_media/d1064thursdayslbbutton.gif);
+}
+
+#i1067thursdayslbbutton a  {
+   background-image: url(sg_events_media/d1067thursdayslbbutton.gif);
+}
+
+#i323vectorsmartobject  {
+   background-image: url(sg_events_media/d323vectorsmartobject.gif);
+}
+
+#i252privatebutton a  {
+   background-image: url(sg_events_media/d252privatebutton.gif);
+}
+
+#i3631boothsbutton a  {
+   background-image: url(sg_events_media/d3631boothsbutton.gif);
+}
+
+#i3632boothsbutton a  {
+   background-image: url(sg_events_media/d3632boothsbutton.gif);
+}
+
+#i655contactbutton a  {
+   background-image: url(sg_events_media/contactbutton.gif);
+}
+
+#saturdayslbbutton a  {
+   background-image: url(sg_events_media/saturdayslbbutton.gif);
+}
+
+#i298eventsbutton a  {
+   background-image: url(sg_events_media/d298eventsbutton.gif);
+}
+
+#i316boothsbutton a  {
+   background-image: url(sg_gallery_media/d316boothsbutton.gif);
+}
+
+#specialslbbutton a  {
+   background-image: url(sg_events_media/specialslbbutton.gif);
+}
+
+#i282drinksbutton a  {
+   background-image: url(sg_events_media/d282drinksbutton.gif);
+}
+
+#i11338layer33copy  {
+   background-image: url(sg_events_media/d11338layer33copy.gif);
+}
+
+#fridayslbbutton a  {
+   background-image: url(sg_events_media/fridayslbbutton.gif);
+}
+
+#buttonbgbutton a  {
+   background-image: url(sg_events_media/buttonbgbutton.gif);
+}
+
+#i247clubbutton a  {
+   background-image: url(sg_events_media/clubbutton.gif);
+}
+
+#gallerybutton a  {
+   background-image: url(sg_events_media/gallerybutton.gif);
+}
+
+#i1600guestlist  {
+   background-image: url(sg_events_media/d1600guestlist.gif);
+}
+
+#guestbutton a  {
+   background-image: url(sg_events_media/guestbutton.gif);
+}
+
+#i1598parties  {
+   background-image: url(sg_gallery_media/d1598parties.gif);
+}
+
+#i3629layer49  {
+   background-image: url(sg_events_media/d3629layer49.gif);
+}
+
+#homebutton a  {
+   background-image: url(sg_events_media/homebutton.gif);
+}
+
+#layer9copy4  {
+   background-image: url(sg_events_media/layer9copy4.gif);
+}
+
+#shadowcopy2  {
+   background-image: url(sg_events_media/shadowcopy2.gif);
+}
+
+#vipbutton a  {
+   background-image: url(sg_events_media/vipbutton.gif);
+}
+
+#i1599booths  {
+   background-image: url(sg_gallery_media/d1599booths.gif);
+}
+
+#shadowcopy  {
+   background-image: url(sg_events_media/shadowcopy.gif);
+}
+
+#i386drinks  {
+   background-image: url(sg_events_media/d386drinks.gif);
+}
+
+#i476events  {
+   background-image: url(sg_events_media/d476events.gif);
+}
+
+#vipbutton  {
+   z-index: 10;
+}
+
+#layer53  {
+   background-image: url(sg_events_media/layer53.gif);
+}
+
+#i443vip  {
+   background-image: url(sg_events_media/d443vip.gif);
+}
+
+#layer25  {
+   background-repeat: no-repeat;
+   background-image: url(sg_events_media/layer25.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 618px;
+   width: 790px;
+   z-index: 4;
+   top: 0px;
+   left: 233px;
+   position: absolute;
+}
+
+#shadow  {
+   background-image: url(sg_events_media/shadow.gif);
+}
+
+#lshape  {
+   background-image: url(sg_events_media/lshape.gif);
+}
+
+#backr  {
+   background-image: url(sg_events_media/backr.gif);
+}
+

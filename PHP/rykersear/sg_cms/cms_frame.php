@@ -1,0 +1,4 @@
+<html>
+<body style="margin:0px; padding:0px; overflow:hidden">
+<!--[if lte IE 8]><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%"> <param name="quality" value="best" /><param name="movie" value="site_cms_ui.lzx.swf" /><param name="menu" value="false" /><param name="FlashVars" value="serverarg=php" /></object><![endif]--><!--[if gt IE 8]> <!--> <object type="application/x-shockwave-flash" data="site_cms_ui.lzx.swf" width="100%" height="100%"> <param name="quality" value="best" /><param name="menu" value="false" /><param name="FlashVars" value="serverarg=php" /></object><!-- <![endif]-->
+</body></html>

@@ -1,0 +1,33 @@
+#biobutton a:hover  {
+   background-position: -48px 0%;
+}
+
+#biobutton a.nmh  {
+   background-position: -48px 0%;
+}
+
+#biobutton a  {
+   background-image: url(sg_index_media/biobutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 39px;
+   width: 48px;
+   font-size: 39px;
+   line-height: 39px;
+}
+
+#biobutton  {
+   position: absolute;
+   left: 528px;
+   top: 13px;
+   z-index: 3;
+   width: 48px;
+   height: 39px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

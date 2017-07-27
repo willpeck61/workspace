@@ -1,0 +1,21 @@
+#photosthumbsheet  {
+   position: absolute;
+   left: 65px;
+   top: 167px;
+   z-index: 5;
+   width: 570px;
+   min-height: 240px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.sgthumb:hover  {
+   border-color: #0000FF;
+}
+
+.sgthumb  {
+   border-width: 2px;
+   border-style: solid;
+   border-color: #FF0000;
+}
+

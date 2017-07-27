@@ -1,0 +1,16 @@
+#picturepanelpicturebox table  {
+   width: 100%;
+   height: 100%;
+}
+
+#picturepanelpicturebox  {
+   position: absolute;
+   left: 464px;
+   top: 608px;
+   z-index: 5;
+   width: 504px;
+   height: 245px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+

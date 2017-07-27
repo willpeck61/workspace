@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sggallery version="1.0" name="unused" dirname="unused">
+ <options>
+  <thumbsheet>
+   <option varname="mode" value="exhibit" type="string" />
+   <option varname="sheetwidth" value="503" type="number" />
+   <option varname="sheetheight" value="267" type="number" />
+   <option varname="sheetdivname" value="musicvideosthumbsheet" type="string" />
+   <option varname="thumbwidth" value="100" type="number" />
+   <option varname="thumbheight" value="100" type="number" />
+
+<option varname="constructor" value="thumbsheetSiteGrinderPagedCSS" type=""/>
+<option varname="type" value="sitegrinderpagedcss" type=""/>
+<option varname="version" value="1.0" type=""/>
+<option varname="linkclassname" value="sgthumb" type=""/>
+<option varname="thumbdivname" value="thumbwrapper" type=""/>
+<option varname="fit" value="fill" type="choice"/>
+<option varname="transitioneffect" value="slide" type="choice"/>
+<option varname="transitiontime" value="1.0" type="number"/>
+<option varname="hoveraction" value="none" type="choice"/>
+<option varname="clickaction" value="picturebox" type="choice"/>
+<option varname="borderwidth" value="1" type="number"/>
+<option varname="normalbordercolor" value="0xccdbe4" type="color"/>
+<option varname="normalbackgroundcolor" value="#3B3A3B" type="color"/>
+<option varname="hoverbordercolor" value="#AC23AC" type="color"/>
+<option varname="hoverbackgroundcolor" value="#AC23AC" type="color"/>
+<option varname="currentbordercolor" value="0xffffff" type="color"/>
+<option varname="currentbackgroundcolor" value="0xffffff" type="color"/>
+<option varname="vspacing" value="5" type="number"/>
+<option varname="hspacing" value="10" type="number"/>
+<option varname="vinset" value="5" type="number"/>
+<option varname="hinset" value="5" type="number"/>
+<option varname="autosetnextprevvisibility" value="true" type="boolean"/>  </thumbsheet>
+  <picturebox>
+   <option varname="width" value="223" type="number" />
+   <option varname="height" value="183" type="number" />
+   <option varname="divname" value="musicvideospicturebox" type="string" />
+
+<option varname="constructor" value="pictureboxSiteGrinderCSSBasic" type=""/>
+<option varname="type" value="sitegrindercss" type=""/>
+<option varname="version" value="1.0" type=""/>
+<option varname="fit" value="inset" type="choice"/>
+<option varname="clickaction" value="advance" type="choice"/>
+<option varname="startrandom" value="false" type="boolean"/>
+<option varname="rightclickblock" value="true" type="boolean"/>  </picturebox>
+ </options>
+ <panels>
+  <panel>
+  <div  class="musicvideospanel">
+   <div class="musicvideosxmedia">
+   <!-- (sg_xmedia "sg_media_content/musicvideosxmedia.xmc" "body" "musicvideosxmedia" 286 234) -->
+   </div>
+  </div><!-- /musicvideospanel -->
+  </panel>
+ </panels>
+
+<metadataentries name="musicvideos -picturebox ">
+  <metadata name="animation" type="text"/>
+  <metadata name="embed_code" type="text"/>
+</metadataentries>
+ <exhibits>
+ </exhibits>
+</sggallery>

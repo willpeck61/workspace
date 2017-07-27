@@ -1,0 +1,33 @@
+#i1679productdisplaypreviouspan a:hover  {
+   background-position: -56px 0%;
+}
+
+#i1679productdisplaypreviouspan a.nmh  {
+   background-position: -56px 0%;
+}
+
+#i1679productdisplaypreviouspan a  {
+   background-image: url(sg_store_media/d1679productdisplayprevious.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 95px;
+   width: 56px;
+   font-size: 95px;
+   line-height: 95px;
+}
+
+#i1679productdisplaypreviouspan  {
+   position: absolute;
+   left: 934px;
+   top: 373px;
+   z-index: 4;
+   width: 56px;
+   height: 95px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

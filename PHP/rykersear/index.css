@@ -1,0 +1,148 @@
+#picturepanelnextbutton a:hover,
+#picturepanelpreviousbutto a.nmh,
+#picturepanelpreviousbutto a:hover,
+#picturepanelnextbutton a.nmh  {
+   background-position: -53px 0%;
+}
+
+#biobutton,
+#storebutton,
+#mediabutton,
+#twitterbutton,
+#contactbutton  {
+   z-index: 3;
+}
+
+#i20downloadmp3button a.nmh,
+#i20downloadmp3button a:hover  {
+   background-position: -70px 0%;
+}
+
+#showsbutton,
+#homebutton  {
+   z-index: 5;
+}
+
+#picturepanelpicturebox  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 245px;
+   width: 504px;
+   z-index: 5;
+   top: 608px;
+   left: 464px;
+   position: absolute;
+}
+
+#i20downloadmp3button  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 98px;
+   width: 70px;
+   z-index: 5;
+   top: 249px;
+   left: 97px;
+   position: absolute;
+}
+
+#picturepanelmetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 144px;
+   z-index: 7;
+   top: 610px;
+   left: 472px;
+   position: absolute;
+}
+
+#i19freemp3download  {
+   background-repeat: no-repeat;
+   background-image: url(sg_index_media/d19freemp3download.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 50px;
+   width: 120px;
+   z-index: 5;
+   top: 190px;
+   left: 83px;
+   position: absolute;
+}
+
+#facebookbutton a  {
+   background-image: url(sg_index_media/facebookbutton.png);
+}
+
+#youtubebutton a  {
+   background-image: url(sg_index_media/youtubebutton.png);
+}
+
+#indexvideoembed  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 340px;
+   z-index: 4;
+   top: 600px;
+   left: 91px;
+   position: absolute;
+}
+
+#picturepanelbg  {
+   background-repeat: no-repeat;
+   background-image: url(sg_index_media/picturepanelbg.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 260px;
+   width: 518px;
+   z-index: 4;
+   top: 600px;
+   left: 457px;
+   position: absolute;
+}
+
+#i6halftone  {
+   background-repeat: no-repeat;
+   background-image: url(sg_index_media/d6halftone.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 724px;
+   width: 892px;
+   z-index: 3;
+   top: 153px;
+   left: 75px;
+   position: absolute;
+}
+
+#footmenu  {
+   z-index: 4;
+}
+
+#shape2  {
+   background-repeat: no-repeat;
+   background-image: url(sg_index_media/shape2.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 156px;
+   z-index: 6;
+   top: 611px;
+   left: 467px;
+   position: absolute;
+}
+
+#logo  {
+   background-repeat: no-repeat;
+   background-image: url(sg_index_media/logo.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 384px;
+   width: 443px;
+   z-index: 4;
+   top: 0px;
+   left: 30px;
+   position: absolute;
+}
+
+html, body  {
+   background-color: #FFFFFF;
+   background-attachment: scroll;
+}
+

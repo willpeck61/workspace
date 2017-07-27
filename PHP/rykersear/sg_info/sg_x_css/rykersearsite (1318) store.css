@@ -1,0 +1,13 @@
+#productdisplayselectbg  {
+   position: absolute;
+   left: -116px;
+   top: 7px;
+   z-index: 3;
+   width: 1419px;
+   height: 901px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_store_media/productdisplayselectbg.png);
+   background-repeat: no-repeat;
+}
+

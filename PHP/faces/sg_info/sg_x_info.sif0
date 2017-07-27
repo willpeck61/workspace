@@ -1,0 +1,49 @@
+
+<newsite>
+  <info>
+    <sitename>facesdeploy</sitename>
+    <localdir></localdir>
+    <defaultextension>php</defaultextension>
+    <commoncss>common</commoncss>
+    <cms>
+      <cmstype>PHP</cmstype>
+      <editor>advanced</editor>
+      <language>en</language>
+      <cms_username></cms_username>
+      <cms_pwd></cms_pwd>
+    </cms>
+    <wp>
+      <name/>
+      <uri/>
+      <author/>
+      <description/>
+    </wp>
+    <ecommerce>
+      <module name="none">
+        <foxystorename value=""/>
+        <foxydomain value="" example="(yourstorename.foxycart.com  or redirect.yourdomain.com)"/>
+        <foxyversion value="0.7.2 or later"/>
+        <paypal_email value=""/>
+      </module>
+    </ecommerce>
+    <remote>
+      <server></server>
+      <path></path>
+      <http_path></http_path>
+      <port>21</port>
+      <username></username>
+      <pwd></pwd>
+      <save>true</save>
+      <passive>true</passive>
+    </remote>
+    <webdav>
+      <wd_use></wd_use>
+      <wd_url></wd_url>
+      <wd_username></wd_username>
+      <wd_password></wd_password>
+      <wd_save>true</wd_save>
+      <wd_port>80</wd_port>
+      <wd_path></wd_path>
+    </webdav>
+  </info>
+</newsite>

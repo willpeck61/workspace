@@ -1,0 +1,15 @@
+.indexvideoembed p a,
+.picturepanelmetadata p a  {
+   display: inline;
+}
+
+h1,
+h2,
+body, p,
+h3,
+h4,
+h5,
+h6  {
+   font-family: Rockwell-ExtraBold, Rockwell, serif;
+}
+

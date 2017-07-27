@@ -1,0 +1,21 @@
+#musicvideosthumbsheet  {
+   position: absolute;
+   left: 464px;
+   top: 533px;
+   z-index: 6;
+   width: 503px;
+   min-height: 267px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.sgthumb:hover  {
+   border-color: #0000FF;
+}
+
+.sgthumb  {
+   border-width: 2px;
+   border-style: solid;
+   border-color: #FF0000;
+}
+

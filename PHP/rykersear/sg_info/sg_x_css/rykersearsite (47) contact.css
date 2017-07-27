@@ -1,0 +1,33 @@
+#contactbutton a:hover  {
+   background-position: -99px 0%;
+}
+
+#contactbutton a.nmh  {
+   background-position: -99px 0%;
+}
+
+#contactbutton a  {
+   background-image: url(sg_contact_media/contactbutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 64px;
+   width: 99px;
+   font-size: 64px;
+   line-height: 64px;
+}
+
+#contactbutton  {
+   position: absolute;
+   left: 677px;
+   top: 13px;
+   z-index: 4;
+   width: 99px;
+   height: 64px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

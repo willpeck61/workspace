@@ -1,0 +1,182 @@
+#i1680productdisplaynextpanelse a.nmh,
+#i1680productdisplaynextpanelse a:hover,
+#i1679productdisplaypreviouspan a.nmh,
+#i1679productdisplaypreviouspan a:hover  {
+   background-position: -56px 0%;
+}
+
+#buybtnfocusbutton a.nmh,
+.buybtnbutton a.nmh,
+.buybtnbutton a:hover,
+#buybtnfocusbutton a:hover  {
+   background-position: -87px 0%;
+}
+
+#buybtnfocusbutton a:active,
+.buybtnbutton a:active  {
+   background-position: -174px 0%;
+}
+
+#i1440productdisplaymetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 220px;
+   z-index: 4;
+   top: 82px;
+   left: 681px;
+   position: absolute;
+}
+
+#productdisplaypanelsheet  {
+   margin-top: 0px;
+   margin-left: 0px;
+   min-height: 490px;
+   width: 484px;
+   z-index: 4;
+   top: 369px;
+   left: 420px;
+   position: absolute;
+}
+
+#productdisplaypicturebox  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 235px;
+   width: 245px;
+   z-index: 4;
+   top: 92px;
+   left: 423px;
+   position: absolute;
+}
+
+#productdisplayselectbg  {
+   background-repeat: no-repeat;
+   background-image: url(sg_store_media/productdisplayselectbg.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 901px;
+   width: 1419px;
+   z-index: 3;
+   top: 7px;
+   left: -116px;
+   position: absolute;
+}
+
+#buybtnfocusbutton a  {
+   height: 46px;
+   width: 87px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_store_media/buybtnfocusbutton.png);
+}
+
+#buybtnfocusbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 46px;
+   width: 87px;
+   z-index: 4;
+   top: 282px;
+   left: 815px;
+   position: absolute;
+   text-align: left;
+   font-family: HamburgerHeaven, "Hamburger Heaven";
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.i1445productdisplaymetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 89px;
+   z-index: 7;
+   top: 48px;
+   left: 390px;
+   position: absolute;
+}
+
+.i1444productdisplaymetadata  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 214px;
+   z-index: 7;
+   top: -13px;
+   left: 170px;
+   position: absolute;
+}
+
+#twitterbutton a  {
+   background-image: url(sg_shows_media/d594twitterbutton.png);
+}
+
+#contactbutton a  {
+   background-image: url(sg_store_media/contactbutton.png);
+}
+
+.productdisplaypanelthumb  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 140px;
+   width: 156px;
+   z-index: 7;
+   top: 5px;
+   left: 4px;
+   position: absolute;
+}
+
+#mediabutton a  {
+   background-image: url(sg_store_media/mediabutton.png);
+}
+
+#storebutton a  {
+   background-image: url(sg_bio_media/storebutton.png);
+}
+
+#biobutton a  {
+   background-image: url(sg_shows_media/biobutton.png);
+}
+
+.i2105productdisplaybg  {
+   background-repeat: no-repeat;
+   background-image: url(sg_store_media/d2105productdisplaybg.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 146px;
+   width: 482px;
+   z-index: 6;
+   top: 2px;
+   left: 0px;
+   position: absolute;
+}
+
+#footmenu  {
+   z-index: 4;
+}
+
+.buybtnbutton a  {
+   height: 45px;
+   width: 87px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_store_media/buybtnbutton.png);
+}
+
+.buybtnbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 45px;
+   width: 87px;
+   z-index: 7;
+   top: 99px;
+   left: 392px;
+   position: absolute;
+   text-align: left;
+   font-family: HamburgerHeaven, "Hamburger Heaven";
+   font-size: 24px;
+   line-height: 29px;
+}
+
+html, body  {
+   background-attachment: scroll;
+}
+

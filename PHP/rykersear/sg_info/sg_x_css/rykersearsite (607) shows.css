@@ -1,0 +1,21 @@
+#showsmainflyerthumbsheet  {
+   position: absolute;
+   left: 524px;
+   top: 606px;
+   z-index: 5;
+   width: 412px;
+   min-height: 191px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+.sgthumb:hover  {
+   border-color: #0000FF;
+}
+
+.sgthumb  {
+   border-width: 2px;
+   border-style: solid;
+   border-color: #FF0000;
+}
+

@@ -1,0 +1,11 @@
+<providers>
+ 
+<metadataentries name="shows_main_flyer -picturebox">
+  <metadata name="month" type="text"/>
+  <metadata name="price" type="text"/>
+  <metadata name="description" type="text"/>
+  <metadata name="venue" type="text"/>
+  <metadata name="date" type="text"/>
+  <metadata name="event_name" type="text"/>
+</metadataentries>
+</providers>

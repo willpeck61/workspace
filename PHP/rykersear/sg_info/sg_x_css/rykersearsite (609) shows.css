@@ -1,0 +1,33 @@
+#i609showsmainflyernextthumbse a:hover  {
+   background-position: -96px 0%;
+}
+
+#i609showsmainflyernextthumbse a.nmh  {
+   background-position: -96px 0%;
+}
+
+#i609showsmainflyernextthumbse a  {
+   background-image: url(sg_shows_media/d609showsmainflyernextthumb.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 42px;
+   width: 96px;
+   font-size: 42px;
+   line-height: 42px;
+}
+
+#i609showsmainflyernextthumbse  {
+   position: absolute;
+   left: 875px;
+   top: 807px;
+   z-index: 5;
+   width: 96px;
+   height: 42px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

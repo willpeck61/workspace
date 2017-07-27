@@ -1,0 +1,17 @@
+#page_content .container_div  {
+   background-image: none;
+}
+
+#page_content  {
+   min-height: 877px;
+}
+
+.page_content_bkg  {
+   position: absolute;
+   width: 1030px;
+   left: 0px;
+   top: 0px;
+   display: block;
+   z-index: 1;
+}
+

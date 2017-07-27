@@ -1,0 +1,16 @@
+
+<pages>
+  <item icon="club.gif" designfname="club" design="club" path="club.php" isfile="true" id="1" aname="club" name="club"/>
+  <item icon="private.gif" designfname="private" design="private" path="private.php" isfile="true" id="3" aname="private" name="private"/>
+  <item icon="gallery.gif" designfname="gallery" design="gallery" path="gallery.php" isfile="true" id="5" aname="gallery" name="gallery"/>
+  <item icon="contact.gif" designfname="contact" design="contact" path="contact.php" isfile="true" id="7" aname="contact" name="contact"/>
+  <item icon="events.gif" designfname="events" design="events" path="events.php" isfile="true" id="9" aname="events" name="events"/>
+  <item icon="parties.gif" designfname="parties" design="parties" path="parties.php" isfile="true" id="11" aname="parties" name="parties"/>
+  <item icon="booths.gif" designfname="booths" design="booths" path="booths.php" isfile="true" id="13" aname="booths" name="booths"/>
+  <item icon="drinks.gif" designfname="drinks" design="drinks" path="drinks.php" isfile="true" id="15" aname="drinks" name="drinks"/>
+  <item icon="vip.gif" designfname="vip" design="vip" path="vip.php" isfile="true" id="17" aname="vip" name="vip"/>
+  <item icon="guest.gif" designfname="guest" design="guest" path="guest.php" isfile="true" id="19" aname="guest" name="guest"/>
+  <item ishome="true" icon="home.gif" designfname="home" design="home" path="index.php" isfile="true" id="21" aname="home" name="home"/>
+  <item icon="calendar.gif" designfname="calendar" design="calendar" path="calendar.php" isfile="true" id="23" aname="calendar" name="calendar"/>
+  <item icon="privateform.gif" designfname="privateform" design="privateform" path="privateform.php" isfile="true" id="25" aname="privateform" name="privateform"/>
+</pages>

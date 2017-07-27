@@ -1,0 +1,23 @@
+
+
+.ds_moveable > * { cursor: move; }
+.ds_moveable { clear:both; }
+.ds_group{ }
+.ds_row{ clear:both; }
+.ds_row > * {margin-top:0px; margin-bottom: 0px;}
+.ds_group >  * { margin-top:0px; margin-bottom: 0px; }
+.ds_shim { margin-top:0px; clear:both; font-size:0px; line-height:0px; height:0px;}
+.ds_left{ float:left; clear:none;   }
+.ds_right{ float:right; clear:none; }
+
+/*debug*/
+/*.ds_shim { border: 1px dotted blue; } */
+/* .ds_moveable {background-color:rgba(200,100,100,.5);} */
+
+/* initialize */
+.ds_parent > * { margin:0px; margin-top:10px;}
+.ds_moveable > * { margin: 0px; }
+.ds_moveable > input { border:0; }
+
+/* play */
+/* .ds_moveable > b, .ds_moveable > i, .ds_moveable > span { display:block; } */

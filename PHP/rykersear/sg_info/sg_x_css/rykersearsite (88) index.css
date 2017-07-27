@@ -1,0 +1,33 @@
+#picturepanelnextbutton a:hover  {
+   background-position: -53px 0%;
+}
+
+#picturepanelnextbutton a.nmh  {
+   background-position: -53px 0%;
+}
+
+#picturepanelnextbutton a  {
+   background-image: url(sg_index_media/picturepanelnextbutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 54px;
+   width: 53px;
+   font-size: 54px;
+   line-height: 54px;
+}
+
+#picturepanelnextbutton  {
+   position: absolute;
+   left: 910px;
+   top: 710px;
+   z-index: 6;
+   width: 53px;
+   height: 54px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

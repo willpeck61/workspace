@@ -1,0 +1,13 @@
+.i2105productdisplaybg  {
+   position: absolute;
+   left: 0px;
+   top: 2px;
+   z-index: 6;
+   width: 482px;
+   height: 146px;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-image: url(sg_store_media/d2105productdisplaybg.png);
+   background-repeat: no-repeat;
+}
+

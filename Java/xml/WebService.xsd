@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WebService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="interface">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="package" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="import" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="abstract_method">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="1" name="modifier" />
+              <xs:element maxOccurs="unbounded" name="arguments">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" maxOccurs="unbounded" name="parameter">
+							<xs:simpleType>
+								<xs:attribute name="type" type="xs:string" />
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="1" name="exceptions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="exception" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="1" maxOccurs="1" name="return" />
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

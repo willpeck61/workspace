@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sggallery version="1.0" name="unused" dirname="unused">
+ <options>
+  <thumbsheet>
+   <option varname="mode" value="exhibit" type="string" />
+   <option varname="sheetwidth" value="412" type="number" />
+   <option varname="sheetheight" value="191" type="number" />
+   <option varname="sheetdivname" value="showsmainflyerthumbsheet" type="string" />
+   <option varname="thumbwidth" value="100" type="number" />
+   <option varname="thumbheight" value="100" type="number" />
+
+<option varname="constructor" value="thumbsheetSiteGrinderPagedCSS" type=""/>
+<option varname="type" value="sitegrinderpagedcss" type=""/>
+<option varname="version" value="1.0" type=""/>
+<option varname="linkclassname" value="sgthumb" type=""/>
+<option varname="thumbdivname" value="thumbwrapper" type=""/>
+<option varname="fit" value="inset" type="choice"/>
+<option varname="transitioneffect" value="slide" type="choice"/>
+<option varname="transitiontime" value="1.0" type="number"/>
+<option varname="hoveraction" value="none" type="choice"/>
+<option varname="clickaction" value="picturebox" type="choice"/>
+<option varname="borderwidth" value="1" type="number"/>
+<option varname="normalbordercolor" value="0xccdbe4" type="color"/>
+<option varname="normalbackgroundcolor" value="0xffffff" type="color"/>
+<option varname="hoverbordercolor" value="#C38B3E" type="color"/>
+<option varname="hoverbackgroundcolor" value="#C08E4A" type="color"/>
+<option varname="currentbordercolor" value="0xffffff" type="color"/>
+<option varname="currentbackgroundcolor" value="0xffffff" type="color"/>
+<option varname="vspacing" value="5" type="number"/>
+<option varname="hspacing" value="25" type="number"/>
+<option varname="vinset" value="5" type="number"/>
+<option varname="hinset" value="5" type="number"/>
+<option varname="autosetnextprevvisibility" value="true" type="boolean"/>  </thumbsheet>
+  <picturebox>
+   <option varname="width" value="216" type="number" />
+   <option varname="height" value="279" type="number" />
+   <option varname="divname" value="showsmainflyerpicturebox" type="string" />
+
+<option varname="constructor" value="pictureboxSiteGrinderCSSAnim" type=""/>
+<option varname="type" value="animatedcss" type=""/>
+<option varname="version" value="2.0" type=""/>
+<option varname="fit" value="fill" type="choice"/>
+<option varname="transition" value="CSS3CrossFade" type="choice"/>
+<option varname="alignment" value="center" type="choice"/>
+<option varname="clickaction" value="bigbox" type="choice"/>
+<option varname="autoadvance" value="false" type="boolean"/>
+<option varname="autoadvancedelayseconds" value="3" type="number"/>
+<option varname="autoadvancedtransitiontimeseconds" value="2" type="number"/>
+<option varname="endaction" value="loop" type="choice"/>
+<option varname="endurl" value="index.html" type="string"/>
+<option varname="rightclickblock" value="true" type="boolean"/>   <option varname="preloaderimage" value="sg_jscripts/gallery_plugins/preloader.gif" type="file" />
+  </picturebox>
+  <bigbox>
+
+<option varname="constructor" value="fancybox" type="string"/>
+<option varname="type" value="fancybox" type="string"/>
+<option varname="version" value="1.0" type="number"/>
+<option varname="zoomopacity" value="true" type="boolean"/>
+<option varname="overlayshow" value="true" type="boolean"/>
+<option varname="overlaycolor" value="0x000000" type="color"/>
+<option varname="overlayopacity" value="0.5" type="number"/>
+<option varname="zoomspeedin" value="500" type="number"/>
+<option varname="zoomspeedout" value="500" type="number"/>
+<option varname="titlemetafield" value="event_name" type="string"/>   <option varname="loadingimage1" value="sg_jscripts/gallery_plugins/fancy_closebox.png" type="file" />
+   <option varname="loadingimage2" value="sg_jscripts/gallery_plugins/fancy_left.png" type="file" />
+   <option varname="loadingimage3" value="sg_jscripts/gallery_plugins/fancy_progress.png" type="file" />
+   <option varname="loadingimage4" value="sg_jscripts/gallery_plugins/fancy_right.png" type="file" />
+   <option varname="loadingimage5" value="sg_jscripts/gallery_plugins/fancy_shadow_e.png" type="file" />
+   <option varname="loadingimage6" value="sg_jscripts/gallery_plugins/fancy_shadow_n.png" type="file" />
+   <option varname="loadingimage7" value="sg_jscripts/gallery_plugins/fancy_shadow_ne.png" type="file" />
+   <option varname="loadingimage8" value="sg_jscripts/gallery_plugins/fancy_shadow_nw.png" type="file" />
+   <option varname="loadingimage9" value="sg_jscripts/gallery_plugins/fancy_shadow_s.png" type="file" />
+   <option varname="loadingimage0" value="sg_jscripts/gallery_plugins/fancy_shadow_se.png" type="file" />
+   <option varname="loadingimage11" value="sg_jscripts/gallery_plugins/fancy_shadow_sw.png" type="file" />
+   <option varname="loadingimage12" value="sg_jscripts/gallery_plugins/fancy_shadow_w.png" type="file" />
+   <option varname="loadingimage13" value="sg_jscripts/gallery_plugins/fancy_title_left.png" type="file" />
+   <option varname="loadingimage14" value="sg_jscripts/gallery_plugins/fancy_title_main.png" type="file" />
+   <option varname="loadingimage15" value="sg_jscripts/gallery_plugins/fancy_title_right.png" type="file" />
+  </bigbox>
+ </options>
+
+<metadataentries name="shows_main_flyer -picturebox">
+  <metadata name="month" type="text"/>
+  <metadata name="price" type="text"/>
+  <metadata name="description" type="text"/>
+  <metadata name="venue" type="text"/>
+  <metadata name="date" type="text"/>
+  <metadata name="event_name" type="text"/>
+</metadataentries>
+ <exhibits>
+ </exhibits>
+</sggallery>

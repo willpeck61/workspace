@@ -1,0 +1,33 @@
+#buyticketsbutton a:hover  {
+   background-position: -80px 0%;
+}
+
+#buyticketsbutton a.nmh  {
+   background-position: -80px 0%;
+}
+
+#buyticketsbutton a  {
+   background-image: url(sg_shows_media/buyticketsbutton.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 20px;
+   width: 80px;
+   font-size: 20px;
+   line-height: 20px;
+}
+
+#buyticketsbutton  {
+   position: absolute;
+   left: 422px;
+   top: 814px;
+   z-index: 5;
+   width: 80px;
+   height: 20px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+

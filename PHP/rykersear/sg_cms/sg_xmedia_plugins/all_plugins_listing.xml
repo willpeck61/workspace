@@ -1,0 +1,37 @@
+
+<plugins>
+  <item name="text file" fname="web/text_file.sgxm.php"/>
+  <item name="text" fname="web/text.sgxm.php"/>
+  <item name="object" fname="web/object.sgxm.php"/>
+  <item name="iframe" fname="web/iframe.sgxm.php"/>
+  <item name="google presentation" fname="web/google_presentation.sgxm.php"/>
+  <item name="google doc no style" fname="web/google_doc_no_style.sgxm.php"/>
+  <item name="google doc" fname="web/google_doc.sgxm.php"/>
+  <item name="general html" fname="web/general_html.sgxm.php"/>
+  <item name="zoomify" fname="slideshows/zoomify.sgxm.php"/>
+  <item name="Slideshow Pro" fname="slideshows/slideshow_pro.sgxm.php"/>
+  <item name="showit_web" fname="slideshows/showit_web.sgxm.php"/>
+  <item name="photoshop_web_photo_gallery" fname="slideshows/photoshop_web_photo_gallery.sgxm.php"/>
+  <item name="lightroom" fname="slideshows/lightroom.sgxm.php"/>
+  <item name="YouTube player" fname="media/youtube.sgxm.php"/>
+  <item name="Vimeo player" fname="media/vimeo.sgxm.php"/>
+  <item name="video-js" fname="media/video_js.sgxm.php"/>
+  <item name="video" fname="media/video.sgxm.php"/>
+  <item name="none" fname="media/none.sgxm.php"/>
+  <item name="mp3 google audio player" fname="media/mp3_google_audio_player.sgxm.php"/>
+  <item name="microsoft video" fname="media/microsoft_video.sgxm.php"/>
+  <item name="Impresto" fname="media/impresto.sgxm.php"/>
+  <item name="image" fname="media/image.sgxm.php"/>
+  <item name="html5 video" fname="media/html5_video.sgxm.php"/>
+  <item name="html5 audio" fname="media/html5_audio.sgxm.php"/>
+  <item name="flv" fname="media/flv.sgxm.php"/>
+  <item name="flash" fname="media/flash.sgxm.php"/>
+  <item name="color area" fname="media/color_area.sgxm.php"/>
+  <item name="wazala store" fname="expert/wazala.sgxm.php"/>
+  <item name="php require()" fname="expert/php_require.sgxm.php"/>
+  <item name="php include()" fname="expert/php_include.sgxm.php"/>
+  <item name="Facebook OpenGraph" fname="expert/facebook_opengraph.sgxm.php"/>
+  <item name="embed snippet file" fname="expert/embed_snippet_file.sgxm.php"/>
+  <item name="embed html snippet" fname="expert/embed_snippet.sgxm.php"/>
+  <item name="description and keywords" fname="expert/description_keywords.sgxm.php"/>
+</plugins>

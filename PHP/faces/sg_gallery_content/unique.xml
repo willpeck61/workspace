@@ -1,0 +1,9 @@
+
+<items>
+  <item path="gallery/gxml.xml"/>
+  <item path="mdp.xml"/>
+  <item path="gallery/gallery.xml"/>
+  <item path="title.xml"/>
+  <item path="editable.xml"/>
+  <item path="unique.xml"/>
+</items>

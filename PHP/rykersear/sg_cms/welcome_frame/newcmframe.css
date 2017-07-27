@@ -1,0 +1,485 @@
+#mangalbutton a.pmh,
+#mangalbutton a.nmh,
+#whatnextbutton a.pmh,
+#whatnextbutton a.pm,
+#mangalbutton a:hover,
+#whatnextbutton a:hover,
+#mangalbutton a.pm,
+#whatnextbutton a.nmh  {
+   background-position: -79px 0%;
+}
+
+#templatesbutton a.nmh,
+#samplesbutton a.nmh,
+#templatesbutton a:hover,
+#docsbutton a:hover,
+#tvbutton a.nmh,
+#docsbutton a.nmh,
+#tvbutton a:hover,
+#samplesbutton a:hover  {
+   background-position: -258px 0%;
+}
+
+#mangalbutton a:active,
+#mangalbutton a.cmh,
+#whatnextbutton a.cmh,
+#mangalbutton a.cm,
+#whatnextbutton a:active,
+#whatnextbutton a.cm  {
+   background-position: -158px 0%;
+}
+
+#pagesbutton a.pm,
+#pagesbutton a:hover,
+#pagesbutton a.pmh,
+#pagesbutton a.nmh  {
+   background-position: -96px 0%;
+}
+
+#mediabutton a.pm,
+#mediabutton a.nmh,
+#mediabutton a.pmh,
+#mediabutton a:hover  {
+   background-position: -83px 0%;
+}
+
+#menusbutton a:hover,
+#menusbutton a.pm,
+#menusbutton a.nmh,
+#menusbutton a.pmh  {
+   background-position: -84px 0%;
+}
+
+#linksbutton a:hover,
+#linksbutton a.pm,
+#linksbutton a.nmh,
+#linksbutton a.pmh  {
+   background-position: -88px 0%;
+}
+
+#textbutton a.pmh,
+#textbutton a.nmh,
+#textbutton a:hover,
+#textbutton a.pm  {
+   background-position: -106px 0%;
+}
+
+#closevidbutton a:active,
+#closevidbutton a.cmh,
+#closevidbutton a.cm  {
+   background-position: -92px 0%;
+}
+
+#menusbutton a.cmh,
+#menusbutton a:active,
+#menusbutton a.cm  {
+   background-position: -168px 0%;
+}
+
+#pagesbutton a.cm,
+#pagesbutton a.cmh,
+#pagesbutton a:active  {
+   background-position: -192px 0%;
+}
+
+#mediabutton a:active,
+#mediabutton a.cm,
+#mediabutton a.cmh  {
+   background-position: -166px 0%;
+}
+
+#linksbutton a.cm,
+#linksbutton a.cmh,
+#linksbutton a:active  {
+   background-position: -176px 0%;
+}
+
+#textbutton a.cm,
+#textbutton a:active,
+#textbutton a.cmh  {
+   background-position: -212px 0%;
+}
+
+#closevidclickshow > div:first-child  {
+   background-image: none;
+   background-color: #FFFFFF;
+   height: 14px;
+   width: 10px;
+   display: block;
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+   left: 0px;
+   top: 0px;
+}
+
+#welcometothecontentmanage p a  {
+   display: inline;
+}
+
+#welcometothecontentmanage  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 469px;
+   z-index: 3;
+   top: 77px;
+   left: 137px;
+   position: absolute;
+}
+
+#whatnextbutton a ins  {
+   height: 10px;
+   width: 61px;
+   top: 66px;
+   left: 9px;
+   position: relative;
+   text-decoration: none;
+}
+
+#mangalbutton a ins  {
+   height: 26px;
+   width: 48px;
+   top: 65px;
+   left: 15px;
+   position: relative;
+   text-decoration: none;
+}
+
+#pagesbutton a ins  {
+   height: 14px;
+   width: 74px;
+   top: 69px;
+   left: 11px;
+   position: relative;
+   text-decoration: none;
+}
+
+#menusbutton a ins  {
+   height: 12px;
+   width: 59px;
+   top: 67px;
+   left: 12px;
+   position: relative;
+   text-decoration: none;
+}
+
+#closevidclickshow  {
+   font-size: 1px;
+   margin-top: 0px;
+   margin-left: 0px;
+   display: none;
+   height: 14px;
+   width: 10px;
+   z-index: 3;
+   top: 277px;
+   left: 669px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#mediabutton a ins  {
+   height: 12px;
+   width: 65px;
+   top: 64px;
+   left: 8px;
+   position: relative;
+   text-decoration: none;
+}
+
+#linksbutton a ins  {
+   height: 12px;
+   width: 67px;
+   top: 62px;
+   left: 11px;
+   position: relative;
+   text-decoration: none;
+}
+
+#textbutton a ins  {
+   height: 11px;
+   width: 45px;
+   top: 67px;
+   left: 31px;
+   position: relative;
+   text-decoration: none;
+}
+
+#closevidbutton a  {
+   height: 10px;
+   width: 46px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/closevidbutton.gif);
+}
+
+#whatnextbutton a  {
+   height: 93px;
+   width: 79px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/whatnextbutton.gif);
+}
+
+#closevidbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 10px;
+   width: 46px;
+   z-index: 3;
+   top: 274px;
+   left: 603px;
+   position: absolute;
+}
+
+#mangalbutton a  {
+   height: 99px;
+   width: 79px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/mangalbutton.gif);
+}
+
+#whatnextbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 93px;
+   width: 79px;
+   z-index: 5;
+   top: 163px;
+   left: 555px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#pagesbutton a  {
+   height: 92px;
+   width: 96px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/pagesbutton.gif);
+}
+
+#mediabutton a  {
+   height: 84px;
+   width: 83px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/mediabutton.gif);
+}
+
+#linksbutton a  {
+   height: 86px;
+   width: 88px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/linksbutton.gif);
+}
+
+#menusbutton a  {
+   height: 94px;
+   width: 84px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/menusbutton.gif);
+}
+
+#mangalbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 99px;
+   width: 79px;
+   z-index: 3;
+   top: 161px;
+   left: 388px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#textbutton a  {
+   height: 109px;
+   width: 106px;
+   display: block;
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/textbutton.gif);
+}
+
+#pagesbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 92px;
+   width: 96px;
+   z-index: 4;
+   top: 157px;
+   left: 460px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#innerfooter  {
+   background-color: transparent;
+   background-image: none;
+   height: 0px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   position: relative;
+   width: 683px;
+}
+
+#linksbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 86px;
+   width: 88px;
+   z-index: 5;
+   top: 164px;
+   left: 218px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#menusbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 94px;
+   width: 84px;
+   z-index: 4;
+   top: 159px;
+   left: 137px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#mediabutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 84px;
+   width: 83px;
+   z-index: 6;
+   top: 162px;
+   left: 304px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#textbutton  {
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 109px;
+   width: 106px;
+   z-index: 3;
+   top: 160px;
+   left: 44px;
+   position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#gearshadow  {
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/gearshadow.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 444px;
+   width: 650px;
+   z-index: 3;
+   top: 289px;
+   left: 17px;
+   position: absolute;
+}
+
+#page_bkg  {
+   z-index: 1;
+   display: block;
+   top: 0px;
+   left: 0px;
+   height: 998px;
+   width: 683px;
+   position: absolute;
+}
+
+#footer  {
+   width: 100%;
+   display: block;
+   padding: 0px;
+   margin: 0px;
+   bottom: 0px;
+   position: absolute;
+   height: 0px;
+   background-color: transparent;
+   background-image: none;
+}
+
+#sglogo  {
+   background-repeat: no-repeat;
+   background-image: url(sg_newcmframe_media/sglogo.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 37px;
+   width: 196px;
+   z-index: 3;
+   top: 21px;
+   left: 221px;
+   position: absolute;
+}
+
+#page  {
+   margin-bottom: 0px;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   position: relative;
+   width: 683px;
+   height: 998px;
+}
+
+#top  {
+   width: 100%;
+   min-height: 100%;
+}
+
+h5,
+h3,
+h1,
+h6,
+h4,
+h2,
+body, p  {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body  {
+   -webkit-text-size-adjust: none;
+   height: 100%;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-left: 0px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+}
+
+html, body  {
+   background-position: center top;
+   background-attachment: scroll;
+   background-repeat: repeat-x;
+   background-image: url(sg_newcmframe_media/browserbackground.gif);
+   background-color: #FFFFFF;
+}
+

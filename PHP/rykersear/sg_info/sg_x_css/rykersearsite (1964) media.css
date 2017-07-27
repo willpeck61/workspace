@@ -1,0 +1,33 @@
+#i1964musicvideospreviousthumbs a:hover  {
+   background-position: -62px 0%;
+}
+
+#i1964musicvideospreviousthumbs a.nmh  {
+   background-position: -62px 0%;
+}
+
+#i1964musicvideospreviousthumbs a  {
+   background-image: url(sg_media_media/d1964musicvideospreviousthu.png);
+   background-repeat: no-repeat;
+   display: block;
+   height: 36px;
+   width: 62px;
+   font-size: 36px;
+   line-height: 36px;
+}
+
+#i1964musicvideospreviousthumbs  {
+   position: absolute;
+   left: 466px;
+   top: 806px;
+   z-index: 6;
+   width: 62px;
+   height: 36px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+
+a.nm  {
+   background-position: 0px 0px;
+}
+
