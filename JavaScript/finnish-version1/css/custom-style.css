@@ -1,0 +1,662 @@
+/* custom styles */
+
+/****************** FONTS *******************/
+.font-sans, p {
+	font-family: 'Lato', sans-serif !important;
+}	
+
+.font-sym {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+/*******************************************/
+/*******************************************/
+
+
+/************* HTML Components *************/
+header {
+	background-color: transparent;
+}
+
+body {
+   background-color:  #F0F8FF;
+}
+
+h1 {
+	font-size: 30px;
+    padding: 5px;
+	margin: 10px !important;
+}
+
+h2 {
+	font-size: 30px !important;
+	padding-bottom: 15px;
+}	
+
+h1, h2, h3, h4, .navbar {
+	color: #333;
+	font-weight: 700 !important;
+}
+
+h2, h3 {
+	text-transform: capitalize;
+}
+
+p {
+	color: #636363;
+}
+
+footer .footer-above {
+	background-color: #3C3744;
+}
+
+footer .footer-above h3, footer .footer-above p {
+	color: #fff;
+}
+
+a:active, a.active {
+	background-color: #13aaf0 !important;
+}
+
+section {
+ 	padding-bottom: 0px;
+}
+
+footer .footer-below {
+	background-color: #222;
+}
+
+/* Responsive */
+/* ---------- */
+@media (max-width: 767px) {
+  body {
+	overflow-x: hidden !important;
+  }
+}
+/*********************************************/
+/*********************************************/
+
+
+/************ GENERIC HELPERS ****************/
+.reduce-bottom-margin {
+	margin-bottom:15px !important;
+}
+
+.top-padding-px {
+	margin-top: 10px !important;
+}
+
+.uncap {
+	text-transform: none !important;
+}
+
+.norm-text {
+	letter-spacing: 0;
+}
+
+.light-blue-gradient {
+    background: #fff; /* Old browsers */
+    background: -moz-linear-gradient(top, #13aaf0 0%, #ffffff 19%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #13aaf0 0%,#ffffff 19%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #13aaf0 0%,#ffffff 19%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13aaf0', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-light-blue {
+	background-color: #13aaf0 !important;
+}
+
+.bg-dark-blue {
+	//background-color: rgba(11,15,160, 0.8);
+}
+
+.bg-dark-blue-s {
+	background-color: rgba(11,15,160, 1);
+}
+
+.color-dark-blue {
+	color: #0b0fa0 !important;
+}
+
+.color-light-blue {
+	color: #13aaf0 !important;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.spacer {
+	padding-top: 5px;
+}
+
+.spacer2 {
+	padding-top: 20px;
+}
+
+.spacer3 {
+	padding-top: 40px;
+}
+
+.shift4 {
+	margin-top: 70px;
+}
+
+.spacer4 {
+	padding-top: 70px;
+}
+
+.spacer5 {
+	padding-top: 80px;
+}
+
+.css3gradient{
+    background-color: #13aaf0;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#13aaf0, endColorstr=#13aaf0 );
+    background-image: -moz-linear-gradient(right, #13aaf0 95%, #13aaf0  95%,#fff 100%);
+    background-image: linear-gradient(right, #13aaf0 95%, #13aaf0  95%,#fff 100%);
+    background-image: -webkit-linear-gradient(right, #13aaf0 95%, #13aaf0  95%,#fff 100%);
+    background-image: -o-linear-gradient(right, #13aaf0 95%, #13aaf0  95%,#fff 100%);
+    background-image: -ms-linear-gradient(right, #13aaf0 95%, #13aaf0  95%,#fff 100%);
+    background-image: -webkit-gradient(linear, right bottom, left bottom, color-stop(95%,#13aaf0), color-stop(95%,#13aaf0),color-stop(100%,#fff));}
+
+/* Responsive */
+/* ---------- */
+@media (min-width: 320px) {
+    #site-links {
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 767px) {
+	.spacer5 {
+		padding-top: 140px;
+	}
+    
+    #address {
+        text-align: left;
+    }
+    
+    #site-links {
+        text-align: right;
+    } 
+}
+
+@media (max-width: 979px) {
+    
+}
+/*********************************************/
+/*********************************************/
+
+
+/**************** NAVBAR *********************/
+.navbar-custom {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-nav a {
+	color: #000 !important;
+    font-size: 18px !important;
+}
+
+.nav-bar-fixed-bottom {
+	bottom: 0;
+	margin: auto;
+}
+
+.navbar-brand {
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.navbar-brand {
+	color: #000 !important;
+	letter-spacing: -2px;
+}
+
+.navbar-brand img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
+.navbar-brand .raleway {
+	font-family: 'Raleway', sans-serif;
+	text-transform: capitalize;
+    letter-spacing: 4px;
+	margin-bottom: -1px;
+}
+
+#mainNav {
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	color: #000 !important;
+	border: 1px solid #000 !important;
+}
+
+.navbar-custom .navbar-nav {
+    letter-spacing: normal !important;
+    font-weight: normal !important;
+}
+
+/* Responsive */
+/* ---------- */
+@media (max-width: 979px) {
+    .navbar-inner {
+        margin: -20px;
+    } 
+    
+    .nav a {
+        font-size: 12px !important;
+    }
+    
+    .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+    }
+}
+/**************************************/
+/**************************************/
+
+
+
+/************* CAROUSEL ***************/
+.carousel {
+  padding-top: 70px;
+}
+
+.carousel .container {
+  position: relative;
+  z-index: 9;
+}
+
+.carousel-control {
+	position: absolute;
+	top: 40%;
+	left: 15px;
+	width: 40px;
+	font-weight: 100;
+	color: #ffffff;
+	text-align: center;
+  	height: 80px;
+  	margin-top: 0;
+  	font-size: 120px;
+  	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+ 	background-image: none !important;
+  	border: 0;
+  	z-index: 10;
+}
+
+.carousel-control.right {
+	right: 15px !important;
+}
+
+.carousel .item {
+    width: 100%;
+}
+.carousel img {
+    max-width: 100%;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+
+.carousel-caption h1,
+.carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+/* Responsive */
+/* ---------- */
+@media (min-width: 320px) {
+    #myCarousel.carousel {
+        height: auto !important;
+    }
+    
+    .carousel-inner {
+        height: 100% !important;
+    }
+}
+
+@media (min-width: 767px) {
+    .carousel {
+
+    }
+    .carousel .container {
+
+    }
+    .carousel .item {
+
+    }
+    .carousel img {
+
+    }
+    .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+        font-size: 18px;
+    }
+
+    .carousel-control {
+        display: none;
+    }
+}
+
+@media (min-width: 979px) and (max-height: 800px) {
+    .carousel {
+        padding-top: 40px !important;
+    }
+    
+    .carousel-inner {
+        height: 70vh !important;
+    }
+    
+    .carousel img {
+        width: auto;
+    }
+}
+
+@media (min-width: 979px) and (min-height: 800px) {
+    .carousel {
+        padding-top: 80px !important;
+    }
+    
+    .carousel-inner {
+        height: 70vh !important;
+    }
+    
+    .carousel img {
+        width: auto;
+    }
+}
+/**************************************/
+/**************************************/
+
+
+/*************** LOGIN ****************/
+
+#login h1 {
+	padding: 1px;
+	margin: 0;
+	color: #fff;
+}
+
+#login {
+    padding-top: 25px;
+    height: auto;
+}
+
+#login .panel {
+    position: absolute;
+    bottom: 0;
+}
+
+#login .panel-body {
+    padding: 0;
+}
+
+#login h1 {
+    font-size: 20px;
+}
+
+#login input {
+    padding-top: 0px;
+}
+
+#login p {
+    font-size: 14px; 
+}
+
+#banner-sm img {
+    margin-top: 5px;
+    height: 31px;
+    position: absolute;
+    right: 0;
+    top: 3px;
+}
+
+@media (min-width: 320px) {
+    #login img {
+        margin-top: 7px !important;
+        height: 24px !important;
+    }
+    
+    #login h1 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 767px) {
+    
+}
+/***************************************/
+/***************************************/
+
+
+/************** SECTIONS ***************/
+
+#about {
+	background-color: transparent;
+	color: #000;
+}
+
+#about {
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#maincontent .container, #about .container , 
+#approved .container , #contact .container , 
+#applicators  .container , #portfolio .container, 
+#focus .container  {
+	background-color: #fff;
+	padding: 15px;
+}
+
+#check {
+	color: #0b0fa0;
+}
+
+@media (min-width: 320px) {
+    section .banner-text {
+        font-size: 20px;
+        margin-left: 10px !important;
+        padding-left: 5px !important;
+    }
+    
+    section .banner-img {
+        display: none;
+    }
+    
+    section .col-xs-3 {
+        width: 0;
+    }
+    
+    section .col-xs-9 {
+        width: 100%;
+    }
+    
+    section .panel .panel-heading {
+        background-color: #13aaf0;
+    }
+}
+
+@media (min-width: 767px) {
+    section .banner-img {
+        display: block;
+        margin-top: 6px;
+        height: 40px !important;
+    }
+    
+    section .banner-text {
+        font-size: 19px;
+        padding-right: 5px;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    
+    section .col-xs-3 {
+        width: 18%;
+        padding-right: 0;
+        padding-left: 15px;
+    }
+    
+    section .col-xs-9 {
+        width: 82%;
+    }
+    
+    section .panel-heading {
+        background-color: #fff !important;
+    }
+}
+
+@media (min-width: 979px) {
+    section .banner-img {
+        margin-top: 5px;
+        height: 47px !important;
+    }
+    
+    section .col-xs-3 {
+        width: 16%;
+        padding-right: 2px;
+    }
+    section .banner-text {
+        font-size: 24px;
+        margin-left: -3px;
+    }
+}
+
+@media (min-width: 1170px) {
+    section .banner-img {
+        margin-top: 2px;
+        height: 57px !important;
+    }
+    
+    section .banner-text {
+        font-size: 30px;
+        margin-left: -7px;
+    }
+}
+
+#approved, #applicators, #contact, #focus {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}	
+
+#contact .form-group button {
+	margin-bottom: 55px;
+}
+
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+@media (min-width: 767px) {}
+	.modal-backdrop {
+		top:12vh;
+	}
+
+	.modal {
+		top: 15vh;
+		bottom: 5vh;
+		right: 20vw;
+		left: 20vw;
+	}
+
+	.stop-transition {
+	  	-webkit-transition: none !important;
+	 	-moz-transition: none !important;
+	  	-o-transition: none !important;
+	  	transition: none !important;
+	}
+	.add-padding-15 {
+		padding-right: 15px !important;
+	}
+
+	/* override bootstrap 3 class to remove scrollbar from modal backdrop
+	   when not necessary */
+	.modal {
+	  overflow-y: auto;
+	}
+	/* custom class to add space for scrollbar */
+	.modal-scrollbar {
+		margin-right: 15px;
+	}
+}
+
+/* Section PANELS */
+/* -------------- */
+
+/* Heading */
+.banner-img {
+    margin-top: 2px;
+    height: 57px;
+    position: absolute;
+    right: 0;
+}
+
+.banner-text {
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.banner-text h1 {
+    margin-left: 1px !important;
+    border-radius: 0px 0px 50px !important;
+}
+
+.panel {
+	margin-bottom: 0px;
+}
+
+.panel-text {
+    margin-right: 10px;
+}
+
+@media (max-width: 979px) {  
+    h1.font-sans {
+        font-size: 18px;		
+    }
+
+    .featurette {
+        height: auto;
+        padding: 0;
+    }  
+}
+
+@media (max-width: 767px) {
+    
+}
+
+/* Footer */
+.footer-col a {
+	color: #fff;
+}
