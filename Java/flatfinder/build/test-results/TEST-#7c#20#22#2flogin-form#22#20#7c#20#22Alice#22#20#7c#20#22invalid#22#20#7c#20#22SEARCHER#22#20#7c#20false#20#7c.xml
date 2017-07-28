@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| &quot;/login-form&quot; | &quot;Alice&quot; | &quot;invalid&quot; | &quot;SEARCHER&quot; | false |" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-28T14:55:38" hostname="ELITEBOOK" time="0.147">
+  <properties/>
+  <testcase name="Given I am a &quot;SEARCHER&quot; with username &quot;Alice&quot; and password &quot;invalid&quot;" classname="| &quot;/login-form&quot; | &quot;Alice&quot; | &quot;invalid&quot; | &quot;SEARCHER&quot; | false |" time="0.0"/>
+  <testcase name="When I access &quot;/login-form&quot;" classname="| &quot;/login-form&quot; | &quot;Alice&quot; | &quot;invalid&quot; | &quot;SEARCHER&quot; | false |" time="0.0"/>
+  <testcase name="Then My authentication is false with role &quot;SEARCHER&quot;" classname="| &quot;/login-form&quot; | &quot;Alice&quot; | &quot;invalid&quot; | &quot;SEARCHER&quot; | false |" time="0.0"/>
+  <testcase name="classMethod" classname="| &quot;/login-form&quot; | &quot;Alice&quot; | &quot;invalid&quot; | &quot;SEARCHER&quot; | false |" time="0.179"/>
+  <system-out><![CDATA[2016-02-28 14:55:38.448  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-28 14:55:38.448  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e8b00e0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5d8a0c3a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3a3e9b52, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10beb69a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2684386d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2be21b5b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@65c8f17e]
+2016-02-28 14:55:38.448  INFO 7684 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@7e79602] to [cucumber.runtime.java.spring.GlueCodeScope@3ce47d66]
+2016-02-28 14:55:38.448  INFO 7684 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-28 14:55:38.448  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-28 14:55:38.448  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+
+  @security
+  Scenario Outline: authentication                                        ?[90m# Authorization.feature:10?[0m
+    ?[32mGiven ?[0m?[32mI am a "?[0m?[32m?[1mSEARCHER?[0m?[32m" with username "?[0m?[32m?[1mAlice?[0m?[32m" and password "?[0m?[32m?[1mpassword?[0m?[32m"?[0m ?[90m# AuthorizationStepDefs.i_am_a_with_username_and_password(String,String,String)?[0m
+    ?[32mWhen ?[0m?[32mI access "?[0m?[32m?[1m/login-form?[0m?[32m"?[0m                                           ?[90m# AuthorizationStepDefs.i_access(String)?[0m
+    ?[32mThen ?[0m?[32mMy authentication is true with role "?[0m?[32m?[1mSEARCHER?[0m?[32m"?[0m                   ?[90m# AuthorizationStepDefs.my_authentication_is_true_with_role(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

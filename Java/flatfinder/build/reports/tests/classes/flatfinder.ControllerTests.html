@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class flatfinder.ControllerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class flatfinder.ControllerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/flatfinder.html">flatfinder</a> &gt; ControllerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.008s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAccountController</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFileUploadController</td>
+<td>0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPropertyController</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSearchController</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSessionController</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:55:22.795 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class flatfinder.ControllerTests]
+14:55:22.811 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:55:22.811 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:55:22.826 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [flatfinder.ControllerTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+14:55:22.858 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@3b5565f3 declaringClass = 'flatfinder.ControllerTests', classes = '{class flatfinder.FlatFinder}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+14:55:22.875 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [flatfinder.ControllerTests]: class path resource [flatfinder/ControllerTests-context.xml] does not exist
+14:55:22.876 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [flatfinder.ControllerTests]: class path resource [flatfinder/ControllerTestsContext.groovy] does not exist
+14:55:22.876 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [flatfinder.ControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:55:22.878 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [flatfinder.ControllerTests]
+14:55:22.880 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [flatfinder.ControllerTests]: using defaults.
+14:55:22.880 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:55:22.911 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@8c6599e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51eecedf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1429d94f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c11cac5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@56a16470, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@711ed04d, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2b278c80]
+14:55:22.911 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [flatfinder.ControllerTests]
+14:55:22.911 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [flatfinder.ControllerTests]
+14:55:22.911 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [flatfinder.ControllerTests]
+14:55:22.911 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [flatfinder.ControllerTests]
+14:55:22.927 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@45047c06 testClass = ControllerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@57dddbe4 testClass = ControllerTests, locations = '{}', classes = '{class flatfinder.FlatFinder}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+14:55:22.927 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [flatfinder.ControllerTests]
+14:55:22.927 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [flatfinder.ControllerTests]
+14:55:23.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:55:23.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:55:23.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:55:23.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-02-28 14:55:23.346  INFO 7684 --- [    Test worker] flatfinder.ControllerTests               : Starting ControllerTests on ELITEBOOK with PID 7684 (C:\Users\willp\stsworkspace\co2015-group-03-repo\build\classes\test started by willp in C:\Users\willp\stsworkspace\co2015-group-03-repo)
+2016-02-28 14:55:23.346  INFO 7684 --- [    Test worker] flatfinder.ControllerTests               : No active profile set, falling back to default profiles: default
+2016-02-28 14:55:23.431  INFO 7684 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4919de20: startup date [Sun Feb 28 14:55:23 GMT 2016]; root of context hierarchy
+2016-02-28 14:55:25.321  INFO 7684 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8eaf21a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-28 14:55:25.412  INFO 7684 --- [    Test worker] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-02-28 14:55:25.725  INFO 7684 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-02-28 14:55:25.752  INFO 7684 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-02-28 14:55:25.874  INFO 7684 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-02-28 14:55:25.876  INFO 7684 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-02-28 14:55:25.878  INFO 7684 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-02-28 14:55:26.066  INFO 7684 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-28 14:55:26.327  INFO 7684 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-02-28 14:55:26.474  INFO 7684 --- [    Test worker] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-02-28 14:55:27.174  INFO 7684 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2016-02-28 14:55:32.512  INFO 7684 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2016-02-28 14:55:33.471  INFO 7684 --- [    Test worker] o.s.s.w.a.c.ChannelProcessingFilter      : Validated configuration attributes
+2016-02-28 14:55:33.475  INFO 7684 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.access.channel.ChannelProcessingFilter@14d96a2a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6180a2b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@751abeec, org.springframework.security.web.header.HeaderWriterFilter@2102f970, org.springframework.security.web.csrf.CsrfFilter@422364d0, org.springframework.security.web.authentication.logout.LogoutFilter@4e0c150d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4156dfda, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e1cd22b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22146480, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9f9eb9c, org.springframework.security.web.session.SessionManagementFilter@3b77e0a3, org.springframework.security.web.access.ExceptionTranslationFilter@908f404, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46594b00]
+2016-02-28 14:55:33.680  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/delete-user],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.AccountController.deleteUser(javax.servlet.http.HttpServletRequest,java.lang.String)
+2016-02-28 14:55:33.681  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/view-profile],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.AccountController.returnSciVersion(javax.servlet.http.HttpServletResponse)
+2016-02-28 14:55:33.681  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/amend-user],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.AccountController.amendUser(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+2016-02-28 14:55:33.681  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/get-users],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.AccountController.getUser(javax.servlet.http.HttpServletRequest,java.lang.String)
+2016-02-28 14:55:33.682  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/addUser],methods=[GET]}&quot; onto public java.lang.String flatfinder.controller.AccountController.addUser(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+2016-02-28 14:55:33.683  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/upload],methods=[GET]}&quot; onto public java.lang.String flatfinder.controller.FileUploadController.provideUploadInfo(org.springframework.ui.Model)
+2016-02-28 14:55:33.683  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/upload],methods=[POST]}&quot; onto public java.lang.String flatfinder.controller.FileUploadController.handleFileUpload(java.lang.String,org.springframework.web.multipart.MultipartFile,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2016-02-28 14:55:33.684  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/property],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.PropertyController.specificProperty(javax.servlet.http.HttpServletRequest,java.lang.Integer)
+2016-02-28 14:55:33.684  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/test],methods=[POST]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SearchController.successLogin(org.springframework.ui.Model,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2016-02-28 14:55:33.685  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/test2],methods=[POST]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SearchController.successLogin2(org.springframework.ui.Model)
+2016-02-28 14:55:33.689  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user-error],methods=[GET]}&quot; onto public java.lang.String flatfinder.controller.SessionController.error()
+2016-02-28 14:55:33.689  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user-logout],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SessionController.logout()
+2016-02-28 14:55:33.689  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/success-login],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SessionController.successLogin(javax.servlet.http.HttpServletRequest)
+2016-02-28 14:55:33.689  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user-login],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SessionController.loginForm()
+2016-02-28 14:55:33.690  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user-registration],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SessionController.userReg()
+2016-02-28 14:55:33.690  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error-login],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView flatfinder.controller.SessionController.invalidLogin()
+2016-02-28 14:55:33.696  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-02-28 14:55:33.697  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-02-28 14:55:33.732  INFO 7684 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-28 14:55:33.802  INFO 7684 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4919de20: startup date [Sun Feb 28 14:55:23 GMT 2016]; root of context hierarchy
+Application Init
+2016-02-28 14:55:35.329  INFO 7684 --- [    Test worker] flatfinder.ControllerTests               : Started ControllerTests in 12.286 seconds (JVM running for 13.317)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.9</a> at 28-Feb-2016 14:55:42</p>
+</div>
+</div>
+</body>
+</html>

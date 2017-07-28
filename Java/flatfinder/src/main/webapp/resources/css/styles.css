@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+	margin: 0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px/2.5;
+}
+
+.err{
+	color:red;
+}
+
+.main {
+	height:100%;
+	width:100%;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h1 {
+
+	margin: 25px 10px;
+}
+
+h2 {
+	color:#999999;
+	margin:0px;
+	padding:10px;
+	font-size:36px/2.5;
+}
+
+textarea, input, button {
+	border:#178a11 solid 1px	
+}
+
+section li {
+	padding:2px;
+	text-align:left;
+	width:415px;
+}
+
+#menu0 button, #menu1 button {
+	float: right;
+}
+
+#menu5 label {
+	width:140px;
+	display:block;
+}
+
+#menu5 li, #menu5 form {
+	width:290px;
+}
+
+#menu5 form {
+	float: left;
+}
+
+button:hover{
+
+}
+
+table, thead, tbody, tr {
+	width:100%;
+}
+
+section {
+	text-align:left;
+	height:100%;
+	width:51%;
+	float: left;
+}
+
+td, th {
+	padding: 10px 0px;
+	margin: 10px 5px;
+	height:30px;
+	text-align:center;
+}
+
+#art4 td, #art4 th ,.review td, .review th{
+	font-size:11px !important;
+}
+
+td {
+	margin:10px;
+	border-top: 2px solid #178a11;
+	font-size:36px/2.5;
+}
+
+#assignTo {
+	width:30px;
+}
+aside {
+
+}
+
+li{
+	list-style:none;
+}
+
+header {
+	width:100%;
+	height:140px;
+}
+
+footer {
+	width:100%;
+	position:fixed;
+	bottom:0;
+	clear:both;
+}
+
+.navbar-custom {
+    background-color: #f05f40;
+    font-color: #000000;
+	opacity: 0.8;
+}
+
+footer p {
+	float:right;
+}
+
+nav {
+	float: right;
+	margin-right: 10px;
+}
+
+.formlabel{
+	display: inline-block;
+	width: 150px;	
+}
+
+.reason label {
+	vertical-align: top;
+}
+#title {
+	height:100%;
+	width:23%;
+	float:left;
+	text-align:center;
+}
+
+#status {
+	width:77%;
+	float:right;
+	border-top: 10px solid #178a11;
+    border-bottom:10px solid #262727;
+}
+
+#lhs {
+	float:left;
+	height:100%;
+	width:23%;
+}
+
+#rhs {
+	height:100%;
+	width:25%;
+	float:right;
+}
+
+#content, #log {
+	overflow-y:auto;
+	height:56%;
+	text-align:center;
+	margin-left: 10px;
+	border:#178a11 solid 1px;
+}
+
+#login ul {
+	padding-left:0px;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+}
+
+#login li input {
+	width:100%;
+}
+
+#login button {
+	float: right;
+}
+
+
+#searchBox{
+	width:90%;
+	height:80%;
+}

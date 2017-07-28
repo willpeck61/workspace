@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| &quot;/login-form&quot; | &quot;invalid&quot; | &quot;invalid&quot; | &quot;LANDLORD&quot; | false |" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-28T14:55:38" hostname="ELITEBOOK" time="0.144">
+  <properties/>
+  <testcase name="Given I am a &quot;LANDLORD&quot; with username &quot;invalid&quot; and password &quot;invalid&quot;" classname="| &quot;/login-form&quot; | &quot;invalid&quot; | &quot;invalid&quot; | &quot;LANDLORD&quot; | false |" time="0.0"/>
+  <testcase name="When I access &quot;/login-form&quot;" classname="| &quot;/login-form&quot; | &quot;invalid&quot; | &quot;invalid&quot; | &quot;LANDLORD&quot; | false |" time="0.0"/>
+  <testcase name="Then My authentication is false with role &quot;LANDLORD&quot;" classname="| &quot;/login-form&quot; | &quot;invalid&quot; | &quot;invalid&quot; | &quot;LANDLORD&quot; | false |" time="0.0"/>
+  <testcase name="classMethod" classname="| &quot;/login-form&quot; | &quot;invalid&quot; | &quot;invalid&quot; | &quot;LANDLORD&quot; | false |" time="0.165"/>
+  <system-out><![CDATA[2016-02-28 14:55:38.923  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-28 14:55:38.923  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ef77cc1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2079f024, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@35699222, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2024e6b6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@75e09707, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a77b14f, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@6376c8a1]
+2016-02-28 14:55:38.923  INFO 7684 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@525d6cf6] to [cucumber.runtime.java.spring.GlueCodeScope@15c9681b]
+2016-02-28 14:55:38.924  INFO 7684 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-28 14:55:38.924  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-28 14:55:38.926  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 2 ms
+
+  @security
+  Scenario Outline: authentication                                  ?[90m# Authorization.feature:13?[0m
+    ?[32mGiven ?[0m?[32mI am a "?[0m?[32m?[1mADMIN?[0m?[32m" with username "?[0m?[32m?[1mBob?[0m?[32m" and password "?[0m?[32m?[1minvalid?[0m?[32m"?[0m ?[90m# AuthorizationStepDefs.i_am_a_with_username_and_password(String,String,String)?[0m
+    ?[32mWhen ?[0m?[32mI access "?[0m?[32m?[1m/login-form?[0m?[32m"?[0m                                     ?[90m# AuthorizationStepDefs.i_access(String)?[0m
+    ?[32mThen ?[0m?[32mMy authentication is false with role "?[0m?[32m?[1mADMIN?[0m?[32m"?[0m               ?[90m# AuthorizationStepDefs.my_authentication_is_false_with_role(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Admin approves &lt;sname&gt; rating request" tests="8" skipped="7" failures="0" errors="0" timestamp="2016-02-28T14:55:42" hostname="ELITEBOOK" time="0.131">
+  <properties/>
+  <testcase name="Given an searcher named &lt;sname&gt;" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And has selected &lt;pid&gt; on the property page" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And an admin approves the rating request" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Im logged in as admin" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And want to approve a rating request" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When clicking the approve on the request" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the rating should appear on property page &lt;pid&gt;" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Admin approves &lt;sname&gt; rating request" time="0.162"/>
+  <system-out><![CDATA[2016-02-28 14:55:42.012  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-28 14:55:42.012  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c3f3140, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15d5d9da, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60cc0eca, org.springframework.test.context.support.DirtiesContextTestExecutionListener@20491dbe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@15c98dc6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ee98dac, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2ed37ce5]
+2016-02-28 14:55:42.012  INFO 7684 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@5414485f] to [cucumber.runtime.java.spring.GlueCodeScope@1fe132c4]
+2016-02-28 14:55:42.012  INFO 7684 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-28 14:55:42.012  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-28 14:55:42.012  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+
+  Scenario: Searcher <sname> rates a property                 ?[90m# Feedback.feature:8?[0m
+    ?[36mGiven ?[0m?[36mIm logged in as <sname>?[0m                             ?[90m# FeedbackStepDefs.im_logged_in_as_sname()?[0m
+    ?[36mAnd ?[0m?[36mwant to rate property <pid>?[0m                           ?[90m# FeedbackStepDefs.want_to_rate_property_pid()?[0m
+    ?[36mWhen ?[0m?[36msubmitting the rating "?[0m?[36m?[1m6?[0m?[36m"?[0m                            ?[90m# FeedbackStepDefs.submitting_the_rating(String)?[0m
+    ?[36mThen ?[0m?[36mthe rating request is sent to the admin for approval?[0m ?[90m# FeedbackStepDefs.the_rating_request_is_sent_to_the_admin_for_approval()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class flatfinder.FlatFinderAppTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class flatfinder.FlatFinderAppTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/flatfinder.html">flatfinder</a> &gt; FlatFinderAppTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Feature: web authorization
+
+  @security
+  Scenario Outline: authentication                             ?[90m# Authorization.feature:4?[0m
+    ?[36mGiven ?[0m?[36mI am a &lt;ROLE&gt; with username &lt;USR&gt; and password &lt;PWD&gt;?[0m
+    ?[36mWhen ?[0m?[36mI access &lt;URL&gt;?[0m
+    ?[36mThen ?[0m?[36mMy authentication is &lt;isAuth&gt; with role &lt;ROLE&gt;?[0m
+
+    Examples: 
+
+  @security
+  Scenario: secure password                                                         ?[90m# Authorization.feature:20?[0m
+    ?[32mGiven ?[0m?[32ma developer &quot;?[0m?[32m?[1mAlice?[0m?[32m&quot;?[0m                                                       ?[90m# AuthorizationStepDefs.a_developer(String)?[0m
+    ?[32mWhen ?[0m?[32mI retrieve the password from the user credentials stored in the repository?[0m ?[90m# AuthorizationStepDefs.i_retrieve_the_password_from_the_user_credentials_stored_in_the_repository()?[0m
+    ?[32mThen ?[0m?[32mI should get the encrypted password &quot;?[0m?[32m?[1mpassword?[0m?[32m&quot;?[0m                             ?[90m# AuthorizationStepDefs.i_should_get_the_encrypted_password(String)?[0m
+
+  @security
+  Scenario Outline: authorization                                    ?[90m# Authorization.feature:26?[0m
+    ?[36mGiven ?[0m?[36mI am a &lt;ROLES&gt; role with username &lt;USER&gt; and password &lt;PW&gt;?[0m
+    ?[36mWhen ?[0m?[36mI access a &lt;Service&gt;?[0m
+    ?[36mThen ?[0m?[36mMy authentication is then &lt;isAuthorized&gt; with role &lt;ROLES&gt;?[0m
+
+    Examples: 
+
+  @security
+  Scenario Outline: authorization                                             ?[90m# Authorization.feature:46?[0m
+    ?[32mGiven ?[0m?[32mI am a &quot;?[0m?[32m?[1mLANDLORD?[0m?[32m&quot; role with username &quot;?[0m?[32m?[1mJohn?[0m?[32m&quot; and password &quot;?[0m?[32m?[1mpassword?[0m?[32m&quot;?[0m ?[90m# AuthorizationStepDefs.i_am_a_role_with_username_and_password(String,String,String)?[0m
+    ?[32mWhen ?[0m?[32mI access a &quot;?[0m?[32m?[1m/file-report?[0m?[32m&quot;?[0m                                            ?[90m# AuthorizationStepDefs.i_access_a(String)?[0m
+    ?[32mThen ?[0m?[32mMy authentication is then true with role &quot;?[0m?[32m?[1mLANDLORD?[0m?[32m&quot;?[0m                  ?[90m# AuthorizationStepDefs.my_authentication_is_then_true_with_role(String)?[0m
+Feature: Feedback on properties
+
+  Background:                                   ?[90m# Feedback.feature:3?[0m
+    ?[33mGiven ?[0m?[33man searcher named &lt;sname&gt;?[0m             ?[90m# FeedbackStepDefs.an_searcher_named_sname()?[0m
+      ?[31mcucumber.api.PendingException: TODO: implement me
+      	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+      	at ?.Given an searcher named &lt;sname&gt;(Feedback.feature:4)
+      ?[0m
+    ?[36mAnd ?[0m?[36mhas selected &lt;pid&gt; on the property page?[0m ?[90m# FeedbackStepDefs.has_selected_pid_on_the_property_page()?[0m
+    ?[36mAnd ?[0m?[36man admin approves the rating request?[0m    ?[90m# FeedbackStepDefs.an_admin_approves_the_rating_request()?[0m
+
+  Background:                                   ?[90m# Feedback.feature:3?[0m
+    ?[33mGiven ?[0m?[33man searcher named &lt;sname&gt;?[0m             ?[90m# FeedbackStepDefs.an_searcher_named_sname()?[0m
+      ?[31mcucumber.api.PendingException: TODO: implement me
+      	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+      	at ?.Given an searcher named &lt;sname&gt;(Feedback.feature:4)
+      ?[0m
+    ?[36mAnd ?[0m?[36mhas selected &lt;pid&gt; on the property page?[0m ?[90m# FeedbackStepDefs.has_selected_pid_on_the_property_page()?[0m
+    ?[36mAnd ?[0m?[36man admin approves the rating request?[0m    ?[90m# FeedbackStepDefs.an_admin_approves_the_rating_request()?[0m
+
+  Scenario: Admin approves &lt;sname&gt; rating request        ?[90m# Feedback.feature:14?[0m
+    ?[36mGiven ?[0m?[36mIm logged in as admin?[0m                          ?[90m# FeedbackStepDefs.im_logged_in_as_admin()?[0m
+    ?[36mAnd ?[0m?[36mwant to approve a rating request?[0m                 ?[90m# FeedbackStepDefs.want_to_approve_a_rating_request()?[0m
+    ?[36mWhen ?[0m?[36mclicking the approve on the request?[0m             ?[90m# FeedbackStepDefs.clicking_the_approve_on_the_request()?[0m
+    ?[36mThen ?[0m?[36mthe rating should appear on property page &lt;pid&gt;?[0m ?[90m# FeedbackStepDefs.the_rating_should_appear_on_property_page_pid()?[0m
+Feature: Register as a member
+  As a site visitor
+  I want to join the website
+  In order to find property to rent
+
+  @domain
+  Scenario: register as any role                                                      ?[90m# Registration.feature:13?[0m
+    ?[33mGiven ?[0m?[33mim completing the &quot;Register&quot; form?[0m
+    ?[33mAnd ?[0m?[33mthe form is completed with?[0m
+    ?[33mWhen ?[0m?[33mthe Register form is submitted?[0m
+    ?[33mThen ?[0m?[33mI should see that &lt;FIRSTNAME&gt; with &lt;POSTCODE&gt; and &lt;ROLE&gt; has been registered?[0m
+
+27 Scenarios (?[33m2 pending?[0m, ?[33m2 undefined?[0m, ?[32m23 passed?[0m)
+90 Steps (?[36m12 skipped?[0m, ?[33m2 pending?[0m, ?[33m7 undefined?[0m, ?[32m69 passed?[0m)
+0m4.647s
+
+cucumber.api.PendingException: TODO: implement me
+	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+	at ?.Given an searcher named &lt;sname&gt;(Feedback.feature:4)
+
+cucumber.api.PendingException: TODO: implement me
+	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+	at ?.Given an searcher named &lt;sname&gt;(Feedback.feature:4)
+
+
+You can implement missing steps with the snippets below:
+
+@Given(&quot;^im on the flatfinder home page$&quot;)
+public void im_on_the_flatfinder_home_page() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When(&quot;^the registration link is clicked$&quot;)
+public void the_registration_link_is_clicked() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then(&quot;^the registration page should open$&quot;)
+public void the_registration_page_should_open() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given(&quot;^im completing the \&quot;([^\&quot;]*)\&quot; form$&quot;)
+public void im_completing_the_form(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given(&quot;^the form is completed with$&quot;)
+public void the_form_is_completed_with(DataTable arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // List&lt;YourType&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt; or Map&lt;K,V&gt;.
+    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+    throw new PendingException();
+}
+
+@When(&quot;^the Register form is submitted$&quot;)
+public void the_Register_form_is_submitted() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then(&quot;^I should see that &lt;FIRSTNAME&gt; with &lt;POSTCODE&gt; and &lt;ROLE&gt; has been registered$&quot;)
+public void i_should_see_that_FIRSTNAME_with_POSTCODE_and_ROLE_has_been_registered() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.9</a> at 28-Feb-2016 14:55:42</p>
+</div>
+</div>
+</body>
+</html>

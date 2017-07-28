@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="flatfinder.FlatFinderAppTests" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ELITEBOOK" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: web authorization
+
+  @security
+  Scenario Outline: authentication                             ?[90m# Authorization.feature:4?[0m
+    ?[36mGiven ?[0m?[36mI am a <ROLE> with username <USR> and password <PWD>?[0m
+    ?[36mWhen ?[0m?[36mI access <URL>?[0m
+    ?[36mThen ?[0m?[36mMy authentication is <isAuth> with role <ROLE>?[0m
+
+    Examples: 
+
+  @security
+  Scenario: secure password                                                         ?[90m# Authorization.feature:20?[0m
+    ?[32mGiven ?[0m?[32ma developer "?[0m?[32m?[1mAlice?[0m?[32m"?[0m                                                       ?[90m# AuthorizationStepDefs.a_developer(String)?[0m
+    ?[32mWhen ?[0m?[32mI retrieve the password from the user credentials stored in the repository?[0m ?[90m# AuthorizationStepDefs.i_retrieve_the_password_from_the_user_credentials_stored_in_the_repository()?[0m
+    ?[32mThen ?[0m?[32mI should get the encrypted password "?[0m?[32m?[1mpassword?[0m?[32m"?[0m                             ?[90m# AuthorizationStepDefs.i_should_get_the_encrypted_password(String)?[0m
+
+  @security
+  Scenario Outline: authorization                                    ?[90m# Authorization.feature:26?[0m
+    ?[36mGiven ?[0m?[36mI am a <ROLES> role with username <USER> and password <PW>?[0m
+    ?[36mWhen ?[0m?[36mI access a <Service>?[0m
+    ?[36mThen ?[0m?[36mMy authentication is then <isAuthorized> with role <ROLES>?[0m
+
+    Examples: 
+
+  @security
+  Scenario Outline: authorization                                             ?[90m# Authorization.feature:46?[0m
+    ?[32mGiven ?[0m?[32mI am a "?[0m?[32m?[1mLANDLORD?[0m?[32m" role with username "?[0m?[32m?[1mJohn?[0m?[32m" and password "?[0m?[32m?[1mpassword?[0m?[32m"?[0m ?[90m# AuthorizationStepDefs.i_am_a_role_with_username_and_password(String,String,String)?[0m
+    ?[32mWhen ?[0m?[32mI access a "?[0m?[32m?[1m/file-report?[0m?[32m"?[0m                                            ?[90m# AuthorizationStepDefs.i_access_a(String)?[0m
+    ?[32mThen ?[0m?[32mMy authentication is then true with role "?[0m?[32m?[1mLANDLORD?[0m?[32m"?[0m                  ?[90m# AuthorizationStepDefs.my_authentication_is_then_true_with_role(String)?[0m
+Feature: Feedback on properties
+
+  Background:                                   ?[90m# Feedback.feature:3?[0m
+    ?[33mGiven ?[0m?[33man searcher named <sname>?[0m             ?[90m# FeedbackStepDefs.an_searcher_named_sname()?[0m
+      ?[31mcucumber.api.PendingException: TODO: implement me
+      	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+      	at ?.Given an searcher named <sname>(Feedback.feature:4)
+      ?[0m
+    ?[36mAnd ?[0m?[36mhas selected <pid> on the property page?[0m ?[90m# FeedbackStepDefs.has_selected_pid_on_the_property_page()?[0m
+    ?[36mAnd ?[0m?[36man admin approves the rating request?[0m    ?[90m# FeedbackStepDefs.an_admin_approves_the_rating_request()?[0m
+
+  Background:                                   ?[90m# Feedback.feature:3?[0m
+    ?[33mGiven ?[0m?[33man searcher named <sname>?[0m             ?[90m# FeedbackStepDefs.an_searcher_named_sname()?[0m
+      ?[31mcucumber.api.PendingException: TODO: implement me
+      	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+      	at ?.Given an searcher named <sname>(Feedback.feature:4)
+      ?[0m
+    ?[36mAnd ?[0m?[36mhas selected <pid> on the property page?[0m ?[90m# FeedbackStepDefs.has_selected_pid_on_the_property_page()?[0m
+    ?[36mAnd ?[0m?[36man admin approves the rating request?[0m    ?[90m# FeedbackStepDefs.an_admin_approves_the_rating_request()?[0m
+
+  Scenario: Admin approves <sname> rating request        ?[90m# Feedback.feature:14?[0m
+    ?[36mGiven ?[0m?[36mIm logged in as admin?[0m                          ?[90m# FeedbackStepDefs.im_logged_in_as_admin()?[0m
+    ?[36mAnd ?[0m?[36mwant to approve a rating request?[0m                 ?[90m# FeedbackStepDefs.want_to_approve_a_rating_request()?[0m
+    ?[36mWhen ?[0m?[36mclicking the approve on the request?[0m             ?[90m# FeedbackStepDefs.clicking_the_approve_on_the_request()?[0m
+    ?[36mThen ?[0m?[36mthe rating should appear on property page <pid>?[0m ?[90m# FeedbackStepDefs.the_rating_should_appear_on_property_page_pid()?[0m
+Feature: Register as a member
+  As a site visitor
+  I want to join the website
+  In order to find property to rent
+
+  @domain
+  Scenario: register as any role                                                      ?[90m# Registration.feature:13?[0m
+    ?[33mGiven ?[0m?[33mim completing the "Register" form?[0m
+    ?[33mAnd ?[0m?[33mthe form is completed with?[0m
+    ?[33mWhen ?[0m?[33mthe Register form is submitted?[0m
+    ?[33mThen ?[0m?[33mI should see that <FIRSTNAME> with <POSTCODE> and <ROLE> has been registered?[0m
+
+27 Scenarios (?[33m2 pending?[0m, ?[33m2 undefined?[0m, ?[32m23 passed?[0m)
+90 Steps (?[36m12 skipped?[0m, ?[33m2 pending?[0m, ?[33m7 undefined?[0m, ?[32m69 passed?[0m)
+0m4.647s
+
+cucumber.api.PendingException: TODO: implement me
+	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+	at ?.Given an searcher named <sname>(Feedback.feature:4)
+
+cucumber.api.PendingException: TODO: implement me
+	at flatfinder.FeedbackStepDefs.an_searcher_named_sname(FeedbackStepDefs.java:58)
+	at ?.Given an searcher named <sname>(Feedback.feature:4)
+
+
+You can implement missing steps with the snippets below:
+
+@Given("^im on the flatfinder home page$")
+public void im_on_the_flatfinder_home_page() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^the registration link is clicked$")
+public void the_registration_link_is_clicked() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^the registration page should open$")
+public void the_registration_page_should_open() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^im completing the \"([^\"]*)\" form$")
+public void im_completing_the_form(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^the form is completed with$")
+public void the_form_is_completed_with(DataTable arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+    throw new PendingException();
+}
+
+@When("^the Register form is submitted$")
+public void the_Register_form_is_submitted() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^I should see that <FIRSTNAME> with <POSTCODE> and <ROLE> has been registered$")
+public void i_should_see_that_FIRSTNAME_with_POSTCODE_and_ROLE_has_been_registered() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

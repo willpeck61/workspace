@@ -1,0 +1,405 @@
+
+12
+Cecilia Road
+NULL
+Leicester
+false
+Nice property located near the University. Has good sized rooms with interesting views.
+The local area is very nice
+false
+Nice house near Uni
+0
+3
+0
+Student
+false
+false
+LE21TA
+75
+true
+false
+false
+false
+01-01-2016
+03-08-2017
+true
+0
+2
+
+13
+Cecilia Road
+Another address
+Leicester
+true
+These spacious 2 bedroom apartments, located in the city centre, are conveniently situated near Leicester’s railway station.
+N/A
+false
+Another house near uni
+0
+5
+1
+Student
+false
+false
+LE21QA
+105
+true
+false
+false
+false
+05-01-2016
+01-02-2017
+true
+0
+2
+
+114
+Queens Road
+NULL
+Leicester
+true
+This great, newly renovated en-suite house is located in the heart of Leicester’s vibrant Queens road. Located just a stones throw from The University of Leicester, this house is idea for students.
+Locals are nice, close to shops
+false
+2 Bed House, close to University
+0
+2
+0
+Student
+false
+false
+LE23FL
+76
+true
+false
+false
+false
+05-02-2016
+01-02-2017
+true
+0
+2
+
+17
+De Montfort Street
+NULL
+Leicester
+true
+Student accommodation near The University of Leicester. These newly developed studio apartments combine luxury together with an ultra modern feel.
+Close to shops.
+false
+3 Bed Flat close to De Montfort and Leicester University
+0
+3
+0
+Student
+false
+false
+LE17GD
+140
+true
+false
+true
+false
+05-03-2016
+01-02-2017
+true
+1
+2
+
+7
+Northampton Street
+NULL
+Leicester
+true
+These wonderful apartments combine luxury together with the convenience. Located just minutes from the city center and train station it is ideally located for student of both universities.
+Close to shops. Nice neighbours.
+false
+2 Bed flat near Curve Theatre
+0
+2
+0
+Student
+false
+false
+LE11PA
+135
+true
+true
+true
+false
+05-03-2016
+01-02-2017
+true
+1
+2
+
+1
+University Road
+NULL
+Leicester
+true
+These spacious 2 bedroom apartments, located on the doorstep of The University of Leicester, are conveniently situated within a 3 minute walk of Leicester’s railway station and The university of Leicester.
+Nice neighbours.
+false
+2 Bed flat near Victoria Park
+0
+2
+0
+Postgraduate
+false
+false
+LE17RA
+135
+true
+true
+false
+false
+24-03-2016
+01-02-2017
+true
+0
+2
+
+10
+Albion Street
+NULL
+Leicester
+true
+These spacious fully furnished 3 bed apartments are located in the city centre. 
+Nice neighbours.
+false
+3 Bed House, Central Leicester
+0
+3
+0
+Undergraduate
+false
+false
+LE16GB
+70
+true
+true
+false
+false
+24-03-2016
+01-02-2017
+true
+0
+2
+
+18
+Albion Street
+NULL
+Leicester
+true
+These spacious fully furnished apartments are located in the city centre. Situated near Leicester’s train station.
+N/A
+false
+2 Bed flat, close to uni
+0
+2
+0
+Student
+false
+false
+LE16GB
+95
+false
+true
+false
+false
+24-03-2016
+01-02-2017
+true
+1
+2
+
+177
+Charles Street
+NULL
+Leicester
+true
+These spacious 2 bedroom apartments, located in the city centre, are conveniently situated near Leicester’s railway station.
+Family area.
+false
+2 Bed house in family area!
+0
+2
+0
+Professional
+false
+false
+LE16GB
+95
+false
+true
+false
+false
+24-03-2016
+01-02-2017
+true
+0
+2
+
+120
+Charles Street
+NULL
+Leicester
+true
+This newly refurbished apartments combine luxury together with the convenience. Located just minutes from the city center.
+Quiet area.
+false
+2 Bed house on Charles Street!
+0
+2
+0
+Studnet
+false
+false
+LE11LB
+100
+false
+true
+false
+false
+24-03-2016
+01-02-2017
+true
+0
+2
+
+120
+Charles Street
+NULL
+Leicester
+true
+These spacious 2 bedroom apartments, located in the city center, are conveniently situated near Leicester’s railway station.
+A studnet area with a few families dotted around.
+false
+Colton House!
+0
+2
+0
+Studnet
+false
+false
+LE11LB
+105
+false
+true
+true
+false
+12-03-2016
+01-02-2017
+true
+0
+2
+
+27
+Knighton Road
+NULL
+Leicester
+true
+These spacious 2 bedroom apartments are located in the leafy suburb of Stoneygate, conveniently situated near Leicester’s railway station
+A family zone but a student apartment.
+false
+Knighton Road!!
+0
+2
+0
+Studnet
+false
+false
+LE23HL
+150
+false
+true
+true
+true
+12-03-2016
+01-02-2017
+true
+0
+2
+
+35
+Western Boulevard
+NULL
+Leicester
+true
+These newly refurbished studio apartments combine luxury together with an ultra modern feel.
+Student studio.
+false
+Newly refurbished studio apartment!
+0
+4
+0
+Undergraduate
+false
+false
+LE27HN
+125
+false
+true
+true
+false
+12-03-2016
+01-06-2017
+true
+0
+2
+
+72
+Paton Street
+NULL
+Leicester
+true
+Nice house with three bedrooms.
+Student area.
+false
+Big house with big rooms
+0
+3
+0
+Studnet
+false
+false
+LE30BF
+100
+false
+true
+true
+false
+12-03-2016
+01-06-2017
+true
+0
+5
+
+131
+Western Road
+NULL
+Leicester
+true
+This private halls is exclusive student accommodation for students.
+Student area.
+false
+Private halls near uni
+0
+3
+0
+Studnet
+false
+false
+LE30GF
+100
+false
+true
+true
+false
+12-03-2016
+01-06-2017
+true
+1
+5

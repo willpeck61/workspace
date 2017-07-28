@@ -1,0 +1,72 @@
+
+3
+SEARCHER
+Alice
+password
+2
+Nixon Court
+Leicester
+LE2 7TG
+1
+0
+1
+alice@test.com
+0
+0
+Mrs
+Test
+User
+
+2
+LANDLORD
+John
+password
+2
+Nixon Court
+Leicester
+LE2 7TG
+1
+0
+1
+alice@test.com
+0
+0
+Mrs
+Test
+User
+
+1
+ADMIN
+Bob
+admin
+2
+Nixon Court
+Leicester
+LE2 7TG
+1
+0
+1
+bob@test.com
+0
+0
+Mrs
+Test
+User
+
+4
+SUSPENDED
+Baddy
+password
+2
+Nixon Court
+Leicester
+LE2 7TG
+1
+0
+1
+baddy@test.com
+0
+0
+Mrs
+Test
+User

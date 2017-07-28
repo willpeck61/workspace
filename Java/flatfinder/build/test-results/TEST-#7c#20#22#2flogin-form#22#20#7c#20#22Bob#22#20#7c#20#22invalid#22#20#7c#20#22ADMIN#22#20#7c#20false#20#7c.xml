@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| &quot;/login-form&quot; | &quot;Bob&quot; | &quot;invalid&quot; | &quot;ADMIN&quot; | false |" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-28T14:55:38" hostname="ELITEBOOK" time="0.115">
+  <properties/>
+  <testcase name="Given I am a &quot;ADMIN&quot; with username &quot;Bob&quot; and password &quot;invalid&quot;" classname="| &quot;/login-form&quot; | &quot;Bob&quot; | &quot;invalid&quot; | &quot;ADMIN&quot; | false |" time="0.0"/>
+  <testcase name="When I access &quot;/login-form&quot;" classname="| &quot;/login-form&quot; | &quot;Bob&quot; | &quot;invalid&quot; | &quot;ADMIN&quot; | false |" time="0.0"/>
+  <testcase name="Then My authentication is false with role &quot;ADMIN&quot;" classname="| &quot;/login-form&quot; | &quot;Bob&quot; | &quot;invalid&quot; | &quot;ADMIN&quot; | false |" time="0.0"/>
+  <testcase name="classMethod" classname="| &quot;/login-form&quot; | &quot;Bob&quot; | &quot;invalid&quot; | &quot;ADMIN&quot; | false |" time="0.141"/>
+  <system-out><![CDATA[2016-02-28 14:55:38.782  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-28 14:55:38.783  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@762c194a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5013377d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@76235cc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@80597c4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ef529c7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57944dbb, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@41ceded0]
+2016-02-28 14:55:38.783  INFO 7684 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@7e975bce] to [cucumber.runtime.java.spring.GlueCodeScope@525d6cf6]
+2016-02-28 14:55:38.784  INFO 7684 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-28 14:55:38.784  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-28 14:55:38.787  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3 ms
+
+  @security
+  Scenario Outline: authentication                                ?[90m# Authorization.feature:12?[0m
+    ?[32mGiven ?[0m?[32mI am a "?[0m?[32m?[1mADMIN?[0m?[32m" with username "?[0m?[32m?[1mBob?[0m?[32m" and password "?[0m?[32m?[1madmin?[0m?[32m"?[0m ?[90m# AuthorizationStepDefs.i_am_a_with_username_and_password(String,String,String)?[0m
+    ?[32mWhen ?[0m?[32mI access "?[0m?[32m?[1m/login-form?[0m?[32m"?[0m                                   ?[90m# AuthorizationStepDefs.i_access(String)?[0m
+    ?[32mThen ?[0m?[32mMy authentication is true with role "?[0m?[32m?[1mADMIN?[0m?[32m"?[0m              ?[90m# AuthorizationStepDefs.my_authentication_is_true_with_role(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: register as any role" tests="5" skipped="4" failures="0" errors="0" timestamp="2016-02-28T14:55:42" hostname="ELITEBOOK" time="0.168">
+  <properties/>
+  <testcase name="Given im completing the &quot;Register&quot; form" classname="Scenario: register as any role" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And the form is completed with" classname="Scenario: register as any role" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When the Register form is submitted" classname="Scenario: register as any role" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should see that &lt;FIRSTNAME&gt; with &lt;POSTCODE&gt; and &lt;ROLE&gt; has been registered" classname="Scenario: register as any role" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: register as any role" time="0.184"/>
+  <system-out><![CDATA[2016-02-28 14:55:42.297  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-28 14:55:42.297  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@749156f2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7144e058, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@847fd74, org.springframework.test.context.support.DirtiesContextTestExecutionListener@226e9693, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5c3662ea, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@aa61f14, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3d3def69]
+2016-02-28 14:55:42.297  INFO 7684 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@655ce326] to [cucumber.runtime.java.spring.GlueCodeScope@47f32ed]
+2016-02-28 14:55:42.297  INFO 7684 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-28 14:55:42.297  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-28 14:55:42.297  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+
+  @controller
+  Scenario: open registration page         ?[90m# Registration.feature:7?[0m
+    ?[33mGiven ?[0m?[33mim on the flatfinder home page?[0m
+    ?[33mWhen ?[0m?[33mthe registration link is clicked?[0m
+    ?[33mThen ?[0m?[33mthe registration page should open?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

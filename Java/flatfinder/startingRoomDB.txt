@@ -1,0 +1,400 @@
+
+1
+false
+Big room
+nice room with nice view of the sea.
+true
+null
+16
+20
+false
+
+1
+false
+Another big room
+nice so nice view of the sea.
+true
+null
+12
+18
+false
+
+1
+true
+Green room
+A bit too green if you ask me
+true
+null
+19
+21
+false
+
+2
+false
+A middle ground
+Green painted room with nice views
+true
+Alice
+12
+15
+false
+
+2
+false
+Interesting room
+Interesting shaped room, close to bathroom
+false
+null
+12
+12
+false
+
+2
+false
+First room
+First room on the right
+true
+null
+15
+15
+false
+
+2
+false
+Blue room
+Good sized room, all four walls are painted blue
+false
+null
+15
+15
+true
+
+2
+false
+Downstairs room
+Nice room, located on the ground floor.
+true
+null
+15
+15
+false
+
+3
+false
+Small room
+Wooden floor can be a bit cold during winter
+false
+null
+12
+15
+false
+
+3
+false
+Big bedroom
+Big room with double bed
+false
+null
+12
+15
+true
+
+4
+false
+Studio room
+Big room with double bed
+true
+null
+23
+15
+false
+
+4
+false
+En-suite room
+Big room with double bed and en-suite
+true
+null
+23
+15
+true
+
+4
+false
+Room with two desks
+Room has two desks for extra work space.
+true
+null
+18
+15
+false
+
+5
+false
+Top floor room
+Room with angled roof
+false
+null
+20
+12
+false
+
+5
+false
+Closest to the bathroom
+Double bed close to bathroom
+false
+null
+20
+12
+true
+
+6
+false
+Small window room
+Double bed but has small window
+false
+null
+20
+12
+true
+
+6
+false
+Big room but wooden floor
+Double bed but has wooden floor
+false
+null
+20
+12
+true
+
+7
+false
+Mirror room
+Built in mirror in the wall
+false
+null
+21
+12
+true
+
+7
+true
+En-Suite room
+Single bed but has en-suite
+true
+null
+21
+12
+false
+
+7
+true
+Small room
+Small room but has double bed
+true
+null
+19
+13
+true
+
+8
+true
+Ground floor room
+Double bed on ground floor
+true
+null
+17
+13
+true
+
+8
+true
+Close to bathroom room
+Single bed, but close to bathroom
+true
+null
+17
+14
+false
+
+9
+true
+Average room
+Single bed, close to bathroom
+true
+null
+17
+14
+false
+
+9
+true
+Big room with lots of storage space
+Double bed with en-suite
+true
+null
+20
+14
+true
+
+10
+false
+Big room with no bed
+Big room but doesn't have a bad
+true
+null
+22
+16
+false
+
+10
+true
+Small room
+Small room but has a single bed
+true
+null
+12
+14
+false
+
+11
+true
+Wooden room
+Double bed with wooden floor and bed
+true
+null
+15
+12
+false
+
+11
+true
+Needs painting
+Nice room but needs a bit of paint.
+true
+null
+14
+14
+false
+
+12
+true
+Big room with En-suite
+Big room with double bed and en-suite
+true
+null
+20
+22
+true
+
+12
+true
+Big room with En-suite
+Big room with double bed and en-suite
+true
+null
+18
+22
+true
+
+13
+true
+Double bed
+Big room with double bed and en-suite
+true
+null
+18
+12
+true
+
+13
+true
+Single bed 
+Big room with single bed
+true
+null
+12
+17
+false
+
+13
+true
+Big room with En-suite
+Big room with double bed and en-suite
+true
+null
+14
+22
+true
+
+13
+true
+Small room with En-suite
+Small room with single bed and en-suite
+true
+null
+12
+13
+true
+
+14
+true
+En-Suite room 1
+Big room with a nice en-suite bathroom
+true
+null
+22
+19
+true
+
+14
+true
+En-Suite room 2
+Big room with a nice en-suite bathroom
+true
+null
+24
+20
+true
+
+14
+true
+En-Suite room 3
+Big room with a nice en-suite bathroom
+true
+null
+22
+20
+true
+
+15
+true
+Regular sized room
+Double bed and en-suite
+true
+null
+16
+15
+true
+
+15
+true
+No ensuite room
+Double bed
+false
+null
+16
+15
+true
+
+15
+true
+Single bed, no ensuite
+Double bed and en-suite
+true
+null
+16
+15
+false

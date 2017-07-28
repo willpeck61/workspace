@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="controller)" tests="22" skipped="0" failures="0" errors="0" timestamp="2016-01-11T15:56:17" hostname="ELITEBOOK" time="3.737">
+  <properties/>
+  <testcase name="Given the pending change request &quot;Fault&quot; in a list of pending requests(Scenario: accept a change request " classname="controller)" time="0.0"/>
+  <testcase name="When I accept it with priority &quot;high&quot; for developer &quot;Alice&quot; with deadline &quot;17-11-2015&quot;(Scenario: accept a change request " classname="controller)" time="0.0"/>
+  <testcase name="Then I should see the next pending request (if any)(Scenario: accept a change request " classname="controller)" time="0.0"/>
+  <testcase name="Given the pending change request &quot;New Feature&quot; in a list of pending requests(Scenario: reject a change request " classname="controller)" time="0.001"/>
+  <testcase name="When I reject it with explanation &quot;feature already considered in the new release candidate&quot;(Scenario: reject a change request " classname="controller)" time="0.0"/>
+  <testcase name="Then I should see the next pending request (if any)(Scenario: reject a change request " classname="controller)" time="0.0"/>
+  <testcase name="Given I am logged in as &quot;Alice&quot;(Scenario: process a change request " classname="controller)" time="0.001"/>
+  <testcase name="And an approved change request &quot;Fault&quot;(Scenario: process a change request " classname="controller)" time="0.0"/>
+  <testcase name="When I complete the task with data &quot;15-11-2015&quot;(Scenario: process a change request " classname="controller)" time="0.0"/>
+  <testcase name="Then I should get the next approved request allocated to me(Scenario: process a change request " classname="controller)" time="0.0"/>
+  <testcase name="Given a SCI &quot;SCI_1&quot;(Scenario: report a fault " classname="controller)" time="0.0"/>
+  <testcase name="And a head version &quot;version_2&quot;(Scenario: report a fault " classname="controller)" time="0.001"/>
+  <testcase name="Given a problem description &quot;Fault&quot;(Scenario: report a fault " classname="controller)" time="0.0"/>
+  <testcase name="And a proposed solution &quot;Missing dependency&quot;(Scenario: report a fault " classname="controller)" time="0.0"/>
+  <testcase name="When I request a change request for reporting a fault(Scenario: report a fault " classname="controller)" time="0.0"/>
+  <testcase name="And shows a summary of the change request(Scenario: report a fault " classname="controller)" time="0.0"/>
+  <testcase name="Given a SCI &quot;SCI_1&quot;(Scenario: request a new feature " classname="controller)" time="0.0"/>
+  <testcase name="And a head version &quot;version_2&quot;(Scenario: request a new feature " classname="controller)" time="0.0"/>
+  <testcase name="Given a problem description &quot;New Feature&quot;(Scenario: request a new feature " classname="controller)" time="0.0"/>
+  <testcase name="And a proposed solution &quot;Extension of Module A&quot;(Scenario: request a new feature " classname="controller)" time="0.0"/>
+  <testcase name="When I request a new feature(Scenario: request a new feature " classname="controller)" time="0.0"/>
+  <testcase name="Then The system shows a summary of the change request(Scenario: request a new feature " classname="controller)" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

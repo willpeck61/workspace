@@ -1,0 +1,36 @@
+    @RequestMapping(value="/create-property", method=RequestMethod.GET)
+    public String addProperty(HttpServletRequest request,
+    		@RequestParam(value="price", required=true) float pricePerWeek,
+    		@RequestParam(value="numberOfRooms", required=true) int numberOfRooms,
+    		@RequestParam(value="address1", required=true) String address1,
+    		@RequestParam(value="address2", required=true) String address2,
+    		@RequestParam(value="address3", required=true) String address3,
+    		@RequestParam(value="postcode", required=true) String postcode,
+    		@RequestParam(value="advertTitle", required=true) int price,
+    		@RequestParam(value="billsincluded", required=true) boolean billsIncluded,
+    		@RequestParam(value="petsallowed", required=true) boolean petsAllowed,
+    		@RequestParam(value="disabledaccess", required=true) boolean disabledAccess,
+    		@RequestParam(value="smoking", required=true) boolean smoking,
+    		@RequestParam(value="quietarea", required=true) boolean quietArea,
+    		@RequestParam(value="shortterm", required=true) boolean shortTerm,
+    		@RequestParam(value="singlegender", required=true) boolean singleGender){
+    	
+    	Property property = new Property();
+    	property.setPricePerWeek(pricePerWeek);
+    	property.setNumberOfRooms(numberOfRooms);
+    	property.setAddress1(address1);
+    	property.setAddress2(address2);
+    	property.setAddress3(address3);
+    	property.setPostcode(postcode);
+    	//property.setHeadline_Text(advertTitle);
+    	property.setBillsIncluded(billsIncluded);
+    	property.setPetsAllowed(petsAllowed);
+    	property.setDisabledAccess(disabledAccess);
+    	property.setSmoking(smoking);
+    	property.setQuietArea(quietArea);
+    	property.setShortTerm(shortTerm);
+    	property.setSingleGender(singleGender);
+    	
+    	
+    	return "Property submitted";
+    }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Searcher &lt;sname&gt; rates a property" tests="8" skipped="7" failures="0" errors="0" timestamp="2016-02-28T14:55:41" hostname="ELITEBOOK" time="0.185">
+  <properties/>
+  <testcase name="Given an searcher named &lt;sname&gt;" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And has selected &lt;pid&gt; on the property page" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And an admin approves the rating request" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Im logged in as &lt;sname&gt;" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And want to rate property &lt;pid&gt;" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When submitting the rating &quot;6&quot;" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the rating request is sent to the admin for approval" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Searcher &lt;sname&gt; rates a property" time="0.201"/>
+  <system-out><![CDATA[2016-02-28 14:55:41.796  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-28 14:55:41.796  INFO 7684 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@173c143a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22555a3b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@74b86283, org.springframework.test.context.support.DirtiesContextTestExecutionListener@39d0b2ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ebafc3b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@46b6f355, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@71ad3d7a]
+2016-02-28 14:55:41.796  INFO 7684 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@de7dd5e] to [cucumber.runtime.java.spring.GlueCodeScope@5414485f]
+2016-02-28 14:55:41.796  INFO 7684 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-28 14:55:41.796  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-28 14:55:41.796  INFO 7684 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

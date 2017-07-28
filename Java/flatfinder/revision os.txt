@@ -1,0 +1,10 @@
+DMA requires entire process to be loaded into memory before can be executed.
+Swapping places processes onto swap space in backing store, then loads the next required process
+back into memory.
+
+Virtual memory
+Each process has a logical address space which is divided into pages.
+Pages are then loaded to physical memory addresses (page frame) in no particular order when in use.
+When a request is made for a page not in physical memory (page frame) produces a page fault.
+An existing page frame is then emptied and the required page is loaded in.
+This is achieved through different page replacement algorithms.
