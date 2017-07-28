@@ -3,6 +3,7 @@ jdk:
 - oraclejdk8
 
 before_install:
+  - cd Java/flatfinder
   - mysql -e "create database IF NOT EXISTS flatfinder;" -uroot
 
 addons:
@@ -12,5 +13,4 @@ after_success:
   - eval "$(ssh-agent -s)" #start the ssh agent
   - chmod 600 .travis/deploy_key.pem # this key should have push access
   - ssh-add .travis/deploy_key.pem
-  - git remote add deploy ssh://will@31.193.132.83/home/will/repo/co2015-group-03-repo 
-  - git push deploy
+
