@@ -4,6 +4,7 @@ jdk:
 
 before_install:
   - cd Java/flatfinder
+  - chmod +x gradlew
   - mysql -e "create database IF NOT EXISTS flatfinder;" -uroot
 
 addons:
