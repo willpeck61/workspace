@@ -1,0 +1,9 @@
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\SortingAlgorithms.deps.json
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\SortingAlgorithms.runtimeconfig.json
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\SortingAlgorithms.runtimeconfig.dev.json
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\SortingAlgorithms.dll
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\SortingAlgorithms.pdb
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\SortingAlgorithms.csprojResolveAssemblyReference.cache
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\SortingAlgorithms.AssemblyInfo.cs
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\SortingAlgorithms.dll
+c:\users\willp\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\SortingAlgorithms.pdb

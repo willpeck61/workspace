@@ -1,0 +1,9 @@
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\bin\Debug\netcoreapp1.1\Xactaware.deps.json
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\bin\Debug\netcoreapp1.1\Xactaware.runtimeconfig.json
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\bin\Debug\netcoreapp1.1\Xactaware.runtimeconfig.dev.json
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\bin\Debug\netcoreapp1.1\Xactaware.dll
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\bin\Debug\netcoreapp1.1\Xactaware.pdb
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\obj\Debug\netcoreapp1.1\Xactaware.csprojResolveAssemblyReference.cache
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\obj\Debug\netcoreapp1.1\Xactaware.AssemblyInfo.cs
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\obj\Debug\netcoreapp1.1\Xactaware.dll
+c:\users\willp\documents\visual studio 2017\Projects\Xactaware\Xactaware\obj\Debug\netcoreapp1.1\Xactaware.pdb
